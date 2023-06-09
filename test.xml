@@ -1,0 +1,1663 @@
+<business primary_key="1">
+      <businessId primary_key="2" foreign_key="1">956002748</businessId>
+      <businessName primary_key="3" foreign_key="1">COUNTY OF SAN BERNARDINO</businessName>
+      <certifications primary_key="4" foreign_key="1">
+        <certification primary_key="5" foreign_key="4" />
+      </certifications>
+      <EIN primary_key="5" foreign_key="1">
+        <legalBusinessName primary_key="6" foreign_key="5">COUNTY OF SAN BERNARDINO</legalBusinessName>
+        <number primary_key="7" foreign_key="5">956002748</number>
+      </EIN>
+      <employees primary_key="6" foreign_key="1">
+        <employee primary_key="7" foreign_key="6" />
+      </employees>
+      <licenses primary_key="7" foreign_key="1">
+      <license primary_key="8" foreign_key="7" />
+      </licenses>
+      <locations primary_key="8" foreign_key="1">
+    
+        <location primary_key="9" foreign_key="8">
+          <locationName primary_key="10" foreign_key="9">SBCDOPH - Hesperia Health Center
+		  </locationName>
+          <typeCode primary_key="11" foreign_key="9">Service
+		  </typeCode>
+          <address primary_key="12" foreign_key="9">
+            <city primary_key="13" foreign_key="12">San Bernardino</city>
+            <county primary_key="14" foreign_key="12">San Bernardino</county>
+            <id primary_key="15" foreign_key="12">5617138</id>
+            <line1 primary_key="16" foreign_key="12">606 East Mill Street</line1>
+            <statecode primary_key="17" foreign_key="12">CA</statecode>
+            <zip primary_key="18" foreign_key="12">
+              <code primary_key="19" foreign_key="18">92415</code>
+            </zip>
+          </address>
+          <afterHoursPhone primary_key="13" foreign_key="9">
+            <areacode primary_key="14" foreign_key="13" />
+            <phoneNumber primary_key="15" foreign_key="13" />
+          </afterHoursPhone>
+          <alternatePhone primary_key="14" foreign_key="9">
+            <areaCode primary_key="15" foreign_key="14" />
+            <phoneNumber primary_key="16" foreign_key="14" />
+          </alternatePhone>
+          <fax primary_key="15" foreign_key="9">
+            <areaCode primary_key="16" foreign_key="15" />
+            <phoneNumber primary_key="17" foreign_key="15" />
+          </fax>
+          <hours primary_key="16" foreign_key="9">
+            <openingHour primary_key="17" foreign_key="16">
+              <day primary_key="18" foreign_key="17">MONDAY</day>
+              <endHour primary_key="19" foreign_key="17" />
+              <endMinute primary_key="20" foreign_key="17" />
+              <startHour primary_key="21" foreign_key="17" />
+              <startMinute primary_key="22" foreign_key="17" />
+            </openingHour>
+            <openingHour primary_key="18" foreign_key="16">
+              <day primary_key="19" foreign_key="18">TUESDAY</day>
+              <endHour primary_key="20" foreign_key="18" />
+              <endMinute primary_key="21" foreign_key="18" />
+              <startHour primary_key="22" foreign_key="18" />
+              <startMinute primary_key="23" foreign_key="18" />
+            </openingHour>
+            <openingHour primary_key="19" foreign_key="16">
+              <day primary_key="20" foreign_key="19">WEDNESDAY</day>
+              <endHour primary_key="21" foreign_key="19" />
+              <endMinute primary_key="22" foreign_key="19" />
+              <startHour primary_key="23" foreign_key="19" />
+              <startMinute primary_key="24" foreign_key="19" />
+            </openingHour>
+            <openingHour primary_key="20" foreign_key="16">
+              <day primary_key="21" foreign_key="20">THURSDAY</day>
+              <endHour primary_key="22" foreign_key="20" />
+              <endMinute primary_key="23" foreign_key="20" />
+              <startHour primary_key="24" foreign_key="20" />
+              <startMinute primary_key="25" foreign_key="20" />
+            </openingHour>
+            <openingHour primary_key="21" foreign_key="16">
+              <day primary_key="22" foreign_key="21">FRIDAY</day>
+              <endHour primary_key="23" foreign_key="21" />
+              <endMinute primary_key="24" foreign_key="21" />
+              <startHour primary_key="25" foreign_key="21" />
+              <startMinute primary_key="26" foreign_key="21" />
+            </openingHour>
+          </hours>
+          <languageCodes primary_key="17" foreign_key="9" />
+          <phone primary_key="18" foreign_key="9">
+            <areaCode primary_key="19" foreign_key="18" />
+            <phoneNumber primary_key="20" foreign_key="18" />
+          </phone>
+          <providerNetworks primary_key="19" foreign_key="9">
+            <network primary_key="20" foreign_key="19">
+              <code primary_key="21" foreign_key="20">6356</code>
+              <name primary_key="22" foreign_key="20">Medi-Cal Standard</name>
+              <participationStatusCode primary_key="23" foreign_key="20">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+        </location>
+        <location primary_key="10" foreign_key="8">
+          <locationName primary_key="11" foreign_key="10">SBCDOPH - Hesperia Health Center</locationName>
+          <typeCode primary_key="12" foreign_key="10">Service</typeCode>
+          <address primary_key="13" foreign_key="10">
+            <city primary_key="14" foreign_key="13">Hesperia</city>
+            <county primary_key="15" foreign_key="13">San Bernardino</county>
+            <id primary_key="16" foreign_key="13">4721570</id>
+            <line1 primary_key="17" foreign_key="13">16453 Bear Valley Road</line1>
+            <statecode primary_key="18" foreign_key="13">CA</statecode>
+            <zip primary_key="19" foreign_key="13">
+              <code primary_key="20" foreign_key="19">92345</code>
+            </zip>
+          </address>
+          <afterHoursPhone primary_key="14" foreign_key="10">
+            <areacode primary_key="15" foreign_key="14" />
+            <phoneNumber primary_key="16" foreign_key="14" />
+          </afterHoursPhone>
+          <alternatePhone primary_key="15" foreign_key="10">
+            <areaCode primary_key="16" foreign_key="15">760</areaCode>
+            <phoneNumber primary_key="17" foreign_key="15">9564400</phoneNumber>
+          </alternatePhone>
+          <fax primary_key="16" foreign_key="10">
+            <phoneNumber primary_key="17" foreign_key="16" />
+          </fax>
+          <hours primary_key="17" foreign_key="10">
+            <openingHour primary_key="18" foreign_key="17">
+              <day primary_key="19" foreign_key="18">MONDAY</day>
+              <endHour primary_key="20" foreign_key="18">17</endHour>
+              <endMinute primary_key="21" foreign_key="18">30</endMinute>
+              <startHour primary_key="22" foreign_key="18">08</startHour>
+              <startMinute primary_key="23" foreign_key="18">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="19" foreign_key="17">
+              <day primary_key="20" foreign_key="19">TUESDAY</day>
+              <endHour primary_key="21" foreign_key="19">17</endHour>
+              <endMinute primary_key="22" foreign_key="19">30</endMinute>
+              <startHour primary_key="23" foreign_key="19">08</startHour>
+              <startMinute primary_key="24" foreign_key="19">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="20" foreign_key="17">
+              <day primary_key="21" foreign_key="20">WEDNESDAY</day>
+              <endHour primary_key="22" foreign_key="20">17</endHour>
+              <endMinute primary_key="23" foreign_key="20">30</endMinute>
+              <startHour primary_key="24" foreign_key="20">08</startHour>
+              <startMinute primary_key="25" foreign_key="20">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="21" foreign_key="17">
+              <day primary_key="22" foreign_key="21">THURSDAY</day>
+              <endHour primary_key="23" foreign_key="21">17</endHour>
+              <endMinute primary_key="24" foreign_key="21">30</endMinute>
+              <startHour primary_key="25" foreign_key="21">08</startHour>
+              <startMinute primary_key="26" foreign_key="21">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="22" foreign_key="17">
+              <day primary_key="23" foreign_key="22">FRIDAY</day>
+              <endHour primary_key="24" foreign_key="22">17</endHour>
+              <endMinute primary_key="25" foreign_key="22">30</endMinute>
+              <startHour primary_key="26" foreign_key="22">08</startHour>
+              <startMinute primary_key="27" foreign_key="22">00</startMinute>
+            </openingHour>
+          </hours>
+          <languageCodes primary_key="18" foreign_key="10" />
+          <phone primary_key="19" foreign_key="10">
+            <areaCode primary_key="20" foreign_key="19">760</areaCode>
+            <phoneNumber primary_key="21" foreign_key="19">9564400</phoneNumber>
+          </phone>
+          <providerNetworks primary_key="20" foreign_key="10">
+            <network primary_key="21" foreign_key="20">
+              <code primary_key="22" foreign_key="21">6356</code>
+              <name primary_key="23" foreign_key="21">Medi-Cal Standard</name>
+              <participationStatusCode primary_key="24" foreign_key="21">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+        </location>
+        <location primary_key="11" foreign_key="8">
+          <typeCode primary_key="12" foreign_key="11">Payment</typeCode>
+          <address primary_key="13" foreign_key="11">
+            <city primary_key="14" foreign_key="13">Colton</city>
+            <county primary_key="15" foreign_key="13">San Bernardino</county>
+            <id primary_key="16" foreign_key="13">6148067</id>
+            <line1 primary_key="17" foreign_key="13">400 North Pepper Avenue</line1>
+            <statecode primary_key="18" foreign_key="13">CA</statecode>
+            <zip primary_key="19" foreign_key="13">
+              <code primary_key="20" foreign_key="19">92324</code>
+            </zip>
+          </address>
+        </location>
+        <location primary_key="12" foreign_key="8">
+          <locationName primary_key="13" foreign_key="12">SBCDOPH - San Bernardino Health Center</locationName>
+          <typeCode primary_key="14" foreign_key="12">Service</typeCode>
+          <address primary_key="15" foreign_key="12">
+            <city primary_key="16" foreign_key="15">San Bernardino</city>
+            <county primary_key="17" foreign_key="15">San Bernardino</county>
+            <id primary_key="18" foreign_key="15">5617139</id>
+            <line1 primary_key="19" foreign_key="15">606 East Mill Street</line1>
+            <statecode primary_key="20" foreign_key="15">CA</statecode>
+            <zip primary_key="21" foreign_key="15">
+              <code primary_key="22" foreign_key="21">92415</code>
+            </zip>
+          </address>
+          <afterHoursPhone primary_key="16" foreign_key="12">
+            <areacode primary_key="17" foreign_key="16" />
+            <phoneNumber primary_key="18" foreign_key="16" />
+          </afterHoursPhone>
+          <alternatePhone primary_key="17" foreign_key="12">
+            <areaCode primary_key="18" foreign_key="17">760</areaCode>
+            <phoneNumber primary_key="19" foreign_key="17">9564400</phoneNumber>
+          </alternatePhone>
+          <fax primary_key="18" foreign_key="12">
+            <phoneNumber primary_key="19" foreign_key="18" />
+          </fax>
+          <hours primary_key="19" foreign_key="12">
+            <openingHour primary_key="20" foreign_key="19">
+              <day primary_key="21" foreign_key="20">MONDAY</day>
+              <endHour primary_key="22" foreign_key="20" />
+              <endMinute primary_key="23" foreign_key="20" />
+              <startHour primary_key="24" foreign_key="20" />
+              <startMinute primary_key="25" foreign_key="20" />
+            </openingHour>
+            <openingHour primary_key="21" foreign_key="19">
+              <day primary_key="22" foreign_key="21">TUESDAY</day>
+              <endHour primary_key="23" foreign_key="21" />
+              <endMinute primary_key="24" foreign_key="21" />
+              <startHour primary_key="25" foreign_key="21" />
+              <startMinute primary_key="26" foreign_key="21" />
+            </openingHour>
+            <openingHour primary_key="22" foreign_key="19">
+              <day primary_key="23" foreign_key="22">WEDNESDAY</day>
+              <endHour primary_key="24" foreign_key="22" />
+              <endMinute primary_key="25" foreign_key="22" />
+              <startHour primary_key="26" foreign_key="22" />
+              <startMinute primary_key="27" foreign_key="22" />
+            </openingHour>
+            <openingHour primary_key="23" foreign_key="19">
+              <day primary_key="24" foreign_key="23">THURSDAY</day>
+              <endHour primary_key="25" foreign_key="23" />
+              <endMinute primary_key="26" foreign_key="23" />
+              <startHour primary_key="27" foreign_key="23" />
+              <startMinute primary_key="28" foreign_key="23" />
+            </openingHour>
+            <openingHour primary_key="24" foreign_key="19">
+              <day primary_key="25" foreign_key="24">FRIDAY</day>
+              <endHour primary_key="26" foreign_key="24" />
+              <endMinute primary_key="27" foreign_key="24" />
+              <startHour primary_key="28" foreign_key="24" />
+              <startMinute primary_key="29" foreign_key="24" />
+            </openingHour>
+          </hours>
+          <languageCodes primary_key="20" foreign_key="12" />
+          <phone primary_key="21" foreign_key="12">
+            <areaCode primary_key="22" foreign_key="21">760</areaCode>
+            <phoneNumber primary_key="23" foreign_key="21">9564400</phoneNumber>
+          </phone>
+          <providerNetworks primary_key="22" foreign_key="12">
+            <network primary_key="23" foreign_key="22">
+              <code primary_key="24" foreign_key="23">6356</code>
+              <name primary_key="25" foreign_key="23">Medi-Cal Standard</name>
+              <participationStatusCode primary_key="26" foreign_key="23">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+        </location>
+        <location primary_key="13" foreign_key="8">
+          <locationName primary_key="14" foreign_key="13">SBCDOPH - San Bernardino Health Center</locationName>
+          <typeCode primary_key="15" foreign_key="13">Service</typeCode>
+          <address primary_key="16" foreign_key="13">
+            <city primary_key="17" foreign_key="16">San Bernardino</city>
+            <county primary_key="18" foreign_key="16">San Bernardino</county>
+            <id primary_key="19" foreign_key="16">4721571</id>
+            <line1 primary_key="20" foreign_key="16">606 East Mill Street</line1>
+            <statecode primary_key="21" foreign_key="16">CA</statecode>
+            <zip primary_key="22" foreign_key="16">
+              <code primary_key="23" foreign_key="22">92415</code>
+            </zip>
+          </address>
+          <afterHoursPhone primary_key="17" foreign_key="13">
+            <areacode primary_key="18" foreign_key="17" />
+            <phoneNumber primary_key="19" foreign_key="17" />
+          </afterHoursPhone>
+          <alternatePhone primary_key="18" foreign_key="13">
+            <areaCode primary_key="19" foreign_key="18">760</areaCode>
+            <phoneNumber primary_key="20" foreign_key="18">9564400</phoneNumber>
+          </alternatePhone>
+          <fax primary_key="19" foreign_key="13">
+            <phoneNumber primary_key="20" foreign_key="19" />
+          </fax>
+          <hours primary_key="20" foreign_key="13">
+            <openingHour primary_key="21" foreign_key="20">
+              <day primary_key="22" foreign_key="21">MONDAY</day>
+              <endHour primary_key="23" foreign_key="21">17</endHour>
+              <endMinute primary_key="24" foreign_key="21">30</endMinute>
+              <startHour primary_key="25" foreign_key="21">08</startHour>
+              <startMinute primary_key="26" foreign_key="21">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="22" foreign_key="20">
+              <day primary_key="23" foreign_key="22">TUESDAY</day>
+              <endHour primary_key="24" foreign_key="22">17</endHour>
+              <endMinute primary_key="25" foreign_key="22">30</endMinute>
+              <startHour primary_key="26" foreign_key="22">08</startHour>
+              <startMinute primary_key="27" foreign_key="22">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="23" foreign_key="20">
+              <day primary_key="24" foreign_key="23">WEDNESDAY</day>
+              <endHour primary_key="25" foreign_key="23">17</endHour>
+              <endMinute primary_key="26" foreign_key="23">30</endMinute>
+              <startHour primary_key="27" foreign_key="23">08</startHour>
+              <startMinute primary_key="28" foreign_key="23">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="24" foreign_key="20">
+              <day primary_key="25" foreign_key="24">THURSDAY</day>
+              <endHour primary_key="26" foreign_key="24">17</endHour>
+              <endMinute primary_key="27" foreign_key="24">30</endMinute>
+              <startHour primary_key="28" foreign_key="24">08</startHour>
+              <startMinute primary_key="29" foreign_key="24">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="25" foreign_key="20">
+              <day primary_key="26" foreign_key="25">FRIDAY</day>
+              <endHour primary_key="27" foreign_key="25">17</endHour>
+              <endMinute primary_key="28" foreign_key="25">30</endMinute>
+              <startHour primary_key="29" foreign_key="25">08</startHour>
+              <startMinute primary_key="30" foreign_key="25">00</startMinute>
+            </openingHour>
+          </hours>
+          <languageCodes primary_key="21" foreign_key="13" />
+          <phone primary_key="22" foreign_key="13">
+            <areaCode primary_key="23" foreign_key="22">760</areaCode>
+            <phoneNumber primary_key="24" foreign_key="22">9564400</phoneNumber>
+          </phone>
+          <providerNetworks primary_key="23" foreign_key="13">
+            <network primary_key="24" foreign_key="23">
+              <code primary_key="25" foreign_key="24">6356</code>
+              <name primary_key="26" foreign_key="24">Medi-Cal Standard</name>
+              <participationStatusCode primary_key="27" foreign_key="24">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+        </location>
+        <location primary_key="14" foreign_key="8">
+          <typeCode primary_key="15" foreign_key="14">Payment</typeCode>
+          <address primary_key="16" foreign_key="14">
+            <city primary_key="17" foreign_key="16">Colton</city>
+            <county primary_key="18" foreign_key="16">San Bernardino</county>
+            <id primary_key="19" foreign_key="16">6148068</id>
+            <line1 primary_key="20" foreign_key="16">400 North Pepper Avenue</line1>
+            <statecode primary_key="21" foreign_key="16">CA</statecode>
+            <zip primary_key="22" foreign_key="16">
+              <code primary_key="23" foreign_key="22">92324</code>
+            </zip>
+          </address>
+        </location>
+        <location primary_key="15" foreign_key="8">
+          <locationName primary_key="16" foreign_key="15">SBCDOPH - Ontario Health Center</locationName>
+          <typeCode primary_key="17" foreign_key="15">Service</typeCode>
+          <address primary_key="18" foreign_key="15">
+            <city primary_key="19" foreign_key="18">San Bernardino</city>
+            <county primary_key="20" foreign_key="18">San Bernardino</county>
+            <id primary_key="21" foreign_key="18">5617141</id>
+            <line1 primary_key="22" foreign_key="18">606 East Mill Street</line1>
+            <statecode primary_key="23" foreign_key="18">CA</statecode>
+            <zip primary_key="24" foreign_key="18">
+              <code primary_key="25" foreign_key="24">92415</code>
+            </zip>
+          </address>
+          <afterHoursPhone primary_key="19" foreign_key="15">
+            <areacode primary_key="20" foreign_key="19" />
+            <phoneNumber primary_key="21" foreign_key="19" />
+          </afterHoursPhone>
+          <alternatePhone primary_key="20" foreign_key="15">
+            <areaCode primary_key="21" foreign_key="20" />
+            <phoneNumber primary_key="22" foreign_key="20" />
+          </alternatePhone>
+          <fax primary_key="21" foreign_key="15">
+            <areaCode primary_key="22" foreign_key="21" />
+            <phoneNumber primary_key="23" foreign_key="21" />
+          </fax>
+          <hours primary_key="22" foreign_key="15">
+            <openingHour primary_key="23" foreign_key="22">
+              <day primary_key="24" foreign_key="23">MONDAY</day>
+              <endHour primary_key="25" foreign_key="23" />
+              <endMinute primary_key="26" foreign_key="23" />
+              <startHour primary_key="27" foreign_key="23" />
+              <startMinute primary_key="28" foreign_key="23" />
+            </openingHour>
+            <openingHour primary_key="24" foreign_key="22">
+              <day primary_key="25" foreign_key="24">TUESDAY</day>
+              <endHour primary_key="26" foreign_key="24" />
+              <endMinute primary_key="27" foreign_key="24" />
+              <startHour primary_key="28" foreign_key="24" />
+              <startMinute primary_key="29" foreign_key="24" />
+            </openingHour>
+            <openingHour primary_key="25" foreign_key="22">
+              <day primary_key="26" foreign_key="25">WEDNESDAY</day>
+              <endHour primary_key="27" foreign_key="25" />
+              <endMinute primary_key="28" foreign_key="25" />
+              <startHour primary_key="29" foreign_key="25" />
+              <startMinute primary_key="30" foreign_key="25" />
+            </openingHour>
+            <openingHour primary_key="26" foreign_key="22">
+              <day primary_key="27" foreign_key="26">THURSDAY</day>
+              <endHour primary_key="28" foreign_key="26" />
+              <endMinute primary_key="29" foreign_key="26" />
+              <startHour primary_key="30" foreign_key="26" />
+              <startMinute primary_key="31" foreign_key="26" />
+            </openingHour>
+            <openingHour primary_key="27" foreign_key="22">
+              <day primary_key="28" foreign_key="27">FRIDAY</day>
+              <endHour primary_key="29" foreign_key="27" />
+              <endMinute primary_key="30" foreign_key="27" />
+              <startHour primary_key="31" foreign_key="27" />
+              <startMinute primary_key="32" foreign_key="27" />
+            </openingHour>
+          </hours>
+          <languageCodes primary_key="23" foreign_key="15" />
+          <phone primary_key="24" foreign_key="15">
+            <areaCode primary_key="25" foreign_key="24" />
+            <phoneNumber primary_key="26" foreign_key="24" />
+          </phone>
+          <providerNetworks primary_key="25" foreign_key="15">
+            <network primary_key="26" foreign_key="25">
+              <code primary_key="27" foreign_key="26">6356</code>
+              <name primary_key="28" foreign_key="26">Medi-Cal Standard</name>
+              <participationStatusCode primary_key="29" foreign_key="26">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+        </location>
+        <location primary_key="16" foreign_key="8">
+          <locationName primary_key="17" foreign_key="16">SBCDOPH - Ontario Health Center</locationName>
+          <typeCode primary_key="18" foreign_key="16">Service</typeCode>
+          <address primary_key="19" foreign_key="16">
+            <city primary_key="20" foreign_key="19">Ontario</city>
+            <county primary_key="21" foreign_key="19">San Bernardino</county>
+            <id primary_key="22" foreign_key="19">4721573</id>
+            <line1 primary_key="23" foreign_key="19">150 East Holt Boulevard</line1>
+            <statecode primary_key="24" foreign_key="19">CA</statecode>
+            <zip primary_key="25" foreign_key="19">
+              <code primary_key="26" foreign_key="25">91761</code>
+            </zip>
+          </address>
+          <afterHoursPhone primary_key="20" foreign_key="16">
+            <areacode primary_key="21" foreign_key="20" />
+            <phoneNumber primary_key="22" foreign_key="20" />
+          </afterHoursPhone>
+          <alternatePhone primary_key="21" foreign_key="16">
+            <areaCode primary_key="22" foreign_key="21">760</areaCode>
+            <phoneNumber primary_key="23" foreign_key="21">9564400</phoneNumber>
+          </alternatePhone>
+          <fax primary_key="22" foreign_key="16">
+            <phoneNumber primary_key="23" foreign_key="22" />
+          </fax>
+          <hours primary_key="23" foreign_key="16">
+            <openingHour primary_key="24" foreign_key="23">
+              <day primary_key="25" foreign_key="24">MONDAY</day>
+              <endHour primary_key="26" foreign_key="24">17</endHour>
+              <endMinute primary_key="27" foreign_key="24">30</endMinute>
+              <startHour primary_key="28" foreign_key="24">08</startHour>
+              <startMinute primary_key="29" foreign_key="24">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="25" foreign_key="23">
+              <day primary_key="26" foreign_key="25">TUESDAY</day>
+              <endHour primary_key="27" foreign_key="25">17</endHour>
+              <endMinute primary_key="28" foreign_key="25">30</endMinute>
+              <startHour primary_key="29" foreign_key="25">08</startHour>
+              <startMinute primary_key="30" foreign_key="25">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="26" foreign_key="23">
+              <day primary_key="27" foreign_key="26">WEDNESDAY</day>
+              <endHour primary_key="28" foreign_key="26">17</endHour>
+              <endMinute primary_key="29" foreign_key="26">30</endMinute>
+              <startHour primary_key="30" foreign_key="26">08</startHour>
+              <startMinute primary_key="31" foreign_key="26">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="27" foreign_key="23">
+              <day primary_key="28" foreign_key="27">THURSDAY</day>
+              <endHour primary_key="29" foreign_key="27">17</endHour>
+              <endMinute primary_key="30" foreign_key="27">30</endMinute>
+              <startHour primary_key="31" foreign_key="27">08</startHour>
+              <startMinute primary_key="32" foreign_key="27">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="28" foreign_key="23">
+              <day primary_key="29" foreign_key="28">FRIDAY</day>
+              <endHour primary_key="30" foreign_key="28">17</endHour>
+              <endMinute primary_key="31" foreign_key="28">30</endMinute>
+              <startHour primary_key="32" foreign_key="28">08</startHour>
+              <startMinute primary_key="33" foreign_key="28">00</startMinute>
+            </openingHour>
+          </hours>
+          <languageCodes primary_key="24" foreign_key="16" />
+          <phone primary_key="25" foreign_key="16">
+            <areaCode primary_key="26" foreign_key="25">760</areaCode>
+            <phoneNumber primary_key="27" foreign_key="25">9564400</phoneNumber>
+          </phone>
+          <providerNetworks primary_key="26" foreign_key="16">
+            <network primary_key="27" foreign_key="26">
+              <code primary_key="28" foreign_key="27">6356</code>
+              <name primary_key="29" foreign_key="27">Medi-Cal Standard</name>
+              <participationStatusCode primary_key="30" foreign_key="27">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+        </location>
+        <location primary_key="17" foreign_key="8">
+          <typeCode primary_key="18" foreign_key="17">Payment</typeCode>
+          <address primary_key="19" foreign_key="17">
+            <city primary_key="20" foreign_key="19">Colton</city>
+            <county primary_key="21" foreign_key="19">San Bernardino</county>
+            <id primary_key="22" foreign_key="19">6148070</id>
+            <line1 primary_key="23" foreign_key="19">400 North Pepper Avenue</line1>
+            <statecode primary_key="24" foreign_key="19">CA</statecode>
+            <zip primary_key="25" foreign_key="19">
+              <code primary_key="26" foreign_key="25">92324</code>
+            </zip>
+          </address>
+        </location>
+        <location primary_key="18" foreign_key="8">
+          <locationName primary_key="19" foreign_key="18">SBCDOPH - Adelanto Health Center</locationName>
+          <typeCode primary_key="20" foreign_key="18">Service</typeCode>
+          <address primary_key="21" foreign_key="18">
+            <city primary_key="22" foreign_key="21">Adelanto</city>
+            <county primary_key="23" foreign_key="21">San Bernardino</county>
+            <id primary_key="24" foreign_key="21">4721572</id>
+            <line1 primary_key="25" foreign_key="21">11336 Bartlett Avenue</line1>
+            <line2 primary_key="26" foreign_key="21">Suite 11</line2>
+            <statecode primary_key="27" foreign_key="21">CA</statecode>
+            <zip primary_key="28" foreign_key="21">
+              <code primary_key="29" foreign_key="28">92301</code>
+            </zip>
+          </address>
+          <afterHoursPhone primary_key="22" foreign_key="18">
+            <areacode primary_key="23" foreign_key="22" />
+            <phoneNumber primary_key="24" foreign_key="22" />
+          </afterHoursPhone>
+          <alternatePhone primary_key="23" foreign_key="18">
+            <areaCode primary_key="24" foreign_key="23">760</areaCode>
+            <phoneNumber primary_key="25" foreign_key="23">9564400</phoneNumber>
+          </alternatePhone>
+          <fax primary_key="24" foreign_key="18">
+            <phoneNumber primary_key="25" foreign_key="24" />
+          </fax>
+          <hours primary_key="25" foreign_key="18">
+            <openingHour primary_key="26" foreign_key="25">
+              <day primary_key="27" foreign_key="26">MONDAY</day>
+              <endHour primary_key="28" foreign_key="26">17</endHour>
+              <endMinute primary_key="29" foreign_key="26">30</endMinute>
+              <startHour primary_key="30" foreign_key="26">08</startHour>
+              <startMinute primary_key="31" foreign_key="26">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="27" foreign_key="25">
+              <day primary_key="28" foreign_key="27">TUESDAY</day>
+              <endHour primary_key="29" foreign_key="27">17</endHour>
+              <endMinute primary_key="30" foreign_key="27">30</endMinute>
+              <startHour primary_key="31" foreign_key="27">08</startHour>
+              <startMinute primary_key="32" foreign_key="27">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="28" foreign_key="25">
+              <day primary_key="29" foreign_key="28">WEDNESDAY</day>
+              <endHour primary_key="30" foreign_key="28">17</endHour>
+              <endMinute primary_key="31" foreign_key="28">30</endMinute>
+              <startHour primary_key="32" foreign_key="28">08</startHour>
+              <startMinute primary_key="33" foreign_key="28">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="29" foreign_key="25">
+              <day primary_key="30" foreign_key="29">THURSDAY</day>
+              <endHour primary_key="31" foreign_key="29">17</endHour>
+              <endMinute primary_key="32" foreign_key="29">30</endMinute>
+              <startHour primary_key="33" foreign_key="29">08</startHour>
+              <startMinute primary_key="34" foreign_key="29">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="30" foreign_key="25">
+              <day primary_key="31" foreign_key="30">FRIDAY</day>
+              <endHour primary_key="32" foreign_key="30">17</endHour>
+              <endMinute primary_key="33" foreign_key="30">30</endMinute>
+              <startHour primary_key="34" foreign_key="30">08</startHour>
+              <startMinute primary_key="35" foreign_key="30">00</startMinute>
+            </openingHour>
+          </hours>
+          <languageCodes primary_key="26" foreign_key="18" />
+          <phone primary_key="27" foreign_key="18">
+            <areaCode primary_key="28" foreign_key="27">760</areaCode>
+            <phoneNumber primary_key="29" foreign_key="27">9564400</phoneNumber>
+          </phone>
+          <providerNetworks primary_key="28" foreign_key="18">
+            <network primary_key="29" foreign_key="28">
+              <code primary_key="30" foreign_key="29">6356</code>
+              <name primary_key="31" foreign_key="29">Medi-Cal Standard</name>
+              <participationStatusCode primary_key="32" foreign_key="29">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+        </location>
+        <location primary_key="19" foreign_key="8">
+          <locationName primary_key="20" foreign_key="19">SBCDOPH - Adelanto Health Center</locationName>
+          <typeCode primary_key="21" foreign_key="19">Service</typeCode>
+          <address primary_key="22" foreign_key="19">
+            <city primary_key="23" foreign_key="22">San Bernardino</city>
+            <county primary_key="24" foreign_key="22">San Bernardino</county>
+            <id primary_key="25" foreign_key="22">5617140</id>
+            <line1 primary_key="26" foreign_key="22">606 East Mill Street</line1>
+            <statecode primary_key="27" foreign_key="22">CA</statecode>
+            <zip primary_key="28" foreign_key="22">
+              <code primary_key="29" foreign_key="28">92415</code>
+            </zip>
+          </address>
+          <afterHoursPhone primary_key="23" foreign_key="19">
+            <areacode primary_key="24" foreign_key="23" />
+            <phoneNumber primary_key="25" foreign_key="23" />
+          </afterHoursPhone>
+          <alternatePhone primary_key="24" foreign_key="19">
+            <areaCode primary_key="25" foreign_key="24">760</areaCode>
+            <phoneNumber primary_key="26" foreign_key="24">9564400</phoneNumber>
+          </alternatePhone>
+          <fax primary_key="25" foreign_key="19">
+            <phoneNumber primary_key="26" foreign_key="25" />
+          </fax>
+          <hours primary_key="26" foreign_key="19">
+            <openingHour primary_key="27" foreign_key="26">
+              <day primary_key="28" foreign_key="27">MONDAY</day>
+              <endHour primary_key="29" foreign_key="27">17</endHour>
+              <endMinute primary_key="30" foreign_key="27">30</endMinute>
+              <startHour primary_key="31" foreign_key="27">08</startHour>
+              <startMinute primary_key="32" foreign_key="27">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="28" foreign_key="26">
+              <day primary_key="29" foreign_key="28">TUESDAY</day>
+              <endHour primary_key="30" foreign_key="28">17</endHour>
+              <endMinute primary_key="31" foreign_key="28">30</endMinute>
+              <startHour primary_key="32" foreign_key="28">08</startHour>
+              <startMinute primary_key="33" foreign_key="28">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="29" foreign_key="26">
+              <day primary_key="30" foreign_key="29">WEDNESDAY</day>
+              <endHour primary_key="31" foreign_key="29">17</endHour>
+              <endMinute primary_key="32" foreign_key="29">30</endMinute>
+              <startHour primary_key="33" foreign_key="29">08</startHour>
+              <startMinute primary_key="34" foreign_key="29">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="30" foreign_key="26">
+              <day primary_key="31" foreign_key="30">THURSDAY</day>
+              <endHour primary_key="32" foreign_key="30">17</endHour>
+              <endMinute primary_key="33" foreign_key="30">30</endMinute>
+              <startHour primary_key="34" foreign_key="30">08</startHour>
+              <startMinute primary_key="35" foreign_key="30">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="31" foreign_key="26">
+              <day primary_key="32" foreign_key="31">FRIDAY</day>
+              <endHour primary_key="33" foreign_key="31">17</endHour>
+              <endMinute primary_key="34" foreign_key="31">30</endMinute>
+              <startHour primary_key="35" foreign_key="31">08</startHour>
+              <startMinute primary_key="36" foreign_key="31">00</startMinute>
+            </openingHour>
+          </hours>
+          <languageCodes primary_key="27" foreign_key="19" />
+          <phone primary_key="28" foreign_key="19">
+            <areaCode primary_key="29" foreign_key="28">760</areaCode>
+            <phoneNumber primary_key="30" foreign_key="28">9564400</phoneNumber>
+          </phone>
+          <providerNetworks primary_key="29" foreign_key="19">
+            <network primary_key="30" foreign_key="29">
+              <code primary_key="31" foreign_key="30">6356</code>
+              <name primary_key="32" foreign_key="30">Medi-Cal Standard</name>
+              <participationStatusCode primary_key="33" foreign_key="30">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+        </location>
+        <location primary_key="20" foreign_key="8">
+          <typeCode primary_key="21" foreign_key="20">Payment</typeCode>
+          <address primary_key="22" foreign_key="20">
+            <city primary_key="23" foreign_key="22">Colton</city>
+            <county primary_key="24" foreign_key="22">San Bernardino</county>
+            <id primary_key="25" foreign_key="22">6148069</id>
+            <line1 primary_key="26" foreign_key="22">400 North Pepper Avenue</line1>
+            <statecode primary_key="27" foreign_key="22">CA</statecode>
+            <zip primary_key="28" foreign_key="22">
+              <code primary_key="29" foreign_key="28">92324</code>
+            </zip>
+          </address>
+        </location>
+        <location primary_key="21" foreign_key="8">
+          <locationName primary_key="22" foreign_key="21">County Of San Bernardino</locationName>
+          <typeCode primary_key="23" foreign_key="21">Service</typeCode>
+          <address primary_key="24" foreign_key="21">
+            <city primary_key="25" foreign_key="24">Ontario</city>
+            <county primary_key="26" foreign_key="24">San Bernardino</county>
+            <id primary_key="27" foreign_key="24">8260807</id>
+            <line1 primary_key="28" foreign_key="24">351 N Mountain View Avenue</line1>
+            <statecode primary_key="29" foreign_key="24">CA</statecode>
+            <zip primary_key="30" foreign_key="24">
+              <code primary_key="31" foreign_key="30">91761</code>
+            </zip>
+          </address>
+          <afterHoursPhone primary_key="25" foreign_key="21">
+            <areacode primary_key="26" foreign_key="25" />
+            <phoneNumber primary_key="27" foreign_key="25" />
+          </afterHoursPhone>
+          <alternatePhone primary_key="26" foreign_key="21">
+            <areaCode primary_key="27" foreign_key="26" />
+            <phoneNumber primary_key="28" foreign_key="26" />
+          </alternatePhone>
+          <fax primary_key="27" foreign_key="21">
+            <areaCode primary_key="28" foreign_key="27" />
+            <phoneNumber primary_key="29" foreign_key="27" />
+          </fax>
+          <hours primary_key="28" foreign_key="21">
+            <openingHour primary_key="29" foreign_key="28">
+              <day primary_key="30" foreign_key="29">MONDAY</day>
+              <endHour primary_key="31" foreign_key="29" />
+              <endMinute primary_key="32" foreign_key="29" />
+              <startHour primary_key="33" foreign_key="29" />
+              <startMinute primary_key="34" foreign_key="29" />
+            </openingHour>
+            <openingHour primary_key="30" foreign_key="28">
+              <day primary_key="31" foreign_key="30">TUESDAY</day>
+              <endHour primary_key="32" foreign_key="30" />
+              <endMinute primary_key="33" foreign_key="30" />
+              <startHour primary_key="34" foreign_key="30" />
+              <startMinute primary_key="35" foreign_key="30" />
+            </openingHour>
+            <openingHour primary_key="31" foreign_key="28">
+              <day primary_key="32" foreign_key="31">WEDNESDAY</day>
+              <endHour primary_key="33" foreign_key="31" />
+              <endMinute primary_key="34" foreign_key="31" />
+              <startHour primary_key="35" foreign_key="31" />
+              <startMinute primary_key="36" foreign_key="31" />
+            </openingHour>
+            <openingHour primary_key="32" foreign_key="28">
+              <day primary_key="33" foreign_key="32">THURSDAY</day>
+              <endHour primary_key="34" foreign_key="32" />
+              <endMinute primary_key="35" foreign_key="32" />
+              <startHour primary_key="36" foreign_key="32" />
+              <startMinute primary_key="37" foreign_key="32" />
+            </openingHour>
+            <openingHour primary_key="33" foreign_key="28">
+              <day primary_key="34" foreign_key="33">FRIDAY</day>
+              <endHour primary_key="35" foreign_key="33" />
+              <endMinute primary_key="36" foreign_key="33" />
+              <startHour primary_key="37" foreign_key="33" />
+              <startMinute primary_key="38" foreign_key="33" />
+            </openingHour>
+          </hours>
+          <languageCodes primary_key="29" foreign_key="21" />
+          <phone primary_key="30" foreign_key="21">
+            <areaCode primary_key="31" foreign_key="30" />
+            <phoneNumber primary_key="32" foreign_key="30" />
+          </phone>
+          <providerNetworks primary_key="31" foreign_key="21">
+            <network primary_key="32" foreign_key="31">
+              <code primary_key="33" foreign_key="32">2646</code>
+              <name primary_key="34" foreign_key="32">Medicaid CA</name>
+              <participationStatusCode primary_key="35" foreign_key="32">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+        </location>
+        <location primary_key="22" foreign_key="8">
+          <typeCode primary_key="23" foreign_key="22">Payment</typeCode>
+          <address primary_key="24" foreign_key="22">
+            <city primary_key="25" foreign_key="24">Colton</city>
+            <county primary_key="26" foreign_key="24">San Bernardino</county>
+            <id primary_key="27" foreign_key="24">7364646</id>
+            <line1 primary_key="28" foreign_key="24">400 North Pepper Avenue</line1>
+            <statecode primary_key="29" foreign_key="24">CA</statecode>
+            <zip primary_key="30" foreign_key="24">
+              <code primary_key="31" foreign_key="30">92324</code>
+            </zip>
+          </address>
+        </location>
+        <location primary_key="23" foreign_key="8">
+          <locationName primary_key="24" foreign_key="23">Sbcdoph-San Bernardino Health</locationName>
+          <typeCode primary_key="25" foreign_key="23">Service</typeCode>
+          <address primary_key="26" foreign_key="23">
+            <city primary_key="27" foreign_key="26">San Bernardino</city>
+            <county primary_key="28" foreign_key="26">San Bernardino</county>
+            <id primary_key="29" foreign_key="26">6061356</id>
+            <line1 primary_key="30" foreign_key="26">351 North Mountain View Avenue</line1>
+            <statecode primary_key="31" foreign_key="26">CA</statecode>
+            <zip primary_key="32" foreign_key="26">
+              <code primary_key="33" foreign_key="32">92415</code>
+            </zip>
+          </address>
+          <afterHoursPhone primary_key="27" foreign_key="23">
+            <areacode primary_key="28" foreign_key="27" />
+            <phoneNumber primary_key="29" foreign_key="27" />
+          </afterHoursPhone>
+          <alternatePhone primary_key="28" foreign_key="23">
+            <areaCode primary_key="29" foreign_key="28">909</areaCode>
+            <phoneNumber primary_key="30" foreign_key="28">5801255</phoneNumber>
+          </alternatePhone>
+          <fax primary_key="29" foreign_key="23">
+            <phoneNumber primary_key="30" foreign_key="29" />
+          </fax>
+          <hours primary_key="30" foreign_key="23">
+            <openingHour primary_key="31" foreign_key="30">
+              <day primary_key="32" foreign_key="31">MONDAY</day>
+              <endHour primary_key="33" foreign_key="31" />
+              <endMinute primary_key="34" foreign_key="31" />
+              <startHour primary_key="35" foreign_key="31" />
+              <startMinute primary_key="36" foreign_key="31" />
+            </openingHour>
+            <openingHour primary_key="32" foreign_key="30">
+              <day primary_key="33" foreign_key="32">TUESDAY</day>
+              <endHour primary_key="34" foreign_key="32" />
+              <endMinute primary_key="35" foreign_key="32" />
+              <startHour primary_key="36" foreign_key="32" />
+              <startMinute primary_key="37" foreign_key="32" />
+            </openingHour>
+            <openingHour primary_key="33" foreign_key="30">
+              <day primary_key="34" foreign_key="33">WEDNESDAY</day>
+              <endHour primary_key="35" foreign_key="33" />
+              <endMinute primary_key="36" foreign_key="33" />
+              <startHour primary_key="37" foreign_key="33" />
+              <startMinute primary_key="38" foreign_key="33" />
+            </openingHour>
+            <openingHour primary_key="34" foreign_key="30">
+              <day primary_key="35" foreign_key="34">THURSDAY</day>
+              <endHour primary_key="36" foreign_key="34" />
+              <endMinute primary_key="37" foreign_key="34" />
+              <startHour primary_key="38" foreign_key="34" />
+              <startMinute primary_key="39" foreign_key="34" />
+            </openingHour>
+            <openingHour primary_key="35" foreign_key="30">
+              <day primary_key="36" foreign_key="35">FRIDAY</day>
+              <endHour primary_key="37" foreign_key="35" />
+              <endMinute primary_key="38" foreign_key="35" />
+              <startHour primary_key="39" foreign_key="35" />
+              <startMinute primary_key="40" foreign_key="35" />
+            </openingHour>
+          </hours>
+          <languageCodes primary_key="31" foreign_key="23" />
+          <phone primary_key="32" foreign_key="23">
+            <areaCode primary_key="33" foreign_key="32">909</areaCode>
+            <phoneNumber primary_key="34" foreign_key="32">5801255</phoneNumber>
+          </phone>
+          <providerNetworks primary_key="33" foreign_key="23">
+            <network primary_key="34" foreign_key="33">
+              <code primary_key="35" foreign_key="34">6356</code>
+              <name primary_key="36" foreign_key="34">Medi-Cal Standard</name>
+              <participationStatusCode primary_key="37" foreign_key="34">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+        </location>
+        <location primary_key="24" foreign_key="8">
+          <locationName primary_key="25" foreign_key="24">Sbcdoph-San Bernardino Health</locationName>
+          <typeCode primary_key="26" foreign_key="24">Service</typeCode>
+          <address primary_key="27" foreign_key="24">
+            <city primary_key="28" foreign_key="27">San Bernardino</city>
+            <county primary_key="29" foreign_key="27">San Bernardino</county>
+            <id primary_key="30" foreign_key="27">6061352</id>
+            <line1 primary_key="31" foreign_key="27">303 East Vanderbilt Way</line1>
+            <statecode primary_key="32" foreign_key="27">CA</statecode>
+            <zip primary_key="33" foreign_key="27">
+              <code primary_key="34" foreign_key="33">92415</code>
+            </zip>
+          </address>
+          <afterHoursPhone primary_key="28" foreign_key="24">
+            <areacode primary_key="29" foreign_key="28" />
+            <phoneNumber primary_key="30" foreign_key="28" />
+          </afterHoursPhone>
+          <alternatePhone primary_key="29" foreign_key="24">
+            <areaCode primary_key="30" foreign_key="29">909</areaCode>
+            <phoneNumber primary_key="31" foreign_key="29">5801255</phoneNumber>
+          </alternatePhone>
+          <fax primary_key="30" foreign_key="24">
+            <phoneNumber primary_key="31" foreign_key="30" />
+          </fax>
+          <hours primary_key="31" foreign_key="24">
+            <openingHour primary_key="32" foreign_key="31">
+              <day primary_key="33" foreign_key="32">MONDAY</day>
+              <endHour primary_key="34" foreign_key="32" />
+              <endMinute primary_key="35" foreign_key="32" />
+              <startHour primary_key="36" foreign_key="32" />
+              <startMinute primary_key="37" foreign_key="32" />
+            </openingHour>
+            <openingHour primary_key="33" foreign_key="31">
+              <day primary_key="34" foreign_key="33">TUESDAY</day>
+              <endHour primary_key="35" foreign_key="33" />
+              <endMinute primary_key="36" foreign_key="33" />
+              <startHour primary_key="37" foreign_key="33" />
+              <startMinute primary_key="38" foreign_key="33" />
+            </openingHour>
+            <openingHour primary_key="34" foreign_key="31">
+              <day primary_key="35" foreign_key="34">WEDNESDAY</day>
+              <endHour primary_key="36" foreign_key="34" />
+              <endMinute primary_key="37" foreign_key="34" />
+              <startHour primary_key="38" foreign_key="34" />
+              <startMinute primary_key="39" foreign_key="34" />
+            </openingHour>
+            <openingHour primary_key="35" foreign_key="31">
+              <day primary_key="36" foreign_key="35">THURSDAY</day>
+              <endHour primary_key="37" foreign_key="35" />
+              <endMinute primary_key="38" foreign_key="35" />
+              <startHour primary_key="39" foreign_key="35" />
+              <startMinute primary_key="40" foreign_key="35" />
+            </openingHour>
+            <openingHour primary_key="36" foreign_key="31">
+              <day primary_key="37" foreign_key="36">FRIDAY</day>
+              <endHour primary_key="38" foreign_key="36" />
+              <endMinute primary_key="39" foreign_key="36" />
+              <startHour primary_key="40" foreign_key="36" />
+              <startMinute primary_key="41" foreign_key="36" />
+            </openingHour>
+          </hours>
+          <languageCodes primary_key="32" foreign_key="24" />
+          <phone primary_key="33" foreign_key="24">
+            <areaCode primary_key="34" foreign_key="33">909</areaCode>
+            <phoneNumber primary_key="35" foreign_key="33">5801255</phoneNumber>
+          </phone>
+          <providerNetworks primary_key="34" foreign_key="24">
+            <network primary_key="35" foreign_key="34">
+              <code primary_key="36" foreign_key="35">6356</code>
+              <name primary_key="37" foreign_key="35">Medi-Cal Standard</name>
+              <participationStatusCode primary_key="38" foreign_key="35">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+        </location>
+        <location primary_key="25" foreign_key="8">
+          <locationName primary_key="26" foreign_key="25">Sbcdoph - Hesperia Health</locationName>
+          <typeCode primary_key="27" foreign_key="25">Service</typeCode>
+          <address primary_key="28" foreign_key="25">
+            <city primary_key="29" foreign_key="28">Hesperia</city>
+            <county primary_key="30" foreign_key="28">San Bernardino</county>
+            <id primary_key="31" foreign_key="28">5781229</id>
+            <line1 primary_key="32" foreign_key="28">16453 Bear Valley Road</line1>
+            <statecode primary_key="33" foreign_key="28">CA</statecode>
+            <zip primary_key="34" foreign_key="28">
+              <code primary_key="35" foreign_key="34">92345</code>
+            </zip>
+          </address>
+          <afterHoursPhone primary_key="29" foreign_key="25">
+            <areacode primary_key="30" foreign_key="29" />
+            <phoneNumber primary_key="31" foreign_key="29" />
+          </afterHoursPhone>
+          <alternatePhone primary_key="30" foreign_key="25">
+            <areaCode primary_key="31" foreign_key="30">760</areaCode>
+            <phoneNumber primary_key="32" foreign_key="30">9564400</phoneNumber>
+          </alternatePhone>
+          <fax primary_key="31" foreign_key="25">
+            <phoneNumber primary_key="32" foreign_key="31" />
+          </fax>
+          <hours primary_key="32" foreign_key="25">
+            <openingHour primary_key="33" foreign_key="32">
+              <day primary_key="34" foreign_key="33">MONDAY</day>
+              <endHour primary_key="35" foreign_key="33" />
+              <endMinute primary_key="36" foreign_key="33" />
+              <startHour primary_key="37" foreign_key="33" />
+              <startMinute primary_key="38" foreign_key="33" />
+            </openingHour>
+            <openingHour primary_key="34" foreign_key="32">
+              <day primary_key="35" foreign_key="34">TUESDAY</day>
+              <endHour primary_key="36" foreign_key="34" />
+              <endMinute primary_key="37" foreign_key="34" />
+              <startHour primary_key="38" foreign_key="34" />
+              <startMinute primary_key="39" foreign_key="34" />
+            </openingHour>
+            <openingHour primary_key="35" foreign_key="32">
+              <day primary_key="36" foreign_key="35">WEDNESDAY</day>
+              <endHour primary_key="37" foreign_key="35" />
+              <endMinute primary_key="38" foreign_key="35" />
+              <startHour primary_key="39" foreign_key="35" />
+              <startMinute primary_key="40" foreign_key="35" />
+            </openingHour>
+            <openingHour primary_key="36" foreign_key="32">
+              <day primary_key="37" foreign_key="36">THURSDAY</day>
+              <endHour primary_key="38" foreign_key="36" />
+              <endMinute primary_key="39" foreign_key="36" />
+              <startHour primary_key="40" foreign_key="36" />
+              <startMinute primary_key="41" foreign_key="36" />
+            </openingHour>
+            <openingHour primary_key="37" foreign_key="32">
+              <day primary_key="38" foreign_key="37">FRIDAY</day>
+              <endHour primary_key="39" foreign_key="37" />
+              <endMinute primary_key="40" foreign_key="37" />
+              <startHour primary_key="41" foreign_key="37" />
+              <startMinute primary_key="42" foreign_key="37" />
+            </openingHour>
+          </hours>
+          <languageCodes primary_key="33" foreign_key="25" />
+          <phone primary_key="34" foreign_key="25">
+            <areaCode primary_key="35" foreign_key="34">760</areaCode>
+            <phoneNumber primary_key="36" foreign_key="34">9564400</phoneNumber>
+          </phone>
+          <providerNetworks primary_key="35" foreign_key="25">
+            <network primary_key="36" foreign_key="35">
+              <code primary_key="37" foreign_key="36">6356</code>
+              <name primary_key="38" foreign_key="36">Medi-Cal Standard</name>
+              <participationStatusCode primary_key="39" foreign_key="36">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+        </location>
+        <location primary_key="26" foreign_key="8">
+          <locationName primary_key="27" foreign_key="26">Sbcdoph-San Bernardino Health</locationName>
+          <typeCode primary_key="28" foreign_key="26">Service</typeCode>
+          <address primary_key="29" foreign_key="26">
+            <city primary_key="30" foreign_key="29">Hesperia</city>
+            <county primary_key="31" foreign_key="29">San Bernardino</county>
+            <id primary_key="32" foreign_key="29">6061346</id>
+            <line1 primary_key="33" foreign_key="29">11951 Hesperia Road</line1>
+            <statecode primary_key="34" foreign_key="29">CA</statecode>
+            <zip primary_key="35" foreign_key="29">
+              <code primary_key="36" foreign_key="35">92345</code>
+            </zip>
+          </address>
+          <afterHoursPhone primary_key="30" foreign_key="26">
+            <areacode primary_key="31" foreign_key="30" />
+            <phoneNumber primary_key="32" foreign_key="30" />
+          </afterHoursPhone>
+          <alternatePhone primary_key="31" foreign_key="26">
+            <areaCode primary_key="32" foreign_key="31">909</areaCode>
+            <phoneNumber primary_key="33" foreign_key="31">5801255</phoneNumber>
+          </alternatePhone>
+          <fax primary_key="32" foreign_key="26">
+            <phoneNumber primary_key="33" foreign_key="32" />
+          </fax>
+          <hours primary_key="33" foreign_key="26">
+            <openingHour primary_key="34" foreign_key="33">
+              <day primary_key="35" foreign_key="34">MONDAY</day>
+              <endHour primary_key="36" foreign_key="34" />
+              <endMinute primary_key="37" foreign_key="34" />
+              <startHour primary_key="38" foreign_key="34" />
+              <startMinute primary_key="39" foreign_key="34" />
+            </openingHour>
+            <openingHour primary_key="35" foreign_key="33">
+              <day primary_key="36" foreign_key="35">TUESDAY</day>
+              <endHour primary_key="37" foreign_key="35" />
+              <endMinute primary_key="38" foreign_key="35" />
+              <startHour primary_key="39" foreign_key="35" />
+              <startMinute primary_key="40" foreign_key="35" />
+            </openingHour>
+            <openingHour primary_key="36" foreign_key="33">
+              <day primary_key="37" foreign_key="36">WEDNESDAY</day>
+              <endHour primary_key="38" foreign_key="36" />
+              <endMinute primary_key="39" foreign_key="36" />
+              <startHour primary_key="40" foreign_key="36" />
+              <startMinute primary_key="41" foreign_key="36" />
+            </openingHour>
+            <openingHour primary_key="37" foreign_key="33">
+              <day primary_key="38" foreign_key="37">THURSDAY</day>
+              <endHour primary_key="39" foreign_key="37" />
+              <endMinute primary_key="40" foreign_key="37" />
+              <startHour primary_key="41" foreign_key="37" />
+              <startMinute primary_key="42" foreign_key="37" />
+            </openingHour>
+            <openingHour primary_key="38" foreign_key="33">
+              <day primary_key="39" foreign_key="38">FRIDAY</day>
+              <endHour primary_key="40" foreign_key="38" />
+              <endMinute primary_key="41" foreign_key="38" />
+              <startHour primary_key="42" foreign_key="38" />
+              <startMinute primary_key="43" foreign_key="38" />
+            </openingHour>
+          </hours>
+          <languageCodes primary_key="34" foreign_key="26" />
+          <phone primary_key="35" foreign_key="26">
+            <areaCode primary_key="36" foreign_key="35">909</areaCode>
+            <phoneNumber primary_key="37" foreign_key="35">5801255</phoneNumber>
+          </phone>
+          <providerNetworks primary_key="36" foreign_key="26">
+            <network primary_key="37" foreign_key="36">
+              <code primary_key="38" foreign_key="37">6356</code>
+              <name primary_key="39" foreign_key="37">Medi-Cal Standard</name>
+              <participationStatusCode primary_key="40" foreign_key="37">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+        </location>
+        <location primary_key="27" foreign_key="8">
+          <locationName primary_key="28" foreign_key="27">Sbcdoph-San Bernardino Health</locationName>
+          <typeCode primary_key="29" foreign_key="27">Service</typeCode>
+          <address primary_key="30" foreign_key="27">
+            <city primary_key="31" foreign_key="30">San Bernardino</city>
+            <county primary_key="32" foreign_key="30">San Bernardino</county>
+            <id primary_key="33" foreign_key="30">6061355</id>
+            <line1 primary_key="34" foreign_key="30">820 East Gilbert Street</line1>
+            <statecode primary_key="35" foreign_key="30">CA</statecode>
+            <zip primary_key="36" foreign_key="30">
+              <code primary_key="37" foreign_key="36">92415</code>
+            </zip>
+          </address>
+          <afterHoursPhone primary_key="31" foreign_key="27">
+            <areacode primary_key="32" foreign_key="31" />
+            <phoneNumber primary_key="33" foreign_key="31" />
+          </afterHoursPhone>
+          <alternatePhone primary_key="32" foreign_key="27">
+            <areaCode primary_key="33" foreign_key="32">909</areaCode>
+            <phoneNumber primary_key="34" foreign_key="32">5801255</phoneNumber>
+          </alternatePhone>
+          <fax primary_key="33" foreign_key="27">
+            <phoneNumber primary_key="34" foreign_key="33" />
+          </fax>
+          <hours primary_key="34" foreign_key="27">
+            <openingHour primary_key="35" foreign_key="34">
+              <day primary_key="36" foreign_key="35">MONDAY</day>
+              <endHour primary_key="37" foreign_key="35" />
+              <endMinute primary_key="38" foreign_key="35" />
+              <startHour primary_key="39" foreign_key="35" />
+              <startMinute primary_key="40" foreign_key="35" />
+            </openingHour>
+            <openingHour primary_key="36" foreign_key="34">
+              <day primary_key="37" foreign_key="36">TUESDAY</day>
+              <endHour primary_key="38" foreign_key="36" />
+              <endMinute primary_key="39" foreign_key="36" />
+              <startHour primary_key="40" foreign_key="36" />
+              <startMinute primary_key="41" foreign_key="36" />
+            </openingHour>
+            <openingHour primary_key="37" foreign_key="34">
+              <day primary_key="38" foreign_key="37">WEDNESDAY</day>
+              <endHour primary_key="39" foreign_key="37" />
+              <endMinute primary_key="40" foreign_key="37" />
+              <startHour primary_key="41" foreign_key="37" />
+              <startMinute primary_key="42" foreign_key="37" />
+            </openingHour>
+            <openingHour primary_key="38" foreign_key="34">
+              <day primary_key="39" foreign_key="38">THURSDAY</day>
+              <endHour primary_key="40" foreign_key="38" />
+              <endMinute primary_key="41" foreign_key="38" />
+              <startHour primary_key="42" foreign_key="38" />
+              <startMinute primary_key="43" foreign_key="38" />
+            </openingHour>
+            <openingHour primary_key="39" foreign_key="34">
+              <day primary_key="40" foreign_key="39">FRIDAY</day>
+              <endHour primary_key="41" foreign_key="39" />
+              <endMinute primary_key="42" foreign_key="39" />
+              <startHour primary_key="43" foreign_key="39" />
+              <startMinute primary_key="44" foreign_key="39" />
+            </openingHour>
+          </hours>
+          <languageCodes primary_key="35" foreign_key="27" />
+          <phone primary_key="36" foreign_key="27">
+            <areaCode primary_key="37" foreign_key="36">909</areaCode>
+            <phoneNumber primary_key="38" foreign_key="36">5801255</phoneNumber>
+          </phone>
+          <providerNetworks primary_key="37" foreign_key="27">
+            <network primary_key="38" foreign_key="37">
+              <code primary_key="39" foreign_key="38">6356</code>
+              <name primary_key="40" foreign_key="38">Medi-Cal Standard</name>
+              <participationStatusCode primary_key="41" foreign_key="38">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+        </location>
+        <location primary_key="28" foreign_key="8">
+          <locationName primary_key="29" foreign_key="28">Sbcdoph-San Bernardino Health</locationName>
+          <typeCode primary_key="30" foreign_key="28">Service</typeCode>
+          <address primary_key="31" foreign_key="28">
+            <city primary_key="32" foreign_key="31">Colton</city>
+            <county primary_key="33" foreign_key="31">San Bernardino</county>
+            <id primary_key="34" foreign_key="31">6061353</id>
+            <line1 primary_key="35" foreign_key="31">400 North Pepper Avenue</line1>
+            <statecode primary_key="36" foreign_key="31">CA</statecode>
+            <zip primary_key="37" foreign_key="31">
+              <code primary_key="38" foreign_key="37">92324</code>
+            </zip>
+          </address>
+          <afterHoursPhone primary_key="32" foreign_key="28">
+            <areacode primary_key="33" foreign_key="32" />
+            <phoneNumber primary_key="34" foreign_key="32" />
+          </afterHoursPhone>
+          <alternatePhone primary_key="33" foreign_key="28">
+            <areaCode primary_key="34" foreign_key="33">909</areaCode>
+            <phoneNumber primary_key="35" foreign_key="33">5801000</phoneNumber>
+          </alternatePhone>
+          <fax primary_key="34" foreign_key="28">
+            <phoneNumber primary_key="35" foreign_key="34" />
+          </fax>
+          <hours primary_key="35" foreign_key="28">
+            <openingHour primary_key="36" foreign_key="35">
+              <day primary_key="37" foreign_key="36">MONDAY</day>
+              <endHour primary_key="38" foreign_key="36" />
+              <endMinute primary_key="39" foreign_key="36" />
+              <startHour primary_key="40" foreign_key="36" />
+              <startMinute primary_key="41" foreign_key="36" />
+            </openingHour>
+            <openingHour primary_key="37" foreign_key="35">
+              <day primary_key="38" foreign_key="37">TUESDAY</day>
+              <endHour primary_key="39" foreign_key="37" />
+              <endMinute primary_key="40" foreign_key="37" />
+              <startHour primary_key="41" foreign_key="37" />
+              <startMinute primary_key="42" foreign_key="37" />
+            </openingHour>
+            <openingHour primary_key="38" foreign_key="35">
+              <day primary_key="39" foreign_key="38">WEDNESDAY</day>
+              <endHour primary_key="40" foreign_key="38" />
+              <endMinute primary_key="41" foreign_key="38" />
+              <startHour primary_key="42" foreign_key="38" />
+              <startMinute primary_key="43" foreign_key="38" />
+            </openingHour>
+            <openingHour primary_key="39" foreign_key="35">
+              <day primary_key="40" foreign_key="39">THURSDAY</day>
+              <endHour primary_key="41" foreign_key="39" />
+              <endMinute primary_key="42" foreign_key="39" />
+              <startHour primary_key="43" foreign_key="39" />
+              <startMinute primary_key="44" foreign_key="39" />
+            </openingHour>
+            <openingHour primary_key="40" foreign_key="35">
+              <day primary_key="41" foreign_key="40">FRIDAY</day>
+              <endHour primary_key="42" foreign_key="40" />
+              <endMinute primary_key="43" foreign_key="40" />
+              <startHour primary_key="44" foreign_key="40" />
+              <startMinute primary_key="45" foreign_key="40" />
+            </openingHour>
+          </hours>
+          <languageCodes primary_key="36" foreign_key="28" />
+          <phone primary_key="37" foreign_key="28">
+            <areaCode primary_key="38" foreign_key="37">909</areaCode>
+            <phoneNumber primary_key="39" foreign_key="37">5801000</phoneNumber>
+          </phone>
+          <providerNetworks primary_key="38" foreign_key="28">
+            <network primary_key="39" foreign_key="38">
+              <code primary_key="40" foreign_key="39">6356</code>
+              <name primary_key="41" foreign_key="39">Medi-Cal Standard</name>
+              <participationStatusCode primary_key="42" foreign_key="39">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+        </location>
+        <location primary_key="29" foreign_key="8">
+          <locationName primary_key="30" foreign_key="29">Sbcdoph-San Bernardino Health</locationName>
+          <typeCode primary_key="31" foreign_key="29">Service</typeCode>
+          <address primary_key="32" foreign_key="29">
+            <city primary_key="33" foreign_key="32">Victorville</city>
+            <county primary_key="34" foreign_key="32">San Bernardino</county>
+            <id primary_key="35" foreign_key="32">6061347</id>
+            <line1 primary_key="36" foreign_key="32">12625 Hesperia Road</line1>
+            <statecode primary_key="37" foreign_key="32">CA</statecode>
+            <zip primary_key="38" foreign_key="32">
+              <code primary_key="39" foreign_key="38">92395</code>
+            </zip>
+          </address>
+          <afterHoursPhone primary_key="33" foreign_key="29">
+            <areacode primary_key="34" foreign_key="33" />
+            <phoneNumber primary_key="35" foreign_key="33" />
+          </afterHoursPhone>
+          <alternatePhone primary_key="34" foreign_key="29">
+            <areaCode primary_key="35" foreign_key="34">909</areaCode>
+            <phoneNumber primary_key="36" foreign_key="34">3823080</phoneNumber>
+          </alternatePhone>
+          <fax primary_key="35" foreign_key="29">
+            <phoneNumber primary_key="36" foreign_key="35" />
+          </fax>
+          <hours primary_key="36" foreign_key="29">
+            <openingHour primary_key="37" foreign_key="36">
+              <day primary_key="38" foreign_key="37">MONDAY</day>
+              <endHour primary_key="39" foreign_key="37" />
+              <endMinute primary_key="40" foreign_key="37" />
+              <startHour primary_key="41" foreign_key="37" />
+              <startMinute primary_key="42" foreign_key="37" />
+            </openingHour>
+            <openingHour primary_key="38" foreign_key="36">
+              <day primary_key="39" foreign_key="38">TUESDAY</day>
+              <endHour primary_key="40" foreign_key="38" />
+              <endMinute primary_key="41" foreign_key="38" />
+              <startHour primary_key="42" foreign_key="38" />
+              <startMinute primary_key="43" foreign_key="38" />
+            </openingHour>
+            <openingHour primary_key="39" foreign_key="36">
+              <day primary_key="40" foreign_key="39">WEDNESDAY</day>
+              <endHour primary_key="41" foreign_key="39" />
+              <endMinute primary_key="42" foreign_key="39" />
+              <startHour primary_key="43" foreign_key="39" />
+              <startMinute primary_key="44" foreign_key="39" />
+            </openingHour>
+            <openingHour primary_key="40" foreign_key="36">
+              <day primary_key="41" foreign_key="40">THURSDAY</day>
+              <endHour primary_key="42" foreign_key="40" />
+              <endMinute primary_key="43" foreign_key="40" />
+              <startHour primary_key="44" foreign_key="40" />
+              <startMinute primary_key="45" foreign_key="40" />
+            </openingHour>
+            <openingHour primary_key="41" foreign_key="36">
+              <day primary_key="42" foreign_key="41">FRIDAY</day>
+              <endHour primary_key="43" foreign_key="41" />
+              <endMinute primary_key="44" foreign_key="41" />
+              <startHour primary_key="45" foreign_key="41" />
+              <startMinute primary_key="46" foreign_key="41" />
+            </openingHour>
+          </hours>
+          <languageCodes primary_key="37" foreign_key="29" />
+          <phone primary_key="38" foreign_key="29">
+            <areaCode primary_key="39" foreign_key="38">909</areaCode>
+            <phoneNumber primary_key="40" foreign_key="38">3823080</phoneNumber>
+          </phone>
+          <providerNetworks primary_key="39" foreign_key="29">
+            <network primary_key="40" foreign_key="39">
+              <code primary_key="41" foreign_key="40">6356</code>
+              <name primary_key="42" foreign_key="40">Medi-Cal Standard</name>
+              <participationStatusCode primary_key="43" foreign_key="40">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+        </location>
+        <location primary_key="30" foreign_key="8">
+          <locationName primary_key="31" foreign_key="30">Sbcdoph-Ontario Health Center</locationName>
+          <typeCode primary_key="32" foreign_key="30">Service</typeCode>
+          <address primary_key="33" foreign_key="30">
+            <city primary_key="34" foreign_key="33">Ontario</city>
+            <county primary_key="35" foreign_key="33">San Bernardino</county>
+            <id primary_key="36" foreign_key="33">5781227</id>
+            <line1 primary_key="37" foreign_key="33">150 East Holt Boulevard</line1>
+            <statecode primary_key="38" foreign_key="33">CA</statecode>
+            <zip primary_key="39" foreign_key="33">
+              <code primary_key="40" foreign_key="39">91761</code>
+            </zip>
+          </address>
+          <afterHoursPhone primary_key="34" foreign_key="30">
+            <areacode primary_key="35" foreign_key="34" />
+            <phoneNumber primary_key="36" foreign_key="34" />
+          </afterHoursPhone>
+          <alternatePhone primary_key="35" foreign_key="30">
+            <areaCode primary_key="36" foreign_key="35">760</areaCode>
+            <phoneNumber primary_key="37" foreign_key="35">9564400</phoneNumber>
+          </alternatePhone>
+          <fax primary_key="36" foreign_key="30">
+            <phoneNumber primary_key="37" foreign_key="36" />
+          </fax>
+          <hours primary_key="37" foreign_key="30">
+            <openingHour primary_key="38" foreign_key="37">
+              <day primary_key="39" foreign_key="38">MONDAY</day>
+              <endHour primary_key="40" foreign_key="38" />
+              <endMinute primary_key="41" foreign_key="38" />
+              <startHour primary_key="42" foreign_key="38" />
+              <startMinute primary_key="43" foreign_key="38" />
+            </openingHour>
+            <openingHour primary_key="39" foreign_key="37">
+              <day primary_key="40" foreign_key="39">TUESDAY</day>
+              <endHour primary_key="41" foreign_key="39" />
+              <endMinute primary_key="42" foreign_key="39" />
+              <startHour primary_key="43" foreign_key="39" />
+              <startMinute primary_key="44" foreign_key="39" />
+            </openingHour>
+            <openingHour primary_key="40" foreign_key="37">
+              <day primary_key="41" foreign_key="40">WEDNESDAY</day>
+              <endHour primary_key="42" foreign_key="40" />
+              <endMinute primary_key="43" foreign_key="40" />
+              <startHour primary_key="44" foreign_key="40" />
+              <startMinute primary_key="45" foreign_key="40" />
+            </openingHour>
+            <openingHour primary_key="41" foreign_key="37">
+              <day primary_key="42" foreign_key="41">THURSDAY</day>
+              <endHour primary_key="43" foreign_key="41" />
+              <endMinute primary_key="44" foreign_key="41" />
+              <startHour primary_key="45" foreign_key="41" />
+              <startMinute primary_key="46" foreign_key="41" />
+            </openingHour>
+            <openingHour primary_key="42" foreign_key="37">
+              <day primary_key="43" foreign_key="42">FRIDAY</day>
+              <endHour primary_key="44" foreign_key="42" />
+              <endMinute primary_key="45" foreign_key="42" />
+              <startHour primary_key="46" foreign_key="42" />
+              <startMinute primary_key="47" foreign_key="42" />
+            </openingHour>
+          </hours>
+          <languageCodes primary_key="38" foreign_key="30" />
+          <phone primary_key="39" foreign_key="30">
+            <areaCode primary_key="40" foreign_key="39">760</areaCode>
+            <phoneNumber primary_key="41" foreign_key="39">9564400</phoneNumber>
+          </phone>
+          <providerNetworks primary_key="40" foreign_key="30">
+            <network primary_key="41" foreign_key="40">
+              <code primary_key="42" foreign_key="41">6356</code>
+              <name primary_key="43" foreign_key="41">Medi-Cal Standard</name>
+              <participationStatusCode primary_key="44" foreign_key="41">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+        </location>
+        <location primary_key="31" foreign_key="8">
+          <locationName primary_key="32" foreign_key="31">Sbcdoph-San Bernardino Health</locationName>
+          <typeCode primary_key="33" foreign_key="31">Service</typeCode>
+          <address primary_key="34" foreign_key="31">
+            <city primary_key="35" foreign_key="34">San Bernardino</city>
+            <county primary_key="36" foreign_key="34">San Bernardino</county>
+            <id primary_key="37" foreign_key="34">6061350</id>
+            <line1 primary_key="38" foreign_key="34">300 South Arrowhead Avenue</line1>
+            <statecode primary_key="39" foreign_key="34">CA</statecode>
+            <zip primary_key="40" foreign_key="34">
+              <code primary_key="41" foreign_key="40">92415</code>
+            </zip>
+          </address>
+          <afterHoursPhone primary_key="35" foreign_key="31">
+            <areacode primary_key="36" foreign_key="35" />
+            <phoneNumber primary_key="37" foreign_key="35" />
+          </afterHoursPhone>
+          <alternatePhone primary_key="36" foreign_key="31">
+            <areaCode primary_key="37" foreign_key="36">909</areaCode>
+            <phoneNumber primary_key="38" foreign_key="36">5801255</phoneNumber>
+          </alternatePhone>
+          <fax primary_key="37" foreign_key="31">
+            <phoneNumber primary_key="38" foreign_key="37" />
+          </fax>
+          <hours primary_key="38" foreign_key="31">
+            <openingHour primary_key="39" foreign_key="38">
+              <day primary_key="40" foreign_key="39">MONDAY</day>
+              <endHour primary_key="41" foreign_key="39" />
+              <endMinute primary_key="42" foreign_key="39" />
+              <startHour primary_key="43" foreign_key="39" />
+              <startMinute primary_key="44" foreign_key="39" />
+            </openingHour>
+            <openingHour primary_key="40" foreign_key="38">
+              <day primary_key="41" foreign_key="40">TUESDAY</day>
+              <endHour primary_key="42" foreign_key="40" />
+              <endMinute primary_key="43" foreign_key="40" />
+              <startHour primary_key="44" foreign_key="40" />
+              <startMinute primary_key="45" foreign_key="40" />
+            </openingHour>
+            <openingHour primary_key="41" foreign_key="38">
+              <day primary_key="42" foreign_key="41">WEDNESDAY</day>
+              <endHour primary_key="43" foreign_key="41" />
+              <endMinute primary_key="44" foreign_key="41" />
+              <startHour primary_key="45" foreign_key="41" />
+              <startMinute primary_key="46" foreign_key="41" />
+            </openingHour>
+            <openingHour primary_key="42" foreign_key="38">
+              <day primary_key="43" foreign_key="42">THURSDAY</day>
+              <endHour primary_key="44" foreign_key="42" />
+              <endMinute primary_key="45" foreign_key="42" />
+              <startHour primary_key="46" foreign_key="42" />
+              <startMinute primary_key="47" foreign_key="42" />
+            </openingHour>
+            <openingHour primary_key="43" foreign_key="38">
+              <day primary_key="44" foreign_key="43">FRIDAY</day>
+              <endHour primary_key="45" foreign_key="43" />
+              <endMinute primary_key="46" foreign_key="43" />
+              <startHour primary_key="47" foreign_key="43" />
+              <startMinute primary_key="48" foreign_key="43" />
+            </openingHour>
+          </hours>
+          <languageCodes primary_key="39" foreign_key="31" />
+          <phone primary_key="40" foreign_key="31">
+            <areaCode primary_key="41" foreign_key="40">909</areaCode>
+            <phoneNumber primary_key="42" foreign_key="40">5801255</phoneNumber>
+          </phone>
+          <providerNetworks primary_key="41" foreign_key="31">
+            <network primary_key="42" foreign_key="41">
+              <code primary_key="43" foreign_key="42">6356</code>
+              <name primary_key="44" foreign_key="42">Medi-Cal Standard</name>
+              <participationStatusCode primary_key="45" foreign_key="42">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+        </location>
+        <location primary_key="32" foreign_key="8">
+          <locationName primary_key="33" foreign_key="32">Sbcdoph-San Bernardino Health</locationName>
+          <typeCode primary_key="34" foreign_key="32">Service</typeCode>
+          <address primary_key="35" foreign_key="32">
+            <city primary_key="36" foreign_key="35">San Bernardino</city>
+            <county primary_key="37" foreign_key="35">San Bernardino</county>
+            <id primary_key="38" foreign_key="35">6061349</id>
+            <line1 primary_key="39" foreign_key="35">268 West Hospitality Lane</line1>
+            <line2 primary_key="40" foreign_key="35">Suite 400</line2>
+            <statecode primary_key="41" foreign_key="35">CA</statecode>
+            <zip primary_key="42" foreign_key="35">
+              <code primary_key="43" foreign_key="42">92415</code>
+            </zip>
+          </address>
+          <afterHoursPhone primary_key="36" foreign_key="32">
+            <areacode primary_key="37" foreign_key="36" />
+            <phoneNumber primary_key="38" foreign_key="36" />
+          </afterHoursPhone>
+          <alternatePhone primary_key="37" foreign_key="32">
+            <areaCode primary_key="38" foreign_key="37">909</areaCode>
+            <phoneNumber primary_key="39" foreign_key="37">3823127</phoneNumber>
+          </alternatePhone>
+          <fax primary_key="38" foreign_key="32">
+            <phoneNumber primary_key="39" foreign_key="38" />
+          </fax>
+          <hours primary_key="39" foreign_key="32">
+            <openingHour primary_key="40" foreign_key="39">
+              <day primary_key="41" foreign_key="40">MONDAY</day>
+              <endHour primary_key="42" foreign_key="40" />
+              <endMinute primary_key="43" foreign_key="40" />
+              <startHour primary_key="44" foreign_key="40" />
+              <startMinute primary_key="45" foreign_key="40" />
+            </openingHour>
+            <openingHour primary_key="41" foreign_key="39">
+              <day primary_key="42" foreign_key="41">TUESDAY</day>
+              <endHour primary_key="43" foreign_key="41" />
+              <endMinute primary_key="44" foreign_key="41" />
+              <startHour primary_key="45" foreign_key="41" />
+              <startMinute primary_key="46" foreign_key="41" />
+            </openingHour>
+            <openingHour primary_key="42" foreign_key="39">
+              <day primary_key="43" foreign_key="42">WEDNESDAY</day>
+              <endHour primary_key="44" foreign_key="42" />
+              <endMinute primary_key="45" foreign_key="42" />
+              <startHour primary_key="46" foreign_key="42" />
+              <startMinute primary_key="47" foreign_key="42" />
+            </openingHour>
+            <openingHour primary_key="43" foreign_key="39">
+              <day primary_key="44" foreign_key="43">THURSDAY</day>
+              <endHour primary_key="45" foreign_key="43" />
+              <endMinute primary_key="46" foreign_key="43" />
+              <startHour primary_key="47" foreign_key="43" />
+              <startMinute primary_key="48" foreign_key="43" />
+            </openingHour>
+            <openingHour primary_key="44" foreign_key="39">
+              <day primary_key="45" foreign_key="44">FRIDAY</day>
+              <endHour primary_key="46" foreign_key="44" />
+              <endMinute primary_key="47" foreign_key="44" />
+              <startHour primary_key="48" foreign_key="44" />
+              <startMinute primary_key="49" foreign_key="44" />
+            </openingHour>
+          </hours>
+          <languageCodes primary_key="40" foreign_key="32" />
+          <phone primary_key="41" foreign_key="32">
+            <areaCode primary_key="42" foreign_key="41">909</areaCode>
+            <phoneNumber primary_key="43" foreign_key="41">3823127</phoneNumber>
+          </phone>
+          <providerNetworks primary_key="42" foreign_key="32">
+            <network primary_key="43" foreign_key="42">
+              <code primary_key="44" foreign_key="43">6356</code>
+              <name primary_key="45" foreign_key="43">Medi-Cal Standard</name>
+              <participationStatusCode primary_key="46" foreign_key="43">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+        </location>
+        <location primary_key="33" foreign_key="8">
+          <locationName primary_key="34" foreign_key="33">Sbcdoph-Adelanto Health Center</locationName>
+          <typeCode primary_key="35" foreign_key="33">Service</typeCode>
+          <address primary_key="36" foreign_key="33">
+            <city primary_key="37" foreign_key="36">Adelanto</city>
+            <county primary_key="38" foreign_key="36">San Bernardino</county>
+            <id primary_key="39" foreign_key="36">5781226</id>
+            <line1 primary_key="40" foreign_key="36">11336 Bartlett Avenue</line1>
+            <line2 primary_key="41" foreign_key="36">Suite 11</line2>
+            <statecode primary_key="42" foreign_key="36">CA</statecode>
+            <zip primary_key="43" foreign_key="36">
+              <code primary_key="44" foreign_key="43">92301</code>
+            </zip>
+          </address>
+          <afterHoursPhone primary_key="37" foreign_key="33">
+            <areacode primary_key="38" foreign_key="37" />
+            <phoneNumber primary_key="39" foreign_key="37" />
+          </afterHoursPhone>
+          <alternatePhone primary_key="38" foreign_key="33">
+            <areaCode primary_key="39" foreign_key="38">760</areaCode>
+            <phoneNumber primary_key="40" foreign_key="38">9564400</phoneNumber>
+          </alternatePhone>
+          <fax primary_key="39" foreign_key="33">
+            <phoneNumber primary_key="40" foreign_key="39" />
+          </fax>
+          <hours primary_key="40" foreign_key="33">
+            <openingHour primary_key="41" foreign_key="40">
+              <day primary_key="42" foreign_key="41">MONDAY</day>
+              <endHour primary_key="43" foreign_key="41" />
+              <endMinute primary_key="44" foreign_key="41" />
+              <startHour primary_key="45" foreign_key="41" />
+              <startMinute primary_key="46" foreign_key="41" />
+            </openingHour>
+            <openingHour primary_key="42" foreign_key="40">
+              <day primary_key="43" foreign_key="42">TUESDAY</day>
+              <endHour primary_key="44" foreign_key="42" />
+              <endMinute primary_key="45" foreign_key="42" />
+              <startHour primary_key="46" foreign_key="42" />
+              <startMinute primary_key="47" foreign_key="42" />
+            </openingHour>
+            <openingHour primary_key="43" foreign_key="40">
+              <day primary_key="44" foreign_key="43">WEDNESDAY</day>
+              <endHour primary_key="45" foreign_key="43" />
+              <endMinute primary_key="46" foreign_key="43" />
+              <startHour primary_key="47" foreign_key="43" />
+              <startMinute primary_key="48" foreign_key="43" />
+            </openingHour>
+            <openingHour primary_key="44" foreign_key="40">
+              <day primary_key="45" foreign_key="44">THURSDAY</day>
+              <endHour primary_key="46" foreign_key="44" />
+              <endMinute primary_key="47" foreign_key="44" />
+              <startHour primary_key="48" foreign_key="44" />
+              <startMinute primary_key="49" foreign_key="44" />
+            </openingHour>
+            <openingHour primary_key="45" foreign_key="40">
+              <day primary_key="46" foreign_key="45">FRIDAY</day>
+              <endHour primary_key="47" foreign_key="45" />
+              <endMinute primary_key="48" foreign_key="45" />
+              <startHour primary_key="49" foreign_key="45" />
+              <startMinute primary_key="50" foreign_key="45" />
+            </openingHour>
+          </hours>
+          <languageCodes primary_key="41" foreign_key="33" />
+          <phone primary_key="42" foreign_key="33">
+            <areaCode primary_key="43" foreign_key="42">760</areaCode>
+            <phoneNumber primary_key="44" foreign_key="42">9564400</phoneNumber>
+          </phone>
+          <providerNetworks primary_key="43" foreign_key="33">
+            <network primary_key="44" foreign_key="43">
+              <code primary_key="45" foreign_key="44">6356</code>
+              <name primary_key="46" foreign_key="44">Medi-Cal Standard</name>
+              <participationStatusCode primary_key="47" foreign_key="44">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+        </location>
+        <location primary_key="34" foreign_key="8">
+          <locationName primary_key="35" foreign_key="34">Sbcdoph-San Bernardino Health</locationName>
+          <typeCode primary_key="36" foreign_key="34">Service</typeCode>
+          <address primary_key="37" foreign_key="34">
+            <city primary_key="38" foreign_key="37">San Bernardino</city>
+            <county primary_key="39" foreign_key="37">San Bernardino</county>
+            <id primary_key="40" foreign_key="37">5781228</id>
+            <line1 primary_key="41" foreign_key="37">606 East Mill Street</line1>
+            <statecode primary_key="42" foreign_key="37">CA</statecode>
+            <zip primary_key="43" foreign_key="37">
+              <code primary_key="44" foreign_key="43">92415</code>
+            </zip>
+          </address>
+          <afterHoursPhone primary_key="38" foreign_key="34">
+            <areacode primary_key="39" foreign_key="38" />
+            <phoneNumber primary_key="40" foreign_key="38" />
+          </afterHoursPhone>
+          <alternatePhone primary_key="39" foreign_key="34">
+            <areaCode primary_key="40" foreign_key="39">909</areaCode>
+            <phoneNumber primary_key="41" foreign_key="39">3833001</phoneNumber>
+          </alternatePhone>
+          <fax primary_key="40" foreign_key="34">
+            <phoneNumber primary_key="41" foreign_key="40" />
+          </fax>
+          <hours primary_key="41" foreign_key="34">
+            <openingHour primary_key="42" foreign_key="41">
+              <day primary_key="43" foreign_key="42">MONDAY</day>
+              <endHour primary_key="44" foreign_key="42">17</endHour>
+              <endMinute primary_key="45" foreign_key="42">30</endMinute>
+              <startHour primary_key="46" foreign_key="42">08</startHour>
+              <startMinute primary_key="47" foreign_key="42">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="43" foreign_key="41">
+              <day primary_key="44" foreign_key="43">TUESDAY</day>
+              <endHour primary_key="45" foreign_key="43">17</endHour>
+              <endMinute primary_key="46" foreign_key="43">30</endMinute>
+              <startHour primary_key="47" foreign_key="43">08</startHour>
+              <startMinute primary_key="48" foreign_key="43">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="44" foreign_key="41">
+              <day primary_key="45" foreign_key="44">WEDNESDAY</day>
+              <endHour primary_key="46" foreign_key="44">17</endHour>
+              <endMinute primary_key="47" foreign_key="44">30</endMinute>
+              <startHour primary_key="48" foreign_key="44">08</startHour>
+              <startMinute primary_key="49" foreign_key="44">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="45" foreign_key="41">
+              <day primary_key="46" foreign_key="45">THURSDAY</day>
+              <endHour primary_key="47" foreign_key="45">17</endHour>
+              <endMinute primary_key="48" foreign_key="45">30</endMinute>
+              <startHour primary_key="49" foreign_key="45">08</startHour>
+              <startMinute primary_key="50" foreign_key="45">00</startMinute>
+            </openingHour>
+            <openingHour primary_key="46" foreign_key="41">
+              <day primary_key="47" foreign_key="46">FRIDAY</day>
+              <endHour primary_key="48" foreign_key="46">17</endHour>
+              <endMinute primary_key="49" foreign_key="46">30</endMinute>
+              <startHour primary_key="50" foreign_key="46">08</startHour>
+              <startMinute primary_key="51" foreign_key="46">00</startMinute>
+            </openingHour>
+          </hours>
+          <languageCodes primary_key="42" foreign_key="34" />
+          <phone primary_key="43" foreign_key="34">
+            <areaCode primary_key="44" foreign_key="43">909</areaCode>
+            <phoneNumber primary_key="45" foreign_key="43">3833001</phoneNumber>
+          </phone>
+          <providerNetworks primary_key="44" foreign_key="34">
+            <network primary_key="45" foreign_key="44">
+              <code primary_key="46" foreign_key="45">6356</code>
+              <name primary_key="47" foreign_key="45">Medi-Cal Standard</name>
+              <participationStatusCode primary_key="48" foreign_key="45">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+        </location>
+        <location primary_key="35" foreign_key="8">
+          <typeCode primary_key="36" foreign_key="35">Payment</typeCode>
+          <address primary_key="37" foreign_key="35">
+            <city primary_key="38" foreign_key="37">Colton</city>
+            <county primary_key="39" foreign_key="37">San Bernardino</county>
+            <id primary_key="40" foreign_key="37">7364647</id>
+            <line1 primary_key="41" foreign_key="37">400 North Pepper Avenue</line1>
+            <statecode primary_key="42" foreign_key="37">CA</statecode>
+            <zip primary_key="43" foreign_key="37">
+              <code primary_key="44" foreign_key="43">92324</code>
+            </zip>
+          </address>
+        </location>
+      </locations>
+      <NPIs primary_key="9" foreign_key="1">
+        <NPI primary_key="10" foreign_key="9" />
+      </NPIs>
+    </business>
