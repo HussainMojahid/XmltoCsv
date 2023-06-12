@@ -87,9 +87,11 @@ def convert_xml_to_csv(xml_file, xsd_file):
         print("Invalid XML")
 
 
-xml_file_path = sys.argv[1]
-if len(sys.argv) == 2:
-    xsd_file_path = None
+if (len(sys.argv) == 1):
+    print("Please provide XML path")
 else:
-    xsd_file_path = sys.argv[2]
-convert_xml_to_csv(xml_file_path, xsd_file_path)
+    xml_file_path = sys.argv[1]
+    xsd_file_path = None
+    if len(sys.argv) >= 3:
+        xsd_file_path = sys.argv[2]
+    convert_xml_to_csv(xml_file_path, xsd_file_path)
