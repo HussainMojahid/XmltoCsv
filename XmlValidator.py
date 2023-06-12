@@ -2,7 +2,7 @@ import lxml.etree as ET
 
 
 def validate_xml_with_xsd(xml_file, xsd_file):
-    print("With XSD")
+    print("This procedure employs XSD.")
     try:
         # Load the XML file and XSD schema
         xml_tree = ET.parse(xml_file)
@@ -33,7 +33,7 @@ def validate_xml_with_xsd(xml_file, xsd_file):
 
 
 def validate_xml(xml_file):
-    print("Without XSD")
+    print("This procedure does not employ XSD.")
 
     # Load the XML file
     try:

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="business">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="businessId" type="xs:unsignedInt" />
+        <xs:element name="businessName" type="xs:string" />
+        <xs:element name="certifications">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="certification" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EIN">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="legalBusinessName" type="xs:string" />
+              <xs:element name="number" type="xs:unsignedInt" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="employees">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="employee" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="licenses">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="license" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="locations">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="location">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="locationName" type="xs:string" />
+                    <xs:element name="typeCode" type="xs:string" />
+                    <xs:element name="address">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="city" type="xs:string" />
+                          <xs:element name="county" type="xs:string" />
+                          <xs:element name="id" type="xs:unsignedInt" />
+                          <xs:element name="line1" type="xs:string" />
+                          <xs:element minOccurs="0" name="line2" type="xs:string" />
+                          <xs:element name="statecode" type="xs:string" />
+                          <xs:element name="zip">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="code" type="xs:unsignedInt" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="afterHoursPhone">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="areacode" />
+                          <xs:element name="phoneNumber" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="alternatePhone">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="areaCode" type="xs:string" />
+                          <xs:element name="phoneNumber" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="fax">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="areaCode" />
+                          <xs:element name="phoneNumber" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="hours">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="openingHour">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="day" type="xs:string" />
+                                <xs:element name="endHour" type="xs:string" />
+                                <xs:element name="endMinute" type="xs:string" />
+                                <xs:element name="startHour" type="xs:string" />
+                                <xs:element name="startMinute" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="languageCodes" />
+                    <xs:element minOccurs="0" name="phone">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="areaCode" type="xs:string" />
+                          <xs:element name="phoneNumber" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="providerNetworks">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="network">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="code" type="xs:unsignedShort" />
+                                <xs:element name="name" type="xs:string" />
+                                <xs:element name="participationStatusCode" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="NPIs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NPI" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

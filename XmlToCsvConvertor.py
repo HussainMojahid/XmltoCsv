@@ -76,8 +76,7 @@ def convert_xml_to_csv(xml_file, xsd_file):
                     writer = csv.writer(file)
                     writer.writerow(non_blank_columns)
                     writer.writerows(filtered_data)
-                print(
-                    f"CSV file '{csv_file_name}' has been created successfully.")
+        print("CSV files has been created successfully.")
 
         parent_tags = set(element.tag for element in root.iter())
 
