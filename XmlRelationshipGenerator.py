@@ -1,13 +1,14 @@
-
 from xml.dom import minidom
 from datetime import datetime
 import random
+import sys
+import os
 
 
 class XMLKeyAdder:
     @staticmethod
-    def main():
-        xml_file_path = "input.xml"
+    def main(xml_file_path):
+
         XMLKeyAdder.add_keys_to_xml(xml_file_path)
 
     @staticmethod
@@ -23,12 +24,20 @@ class XMLKeyAdder:
                 XMLKeyAdder.add_primary_and_foreign_keys(
                     doc.documentElement, business_id, None, None)
 
-                # Write the modified document back to the file
-                with open(file_path, "w") as file:
-                    doc.writexml(file, encoding="utf-8")
+                # Create the output directory if it doesn't exist
+                output_dir = os.path.join(os.getcwd(), ".temp")
+                os.makedirs(output_dir, exist_ok=True)
 
+                # Generate the output file path
+                output_file_path = os.path.join(output_dir, os.path.basename(
+                    file_path).replace(".xml", "_output.xml"))
+
+                # Write the modified document to the output file
+                with open(output_file_path, "w") as output_file:
+                    doc.writexml(output_file, encoding="utf-8")
+                return output_file_path
         except Exception as e:
-            print(e)
+            print("Error:", e)
 
     @staticmethod
     def get_business_id(doc):
@@ -45,21 +54,22 @@ class XMLKeyAdder:
         # Generate the primary key as current date and time along with a random integer between 10 and 100
         now = datetime.now().strftime("%Y%m%d%H%M%S")
         random_key = str(random.randint(10, 100))
-        primary_key = now + random_key
+        primaryKey = now + random_key
 
-        # Set the 'primary_key' attribute of the current element
-        element.setAttribute("primary_key", primary_key)
+        # Set the 'primaryKey' attribute of the current element
+        element.setAttribute("primaryKey", primaryKey)
 
         # If a businessId is present, set the 'businessId' attribute of the current element
         if business_id:
-            element.setAttribute("businessId", business_id)
+            if element.tagName != 'business':
+                element.setAttribute("businessId", business_id)
 
         # If the child tag occurs more than once, set the foreign key of the child tag to point to the great-grandparent
         if XMLKeyAdder.has_multiple_occurrences(element):
-            element.setAttribute("foreign_key", grandparent_key)
+            element.setAttribute("parentId", grandparent_key)
         # If the child tag occurs only once, set the foreign key of the element to point to its immediate parent tag
         else:
-            element.setAttribute("foreign_key", parent_key)
+            element.setAttribute("parentId", parent_key)
 
         # Process child elements recursively
         children = element.childNodes
@@ -67,7 +77,7 @@ class XMLKeyAdder:
             if child.nodeType == child.ELEMENT_NODE:
                 # Recursively call add_primary_and_foreign_keys for each child element
                 XMLKeyAdder.add_primary_and_foreign_keys(
-                    child, business_id, element.getAttribute("primary_key"), parent_key)
+                    child, business_id, element.getAttribute("primaryKey"), parent_key)
 
     @staticmethod
     def has_multiple_occurrences(element):
@@ -88,4 +98,4 @@ class XMLKeyAdder:
 
 # Entry point
 if __name__ == "__main__":
-    XMLKeyAdder.main()
+    XMLKeyAdder.main(sys.argv[1])

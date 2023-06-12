@@ -1,1663 +1,1663 @@
 <business>
-      <businessId>956002748</businessId>
-      <businessName>COUNTY OF SAN BERNARDINO</businessName>
-      <certifications>
-        <certification />
-      </certifications>
-      <EIN>
-        <legalBusinessName>COUNTY OF SAN BERNARDINO</legalBusinessName>
-        <number>956002748</number>
-      </EIN>
-      <employees>
-        <employee />
-      </employees>
-      <licenses >
-      <license />
-      </licenses>
-      <locations>
-    
-        <location>
-          <locationName>SBCDOPH - Hesperia Health Center
-		  </locationName>
-          <typeCode>Service
-		  </typeCode>
-          <address>
-            <city>San Bernardino</city>
-            <county>San Bernardino</county>
-            <id>5617138</id>
-            <line1>606 East Mill Street</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92415</code>
-            </zip>
-          </address>
-          <afterHoursPhone>
-            <areacode />
-            <phoneNumber />
-          </afterHoursPhone>
-          <alternatePhone>
-            <areaCode />
-            <phoneNumber />
-          </alternatePhone>
-          <fax>
-            <areaCode />
-            <phoneNumber />
-          </fax>
-          <hours>
-            <openingHour>
-              <day>MONDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>TUESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>WEDNESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>THURSDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>FRIDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-          </hours>
-          <languageCodes />
-          <phone>
-            <areaCode />
-            <phoneNumber />
-          </phone>
-          <providerNetworks>
-            <network>
-              <code>6356</code>
-              <name>Medi-Cal Standard</name>
-              <participationStatusCode>Y</participationStatusCode>
-            </network>
-          </providerNetworks>
-        </location>
-        <location>
-          <locationName>SBCDOPH - Hesperia Health Center</locationName>
-          <typeCode>Service</typeCode>
-          <address>
-            <city>Hesperia</city>
-            <county>San Bernardino</county>
-            <id>4721570</id>
-            <line1>16453 Bear Valley Road</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92345</code>
-            </zip>
-          </address>
-          <afterHoursPhone>
-            <areacode />
-            <phoneNumber />
-          </afterHoursPhone>
-          <alternatePhone>
-            <areaCode>760</areaCode>
-            <phoneNumber>9564400</phoneNumber>
-          </alternatePhone>
-          <fax>
-            <phoneNumber />
-          </fax>
-          <hours>
-            <openingHour>
-              <day>MONDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>TUESDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>WEDNESDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>THURSDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>FRIDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-          </hours>
-          <languageCodes />
-          <phone>
-            <areaCode>760</areaCode>
-            <phoneNumber>9564400</phoneNumber>
-          </phone>
-          <providerNetworks>
-            <network>
-              <code>6356</code>
-              <name>Medi-Cal Standard</name>
-              <participationStatusCode>Y</participationStatusCode>
-            </network>
-          </providerNetworks>
-        </location>
-        <location>
-          <typeCode>Payment</typeCode>
-          <address>
-            <city>Colton</city>
-            <county>San Bernardino</county>
-            <id>6148067</id>
-            <line1>400 North Pepper Avenue</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92324</code>
-            </zip>
-          </address>
-        </location>
-        <location>
-          <locationName>SBCDOPH - San Bernardino Health Center</locationName>
-          <typeCode>Service</typeCode>
-          <address>
-            <city>San Bernardino</city>
-            <county>San Bernardino</county>
-            <id>5617139</id>
-            <line1>606 East Mill Street</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92415</code>
-            </zip>
-          </address>
-          <afterHoursPhone>
-            <areacode />
-            <phoneNumber />
-          </afterHoursPhone>
-          <alternatePhone>
-            <areaCode>760</areaCode>
-            <phoneNumber>9564400</phoneNumber>
-          </alternatePhone>
-          <fax>
-            <phoneNumber />
-          </fax>
-          <hours>
-            <openingHour>
-              <day>MONDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>TUESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>WEDNESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>THURSDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>FRIDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-          </hours>
-          <languageCodes />
-          <phone>
-            <areaCode>760</areaCode>
-            <phoneNumber>9564400</phoneNumber>
-          </phone>
-          <providerNetworks>
-            <network>
-              <code>6356</code>
-              <name>Medi-Cal Standard</name>
-              <participationStatusCode>Y</participationStatusCode>
-            </network>
-          </providerNetworks>
-        </location>
-        <location>
-          <locationName>SBCDOPH - San Bernardino Health Center</locationName>
-          <typeCode>Service</typeCode>
-          <address>
-            <city>San Bernardino</city>
-            <county>San Bernardino</county>
-            <id>4721571</id>
-            <line1>606 East Mill Street</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92415</code>
-            </zip>
-          </address>
-          <afterHoursPhone>
-            <areacode />
-            <phoneNumber />
-          </afterHoursPhone>
-          <alternatePhone>
-            <areaCode>760</areaCode>
-            <phoneNumber>9564400</phoneNumber>
-          </alternatePhone>
-          <fax>
-            <phoneNumber />
-          </fax>
-          <hours>
-            <openingHour>
-              <day>MONDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>TUESDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>WEDNESDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>THURSDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>FRIDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-          </hours>
-          <languageCodes />
-          <phone>
-            <areaCode>760</areaCode>
-            <phoneNumber>9564400</phoneNumber>
-          </phone>
-          <providerNetworks>
-            <network>
-              <code>6356</code>
-              <name>Medi-Cal Standard</name>
-              <participationStatusCode>Y</participationStatusCode>
-            </network>
-          </providerNetworks>
-        </location>
-        <location>
-          <typeCode>Payment</typeCode>
-          <address>
-            <city>Colton</city>
-            <county>San Bernardino</county>
-            <id>6148068</id>
-            <line1>400 North Pepper Avenue</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92324</code>
-            </zip>
-          </address>
-        </location>
-        <location>
-          <locationName>SBCDOPH - Ontario Health Center</locationName>
-          <typeCode>Service</typeCode>
-          <address>
-            <city>San Bernardino</city>
-            <county>San Bernardino</county>
-            <id>5617141</id>
-            <line1>606 East Mill Street</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92415</code>
-            </zip>
-          </address>
-          <afterHoursPhone>
-            <areacode />
-            <phoneNumber />
-          </afterHoursPhone>
-          <alternatePhone>
-            <areaCode />
-            <phoneNumber />
-          </alternatePhone>
-          <fax>
-            <areaCode />
-            <phoneNumber />
-          </fax>
-          <hours>
-            <openingHour>
-              <day>MONDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>TUESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>WEDNESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>THURSDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>FRIDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-          </hours>
-          <languageCodes />
-          <phone>
-            <areaCode />
-            <phoneNumber />
-          </phone>
-          <providerNetworks>
-            <network>
-              <code>6356</code>
-              <name>Medi-Cal Standard</name>
-              <participationStatusCode>Y</participationStatusCode>
-            </network>
-          </providerNetworks>
-        </location>
-        <location>
-          <locationName>SBCDOPH - Ontario Health Center</locationName>
-          <typeCode>Service</typeCode>
-          <address>
-            <city>Ontario</city>
-            <county>San Bernardino</county>
-            <id>4721573</id>
-            <line1>150 East Holt Boulevard</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>91761</code>
-            </zip>
-          </address>
-          <afterHoursPhone>
-            <areacode />
-            <phoneNumber />
-          </afterHoursPhone>
-          <alternatePhone>
-            <areaCode>760</areaCode>
-            <phoneNumber>9564400</phoneNumber>
-          </alternatePhone>
-          <fax>
-            <phoneNumber />
-          </fax>
-          <hours>
-            <openingHour>
-              <day>MONDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>TUESDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>WEDNESDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>THURSDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>FRIDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-          </hours>
-          <languageCodes />
-          <phone>
-            <areaCode>760</areaCode>
-            <phoneNumber>9564400</phoneNumber>
-          </phone>
-          <providerNetworks>
-            <network>
-              <code>6356</code>
-              <name>Medi-Cal Standard</name>
-              <participationStatusCode>Y</participationStatusCode>
-            </network>
-          </providerNetworks>
-        </location>
-        <location>
-          <typeCode>Payment</typeCode>
-          <address>
-            <city>Colton</city>
-            <county>San Bernardino</county>
-            <id>6148070</id>
-            <line1>400 North Pepper Avenue</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92324</code>
-            </zip>
-          </address>
-        </location>
-        <location>
-          <locationName>SBCDOPH - Adelanto Health Center</locationName>
-          <typeCode>Service</typeCode>
-          <address>
-            <city>Adelanto</city>
-            <county>San Bernardino</county>
-            <id>4721572</id>
-            <line1>11336 Bartlett Avenue</line1>
-            <line2>Suite 11</line2>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92301</code>
-            </zip>
-          </address>
-          <afterHoursPhone>
-            <areacode />
-            <phoneNumber />
-          </afterHoursPhone>
-          <alternatePhone>
-            <areaCode>760</areaCode>
-            <phoneNumber>9564400</phoneNumber>
-          </alternatePhone>
-          <fax>
-            <phoneNumber />
-          </fax>
-          <hours>
-            <openingHour>
-              <day>MONDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>TUESDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>WEDNESDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>THURSDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>FRIDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-          </hours>
-          <languageCodes />
-          <phone>
-            <areaCode>760</areaCode>
-            <phoneNumber>9564400</phoneNumber>
-          </phone>
-          <providerNetworks>
-            <network>
-              <code>6356</code>
-              <name>Medi-Cal Standard</name>
-              <participationStatusCode>Y</participationStatusCode>
-            </network>
-          </providerNetworks>
-        </location>
-        <location>
-          <locationName>SBCDOPH - Adelanto Health Center</locationName>
-          <typeCode>Service</typeCode>
-          <address>
-            <city>San Bernardino</city>
-            <county>San Bernardino</county>
-            <id>5617140</id>
-            <line1>606 East Mill Street</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92415</code>
-            </zip>
-          </address>
-          <afterHoursPhone>
-            <areacode />
-            <phoneNumber />
-          </afterHoursPhone>
-          <alternatePhone>
-            <areaCode>760</areaCode>
-            <phoneNumber>9564400</phoneNumber>
-          </alternatePhone>
-          <fax>
-            <phoneNumber />
-          </fax>
-          <hours>
-            <openingHour>
-              <day>MONDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>TUESDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>WEDNESDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>THURSDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>FRIDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-          </hours>
-          <languageCodes />
-          <phone>
-            <areaCode>760</areaCode>
-            <phoneNumber>9564400</phoneNumber>
-          </phone>
-          <providerNetworks>
-            <network>
-              <code>6356</code>
-              <name>Medi-Cal Standard</name>
-              <participationStatusCode>Y</participationStatusCode>
-            </network>
-          </providerNetworks>
-        </location>
-        <location>
-          <typeCode>Payment</typeCode>
-          <address>
-            <city>Colton</city>
-            <county>San Bernardino</county>
-            <id>6148069</id>
-            <line1>400 North Pepper Avenue</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92324</code>
-            </zip>
-          </address>
-        </location>
-        <location>
-          <locationName>County Of San Bernardino</locationName>
-          <typeCode>Service</typeCode>
-          <address>
-            <city>Ontario</city>
-            <county>San Bernardino</county>
-            <id>8260807</id>
-            <line1>351 N Mountain View Avenue</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>91761</code>
-            </zip>
-          </address>
-          <afterHoursPhone>
-            <areacode />
-            <phoneNumber />
-          </afterHoursPhone>
-          <alternatePhone>
-            <areaCode />
-            <phoneNumber />
-          </alternatePhone>
-          <fax>
-            <areaCode />
-            <phoneNumber />
-          </fax>
-          <hours>
-            <openingHour>
-              <day>MONDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>TUESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>WEDNESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>THURSDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>FRIDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-          </hours>
-          <languageCodes />
-          <phone>
-            <areaCode />
-            <phoneNumber />
-          </phone>
-          <providerNetworks>
-            <network>
-              <code>2646</code>
-              <name>Medicaid CA</name>
-              <participationStatusCode>Y</participationStatusCode>
-            </network>
-          </providerNetworks>
-        </location>
-        <location>
-          <typeCode>Payment</typeCode>
-          <address>
-            <city>Colton</city>
-            <county>San Bernardino</county>
-            <id>7364646</id>
-            <line1>400 North Pepper Avenue</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92324</code>
-            </zip>
-          </address>
-        </location>
-        <location>
-          <locationName>Sbcdoph-San Bernardino Health</locationName>
-          <typeCode>Service</typeCode>
-          <address>
-            <city>San Bernardino</city>
-            <county>San Bernardino</county>
-            <id>6061356</id>
-            <line1>351 North Mountain View Avenue</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92415</code>
-            </zip>
-          </address>
-          <afterHoursPhone>
-            <areacode />
-            <phoneNumber />
-          </afterHoursPhone>
-          <alternatePhone>
-            <areaCode>909</areaCode>
-            <phoneNumber>5801255</phoneNumber>
-          </alternatePhone>
-          <fax>
-            <phoneNumber />
-          </fax>
-          <hours>
-            <openingHour>
-              <day>MONDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>TUESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>WEDNESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>THURSDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>FRIDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-          </hours>
-          <languageCodes />
-          <phone>
-            <areaCode>909</areaCode>
-            <phoneNumber>5801255</phoneNumber>
-          </phone>
-          <providerNetworks>
-            <network>
-              <code>6356</code>
-              <name>Medi-Cal Standard</name>
-              <participationStatusCode>Y</participationStatusCode>
-            </network>
-          </providerNetworks>
-        </location>
-        <location>
-          <locationName>Sbcdoph-San Bernardino Health</locationName>
-          <typeCode>Service</typeCode>
-          <address>
-            <city>San Bernardino</city>
-            <county>San Bernardino</county>
-            <id>6061352</id>
-            <line1>303 East Vanderbilt Way</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92415</code>
-            </zip>
-          </address>
-          <afterHoursPhone>
-            <areacode />
-            <phoneNumber />
-          </afterHoursPhone>
-          <alternatePhone>
-            <areaCode>909</areaCode>
-            <phoneNumber>5801255</phoneNumber>
-          </alternatePhone>
-          <fax>
-            <phoneNumber />
-          </fax>
-          <hours>
-            <openingHour>
-              <day>MONDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>TUESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>WEDNESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>THURSDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>FRIDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-          </hours>
-          <languageCodes />
-          <phone>
-            <areaCode>909</areaCode>
-            <phoneNumber>5801255</phoneNumber>
-          </phone>
-          <providerNetworks>
-            <network>
-              <code>6356</code>
-              <name>Medi-Cal Standard</name>
-              <participationStatusCode>Y</participationStatusCode>
-            </network>
-          </providerNetworks>
-        </location>
-        <location>
-          <locationName>Sbcdoph - Hesperia Health</locationName>
-          <typeCode>Service</typeCode>
-          <address>
-            <city>Hesperia</city>
-            <county>San Bernardino</county>
-            <id>5781229</id>
-            <line1>16453 Bear Valley Road</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92345</code>
-            </zip>
-          </address>
-          <afterHoursPhone>
-            <areacode />
-            <phoneNumber />
-          </afterHoursPhone>
-          <alternatePhone>
-            <areaCode>760</areaCode>
-            <phoneNumber>9564400</phoneNumber>
-          </alternatePhone>
-          <fax>
-            <phoneNumber />
-          </fax>
-          <hours>
-            <openingHour>
-              <day>MONDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>TUESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>WEDNESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>THURSDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>FRIDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-          </hours>
-          <languageCodes />
-          <phone>
-            <areaCode>760</areaCode>
-            <phoneNumber>9564400</phoneNumber>
-          </phone>
-          <providerNetworks>
-            <network>
-              <code>6356</code>
-              <name>Medi-Cal Standard</name>
-              <participationStatusCode>Y</participationStatusCode>
-            </network>
-          </providerNetworks>
-        </location>
-        <location>
-          <locationName>Sbcdoph-San Bernardino Health</locationName>
-          <typeCode>Service</typeCode>
-          <address>
-            <city>Hesperia</city>
-            <county>San Bernardino</county>
-            <id>6061346</id>
-            <line1>11951 Hesperia Road</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92345</code>
-            </zip>
-          </address>
-          <afterHoursPhone>
-            <areacode />
-            <phoneNumber />
-          </afterHoursPhone>
-          <alternatePhone>
-            <areaCode>909</areaCode>
-            <phoneNumber>5801255</phoneNumber>
-          </alternatePhone>
-          <fax>
-            <phoneNumber />
-          </fax>
-          <hours>
-            <openingHour>
-              <day>MONDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>TUESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>WEDNESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>THURSDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>FRIDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-          </hours>
-          <languageCodes />
-          <phone>
-            <areaCode>909</areaCode>
-            <phoneNumber>5801255</phoneNumber>
-          </phone>
-          <providerNetworks>
-            <network>
-              <code>6356</code>
-              <name>Medi-Cal Standard</name>
-              <participationStatusCode>Y</participationStatusCode>
-            </network>
-          </providerNetworks>
-        </location>
-        <location>
-          <locationName>Sbcdoph-San Bernardino Health</locationName>
-          <typeCode>Service</typeCode>
-          <address>
-            <city>San Bernardino</city>
-            <county>San Bernardino</county>
-            <id>6061355</id>
-            <line1>820 East Gilbert Street</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92415</code>
-            </zip>
-          </address>
-          <afterHoursPhone>
-            <areacode />
-            <phoneNumber />
-          </afterHoursPhone>
-          <alternatePhone>
-            <areaCode>909</areaCode>
-            <phoneNumber>5801255</phoneNumber>
-          </alternatePhone>
-          <fax>
-            <phoneNumber />
-          </fax>
-          <hours>
-            <openingHour>
-              <day>MONDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>TUESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>WEDNESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>THURSDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>FRIDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-          </hours>
-          <languageCodes />
-          <phone>
-            <areaCode>909</areaCode>
-            <phoneNumber>5801255</phoneNumber>
-          </phone>
-          <providerNetworks>
-            <network>
-              <code>6356</code>
-              <name>Medi-Cal Standard</name>
-              <participationStatusCode>Y</participationStatusCode>
-            </network>
-          </providerNetworks>
-        </location>
-        <location>
-          <locationName>Sbcdoph-San Bernardino Health</locationName>
-          <typeCode>Service</typeCode>
-          <address>
-            <city>Colton</city>
-            <county>San Bernardino</county>
-            <id>6061353</id>
-            <line1>400 North Pepper Avenue</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92324</code>
-            </zip>
-          </address>
-          <afterHoursPhone>
-            <areacode />
-            <phoneNumber />
-          </afterHoursPhone>
-          <alternatePhone>
-            <areaCode>909</areaCode>
-            <phoneNumber>5801000</phoneNumber>
-          </alternatePhone>
-          <fax>
-            <phoneNumber />
-          </fax>
-          <hours>
-            <openingHour>
-              <day>MONDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>TUESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>WEDNESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>THURSDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>FRIDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-          </hours>
-          <languageCodes />
-          <phone>
-            <areaCode>909</areaCode>
-            <phoneNumber>5801000</phoneNumber>
-          </phone>
-          <providerNetworks>
-            <network>
-              <code>6356</code>
-              <name>Medi-Cal Standard</name>
-              <participationStatusCode>Y</participationStatusCode>
-            </network>
-          </providerNetworks>
-        </location>
-        <location>
-          <locationName>Sbcdoph-San Bernardino Health</locationName>
-          <typeCode>Service</typeCode>
-          <address>
-            <city>Victorville</city>
-            <county>San Bernardino</county>
-            <id>6061347</id>
-            <line1>12625 Hesperia Road</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92395</code>
-            </zip>
-          </address>
-          <afterHoursPhone>
-            <areacode />
-            <phoneNumber />
-          </afterHoursPhone>
-          <alternatePhone>
-            <areaCode>909</areaCode>
-            <phoneNumber>3823080</phoneNumber>
-          </alternatePhone>
-          <fax>
-            <phoneNumber />
-          </fax>
-          <hours>
-            <openingHour>
-              <day>MONDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>TUESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>WEDNESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>THURSDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>FRIDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-          </hours>
-          <languageCodes />
-          <phone>
-            <areaCode>909</areaCode>
-            <phoneNumber>3823080</phoneNumber>
-          </phone>
-          <providerNetworks>
-            <network>
-              <code>6356</code>
-              <name>Medi-Cal Standard</name>
-              <participationStatusCode>Y</participationStatusCode>
-            </network>
-          </providerNetworks>
-        </location>
-        <location>
-          <locationName>Sbcdoph-Ontario Health Center</locationName>
-          <typeCode>Service</typeCode>
-          <address>
-            <city>Ontario</city>
-            <county>San Bernardino</county>
-            <id>5781227</id>
-            <line1>150 East Holt Boulevard</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>91761</code>
-            </zip>
-          </address>
-          <afterHoursPhone>
-            <areacode />
-            <phoneNumber />
-          </afterHoursPhone>
-          <alternatePhone>
-            <areaCode>760</areaCode>
-            <phoneNumber>9564400</phoneNumber>
-          </alternatePhone>
-          <fax>
-            <phoneNumber />
-          </fax>
-          <hours>
-            <openingHour>
-              <day>MONDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>TUESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>WEDNESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>THURSDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>FRIDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-          </hours>
-          <languageCodes />
-          <phone>
-            <areaCode>760</areaCode>
-            <phoneNumber>9564400</phoneNumber>
-          </phone>
-          <providerNetworks>
-            <network>
-              <code>6356</code>
-              <name>Medi-Cal Standard</name>
-              <participationStatusCode>Y</participationStatusCode>
-            </network>
-          </providerNetworks>
-        </location>
-        <location>
-          <locationName>Sbcdoph-San Bernardino Health</locationName>
-          <typeCode>Service</typeCode>
-          <address>
-            <city>San Bernardino</city>
-            <county>San Bernardino</county>
-            <id>6061350</id>
-            <line1>300 South Arrowhead Avenue</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92415</code>
-            </zip>
-          </address>
-          <afterHoursPhone>
-            <areacode />
-            <phoneNumber />
-          </afterHoursPhone>
-          <alternatePhone>
-            <areaCode>909</areaCode>
-            <phoneNumber>5801255</phoneNumber>
-          </alternatePhone>
-          <fax>
-            <phoneNumber />
-          </fax>
-          <hours>
-            <openingHour>
-              <day>MONDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>TUESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>WEDNESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>THURSDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>FRIDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-          </hours>
-          <languageCodes />
-          <phone>
-            <areaCode>909</areaCode>
-            <phoneNumber>5801255</phoneNumber>
-          </phone>
-          <providerNetworks>
-            <network>
-              <code>6356</code>
-              <name>Medi-Cal Standard</name>
-              <participationStatusCode>Y</participationStatusCode>
-            </network>
-          </providerNetworks>
-        </location>
-        <location>
-          <locationName>Sbcdoph-San Bernardino Health</locationName>
-          <typeCode>Service</typeCode>
-          <address>
-            <city>San Bernardino</city>
-            <county>San Bernardino</county>
-            <id>6061349</id>
-            <line1>268 West Hospitality Lane</line1>
-            <line2>Suite 400</line2>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92415</code>
-            </zip>
-          </address>
-          <afterHoursPhone>
-            <areacode />
-            <phoneNumber />
-          </afterHoursPhone>
-          <alternatePhone>
-            <areaCode>909</areaCode>
-            <phoneNumber>3823127</phoneNumber>
-          </alternatePhone>
-          <fax>
-            <phoneNumber />
-          </fax>
-          <hours>
-            <openingHour>
-              <day>MONDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>TUESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>WEDNESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>THURSDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>FRIDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-          </hours>
-          <languageCodes />
-          <phone>
-            <areaCode>909</areaCode>
-            <phoneNumber>3823127</phoneNumber>
-          </phone>
-          <providerNetworks>
-            <network>
-              <code>6356</code>
-              <name>Medi-Cal Standard</name>
-              <participationStatusCode>Y</participationStatusCode>
-            </network>
-          </providerNetworks>
-        </location>
-        <location>
-          <locationName>Sbcdoph-Adelanto Health Center</locationName>
-          <typeCode>Service</typeCode>
-          <address>
-            <city>Adelanto</city>
-            <county>San Bernardino</county>
-            <id>5781226</id>
-            <line1>11336 Bartlett Avenue</line1>
-            <line2>Suite 11</line2>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92301</code>
-            </zip>
-          </address>
-          <afterHoursPhone>
-            <areacode />
-            <phoneNumber />
-          </afterHoursPhone>
-          <alternatePhone>
-            <areaCode>760</areaCode>
-            <phoneNumber>9564400</phoneNumber>
-          </alternatePhone>
-          <fax>
-            <phoneNumber />
-          </fax>
-          <hours>
-            <openingHour>
-              <day>MONDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>TUESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>WEDNESDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>THURSDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-            <openingHour>
-              <day>FRIDAY</day>
-              <endHour />
-              <endMinute />
-              <startHour />
-              <startMinute />
-            </openingHour>
-          </hours>
-          <languageCodes />
-          <phone>
-            <areaCode>760</areaCode>
-            <phoneNumber>9564400</phoneNumber>
-          </phone>
-          <providerNetworks>
-            <network>
-              <code>6356</code>
-              <name>Medi-Cal Standard</name>
-              <participationStatusCode>Y</participationStatusCode>
-            </network>
-          </providerNetworks>
-        </location>
-        <location>
-          <locationName>Sbcdoph-San Bernardino Health</locationName>
-          <typeCode>Service</typeCode>
-          <address>
-            <city>San Bernardino</city>
-            <county>San Bernardino</county>
-            <id>5781228</id>
-            <line1>606 East Mill Street</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92415</code>
-            </zip>
-          </address>
-          <afterHoursPhone>
-            <areacode />
-            <phoneNumber />
-          </afterHoursPhone>
-          <alternatePhone>
-            <areaCode>909</areaCode>
-            <phoneNumber>3833001</phoneNumber>
-          </alternatePhone>
-          <fax>
-            <phoneNumber />
-          </fax>
-          <hours>
-            <openingHour>
-              <day>MONDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>TUESDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>WEDNESDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>THURSDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-            <openingHour>
-              <day>FRIDAY</day>
-              <endHour>17</endHour>
-              <endMinute>30</endMinute>
-              <startHour>08</startHour>
-              <startMinute>00</startMinute>
-            </openingHour>
-          </hours>
-          <languageCodes />
-          <phone>
-            <areaCode>909</areaCode>
-            <phoneNumber>3833001</phoneNumber>
-          </phone>
-          <providerNetworks>
-            <network>
-              <code>6356</code>
-              <name>Medi-Cal Standard</name>
-              <participationStatusCode>Y</participationStatusCode>
-            </network>
-          </providerNetworks>
-        </location>
-        <location>
-          <typeCode>Payment</typeCode>
-          <address>
-            <city>Colton</city>
-            <county>San Bernardino</county>
-            <id>7364647</id>
-            <line1>400 North Pepper Avenue</line1>
-            <statecode>CA</statecode>
-            <zip>
-              <code>92324</code>
-            </zip>
-          </address>
-        </location>
-      </locations>
-      <NPIs>
-        <NPI />
-      </NPIs>
-    </business>
+  <businessId>956002748</businessId>
+  <businessName>COUNTY OF SAN BERNARDINO</businessName>
+  <certifications>
+    <certification />
+  </certifications>
+  <EIN>
+    <legalBusinessName>COUNTY OF SAN BERNARDINO</legalBusinessName>
+    <number>956002748</number>
+  </EIN>
+  <employees>
+    <employee />
+  </employees>
+  <licenses >
+    <license />
+  </licenses>
+  <locations>
+
+    <location>
+      <locationName>SBCDOPH - Hesperia Health Center
+      </locationName>
+      <typeCode>Service
+      </typeCode>
+      <address>
+        <city>San Bernardino</city>
+        <county>San Bernardino</county>
+        <id>5617138</id>
+        <line1>606 East Mill Street</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92415</code>
+        </zip>
+      </address>
+      <afterHoursPhone>
+        <areacode />
+        <phoneNumber />
+      </afterHoursPhone>
+      <alternatePhone>
+        <areaCode />
+        <phoneNumber />
+      </alternatePhone>
+      <fax>
+        <areaCode />
+        <phoneNumber />
+      </fax>
+      <hours>
+        <openingHour>
+          <day>MONDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>TUESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>WEDNESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>THURSDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>FRIDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+      </hours>
+      <languageCodes />
+      <phone>
+        <areaCode />
+        <phoneNumber />
+      </phone>
+      <providerNetworks>
+        <network>
+          <code>6356</code>
+          <name>Medi-Cal Standard</name>
+          <participationStatusCode>Y</participationStatusCode>
+        </network>
+      </providerNetworks>
+    </location>
+    <location>
+      <locationName>SBCDOPH - Hesperia Health Center</locationName>
+      <typeCode>Service</typeCode>
+      <address>
+        <city>Hesperia</city>
+        <county>San Bernardino</county>
+        <id>4721570</id>
+        <line1>16453 Bear Valley Road</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92345</code>
+        </zip>
+      </address>
+      <afterHoursPhone>
+        <areacode />
+        <phoneNumber />
+      </afterHoursPhone>
+      <alternatePhone>
+        <areaCode>760</areaCode>
+        <phoneNumber>9564400</phoneNumber>
+      </alternatePhone>
+      <fax>
+        <phoneNumber />
+      </fax>
+      <hours>
+        <openingHour>
+          <day>MONDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>TUESDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>WEDNESDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>THURSDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>FRIDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+      </hours>
+      <languageCodes />
+      <phone>
+        <areaCode>760</areaCode>
+        <phoneNumber>9564400</phoneNumber>
+      </phone>
+      <providerNetworks>
+        <network>
+          <code>6356</code>
+          <name>Medi-Cal Standard</name>
+          <participationStatusCode>Y</participationStatusCode>
+        </network>
+      </providerNetworks>
+    </location>
+    <location>
+      <typeCode>Payment</typeCode>
+      <address>
+        <city>Colton</city>
+        <county>San Bernardino</county>
+        <id>6148067</id>
+        <line1>400 North Pepper Avenue</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92324</code>
+        </zip>
+      </address>
+    </location>
+    <location>
+      <locationName>SBCDOPH - San Bernardino Health Center</locationName>
+      <typeCode>Service</typeCode>
+      <address>
+        <city>San Bernardino</city>
+        <county>San Bernardino</county>
+        <id>5617139</id>
+        <line1>606 East Mill Street</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92415</code>
+        </zip>
+      </address>
+      <afterHoursPhone>
+        <areacode />
+        <phoneNumber />
+      </afterHoursPhone>
+      <alternatePhone>
+        <areaCode>760</areaCode>
+        <phoneNumber>9564400</phoneNumber>
+      </alternatePhone>
+      <fax>
+        <phoneNumber />
+      </fax>
+      <hours>
+        <openingHour>
+          <day>MONDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>TUESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>WEDNESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>THURSDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>FRIDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+      </hours>
+      <languageCodes />
+      <phone>
+        <areaCode>760</areaCode>
+        <phoneNumber>9564400</phoneNumber>
+      </phone>
+      <providerNetworks>
+        <network>
+          <code>6356</code>
+          <name>Medi-Cal Standard</name>
+          <participationStatusCode>Y</participationStatusCode>
+        </network>
+      </providerNetworks>
+    </location>
+    <location>
+      <locationName>SBCDOPH - San Bernardino Health Center</locationName>
+      <typeCode>Service</typeCode>
+      <address>
+        <city>San Bernardino</city>
+        <county>San Bernardino</county>
+        <id>4721571</id>
+        <line1>606 East Mill Street</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92415</code>
+        </zip>
+      </address>
+      <afterHoursPhone>
+        <areacode />
+        <phoneNumber />
+      </afterHoursPhone>
+      <alternatePhone>
+        <areaCode>760</areaCode>
+        <phoneNumber>9564400</phoneNumber>
+      </alternatePhone>
+      <fax>
+        <phoneNumber />
+      </fax>
+      <hours>
+        <openingHour>
+          <day>MONDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>TUESDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>WEDNESDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>THURSDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>FRIDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+      </hours>
+      <languageCodes />
+      <phone>
+        <areaCode>760</areaCode>
+        <phoneNumber>9564400</phoneNumber>
+      </phone>
+      <providerNetworks>
+        <network>
+          <code>6356</code>
+          <name>Medi-Cal Standard</name>
+          <participationStatusCode>Y</participationStatusCode>
+        </network>
+      </providerNetworks>
+    </location>
+    <location>
+      <typeCode>Payment</typeCode>
+      <address>
+        <city>Colton</city>
+        <county>San Bernardino</county>
+        <id>6148068</id>
+        <line1>400 North Pepper Avenue</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92324</code>
+        </zip>
+      </address>
+    </location>
+    <location>
+      <locationName>SBCDOPH - Ontario Health Center</locationName>
+      <typeCode>Service</typeCode>
+      <address>
+        <city>San Bernardino</city>
+        <county>San Bernardino</county>
+        <id>5617141</id>
+        <line1>606 East Mill Street</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92415</code>
+        </zip>
+      </address>
+      <afterHoursPhone>
+        <areacode />
+        <phoneNumber />
+      </afterHoursPhone>
+      <alternatePhone>
+        <areaCode />
+        <phoneNumber />
+      </alternatePhone>
+      <fax>
+        <areaCode />
+        <phoneNumber />
+      </fax>
+      <hours>
+        <openingHour>
+          <day>MONDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>TUESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>WEDNESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>THURSDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>FRIDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+      </hours>
+      <languageCodes />
+      <phone>
+        <areaCode />
+        <phoneNumber />
+      </phone>
+      <providerNetworks>
+        <network>
+          <code>6356</code>
+          <name>Medi-Cal Standard</name>
+          <participationStatusCode>Y</participationStatusCode>
+        </network>
+      </providerNetworks>
+    </location>
+    <location>
+      <locationName>SBCDOPH - Ontario Health Center</locationName>
+      <typeCode>Service</typeCode>
+      <address>
+        <city>Ontario</city>
+        <county>San Bernardino</county>
+        <id>4721573</id>
+        <line1>150 East Holt Boulevard</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>91761</code>
+        </zip>
+      </address>
+      <afterHoursPhone>
+        <areacode />
+        <phoneNumber />
+      </afterHoursPhone>
+      <alternatePhone>
+        <areaCode>760</areaCode>
+        <phoneNumber>9564400</phoneNumber>
+      </alternatePhone>
+      <fax>
+        <phoneNumber />
+      </fax>
+      <hours>
+        <openingHour>
+          <day>MONDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>TUESDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>WEDNESDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>THURSDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>FRIDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+      </hours>
+      <languageCodes />
+      <phone>
+        <areaCode>760</areaCode>
+        <phoneNumber>9564400</phoneNumber>
+      </phone>
+      <providerNetworks>
+        <network>
+          <code>6356</code>
+          <name>Medi-Cal Standard</name>
+          <participationStatusCode>Y</participationStatusCode>
+        </network>
+      </providerNetworks>
+    </location>
+    <location>
+      <typeCode>Payment</typeCode>
+      <address>
+        <city>Colton</city>
+        <county>San Bernardino</county>
+        <id>6148070</id>
+        <line1>400 North Pepper Avenue</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92324</code>
+        </zip>
+      </address>
+    </location>
+    <location>
+      <locationName>SBCDOPH - Adelanto Health Center</locationName>
+      <typeCode>Service</typeCode>
+      <address>
+        <city>Adelanto</city>
+        <county>San Bernardino</county>
+        <id>4721572</id>
+        <line1>11336 Bartlett Avenue</line1>
+        <line2>Suite 11</line2>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92301</code>
+        </zip>
+      </address>
+      <afterHoursPhone>
+        <areacode />
+        <phoneNumber />
+      </afterHoursPhone>
+      <alternatePhone>
+        <areaCode>760</areaCode>
+        <phoneNumber>9564400</phoneNumber>
+      </alternatePhone>
+      <fax>
+        <phoneNumber />
+      </fax>
+      <hours>
+        <openingHour>
+          <day>MONDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>TUESDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>WEDNESDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>THURSDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>FRIDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+      </hours>
+      <languageCodes />
+      <phone>
+        <areaCode>760</areaCode>
+        <phoneNumber>9564400</phoneNumber>
+      </phone>
+      <providerNetworks>
+        <network>
+          <code>6356</code>
+          <name>Medi-Cal Standard</name>
+          <participationStatusCode>Y</participationStatusCode>
+        </network>
+      </providerNetworks>
+    </location>
+    <location>
+      <locationName>SBCDOPH - Adelanto Health Center</locationName>
+      <typeCode>Service</typeCode>
+      <address>
+        <city>San Bernardino</city>
+        <county>San Bernardino</county>
+        <id>5617140</id>
+        <line1>606 East Mill Street</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92415</code>
+        </zip>
+      </address>
+      <afterHoursPhone>
+        <areacode />
+        <phoneNumber />
+      </afterHoursPhone>
+      <alternatePhone>
+        <areaCode>760</areaCode>
+        <phoneNumber>9564400</phoneNumber>
+      </alternatePhone>
+      <fax>
+        <phoneNumber />
+      </fax>
+      <hours>
+        <openingHour>
+          <day>MONDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>TUESDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>WEDNESDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>THURSDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>FRIDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+      </hours>
+      <languageCodes />
+      <phone>
+        <areaCode>760</areaCode>
+        <phoneNumber>9564400</phoneNumber>
+      </phone>
+      <providerNetworks>
+        <network>
+          <code>6356</code>
+          <name>Medi-Cal Standard</name>
+          <participationStatusCode>Y</participationStatusCode>
+        </network>
+      </providerNetworks>
+    </location>
+    <location>
+      <typeCode>Payment</typeCode>
+      <address>
+        <city>Colton</city>
+        <county>San Bernardino</county>
+        <id>6148069</id>
+        <line1>400 North Pepper Avenue</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92324</code>
+        </zip>
+      </address>
+    </location>
+    <location>
+      <locationName>County Of San Bernardino</locationName>
+      <typeCode>Service</typeCode>
+      <address>
+        <city>Ontario</city>
+        <county>San Bernardino</county>
+        <id>8260807</id>
+        <line1>351 N Mountain View Avenue</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>91761</code>
+        </zip>
+      </address>
+      <afterHoursPhone>
+        <areacode />
+        <phoneNumber />
+      </afterHoursPhone>
+      <alternatePhone>
+        <areaCode />
+        <phoneNumber />
+      </alternatePhone>
+      <fax>
+        <areaCode />
+        <phoneNumber />
+      </fax>
+      <hours>
+        <openingHour>
+          <day>MONDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>TUESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>WEDNESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>THURSDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>FRIDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+      </hours>
+      <languageCodes />
+      <phone>
+        <areaCode />
+        <phoneNumber />
+      </phone>
+      <providerNetworks>
+        <network>
+          <code>2646</code>
+          <name>Medicaid CA</name>
+          <participationStatusCode>Y</participationStatusCode>
+        </network>
+      </providerNetworks>
+    </location>
+    <location>
+      <typeCode>Payment</typeCode>
+      <address>
+        <city>Colton</city>
+        <county>San Bernardino</county>
+        <id>7364646</id>
+        <line1>400 North Pepper Avenue</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92324</code>
+        </zip>
+      </address>
+    </location>
+    <location>
+      <locationName>Sbcdoph-San Bernardino Health</locationName>
+      <typeCode>Service</typeCode>
+      <address>
+        <city>San Bernardino</city>
+        <county>San Bernardino</county>
+        <id>6061356</id>
+        <line1>351 North Mountain View Avenue</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92415</code>
+        </zip>
+      </address>
+      <afterHoursPhone>
+        <areacode />
+        <phoneNumber />
+      </afterHoursPhone>
+      <alternatePhone>
+        <areaCode>909</areaCode>
+        <phoneNumber>5801255</phoneNumber>
+      </alternatePhone>
+      <fax>
+        <phoneNumber />
+      </fax>
+      <hours>
+        <openingHour>
+          <day>MONDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>TUESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>WEDNESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>THURSDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>FRIDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+      </hours>
+      <languageCodes />
+      <phone>
+        <areaCode>909</areaCode>
+        <phoneNumber>5801255</phoneNumber>
+      </phone>
+      <providerNetworks>
+        <network>
+          <code>6356</code>
+          <name>Medi-Cal Standard</name>
+          <participationStatusCode>Y</participationStatusCode>
+        </network>
+      </providerNetworks>
+    </location>
+    <location>
+      <locationName>Sbcdoph-San Bernardino Health</locationName>
+      <typeCode>Service</typeCode>
+      <address>
+        <city>San Bernardino</city>
+        <county>San Bernardino</county>
+        <id>6061352</id>
+        <line1>303 East Vanderbilt Way</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92415</code>
+        </zip>
+      </address>
+      <afterHoursPhone>
+        <areacode />
+        <phoneNumber />
+      </afterHoursPhone>
+      <alternatePhone>
+        <areaCode>909</areaCode>
+        <phoneNumber>5801255</phoneNumber>
+      </alternatePhone>
+      <fax>
+        <phoneNumber />
+      </fax>
+      <hours>
+        <openingHour>
+          <day>MONDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>TUESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>WEDNESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>THURSDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>FRIDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+      </hours>
+      <languageCodes />
+      <phone>
+        <areaCode>909</areaCode>
+        <phoneNumber>5801255</phoneNumber>
+      </phone>
+      <providerNetworks>
+        <network>
+          <code>6356</code>
+          <name>Medi-Cal Standard</name>
+          <participationStatusCode>Y</participationStatusCode>
+        </network>
+      </providerNetworks>
+    </location>
+    <location>
+      <locationName>Sbcdoph - Hesperia Health</locationName>
+      <typeCode>Service</typeCode>
+      <address>
+        <city>Hesperia</city>
+        <county>San Bernardino</county>
+        <id>5781229</id>
+        <line1>16453 Bear Valley Road</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92345</code>
+        </zip>
+      </address>
+      <afterHoursPhone>
+        <areacode />
+        <phoneNumber />
+      </afterHoursPhone>
+      <alternatePhone>
+        <areaCode>760</areaCode>
+        <phoneNumber>9564400</phoneNumber>
+      </alternatePhone>
+      <fax>
+        <phoneNumber />
+      </fax>
+      <hours>
+        <openingHour>
+          <day>MONDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>TUESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>WEDNESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>THURSDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>FRIDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+      </hours>
+      <languageCodes />
+      <phone>
+        <areaCode>760</areaCode>
+        <phoneNumber>9564400</phoneNumber>
+      </phone>
+      <providerNetworks>
+        <network>
+          <code>6356</code>
+          <name>Medi-Cal Standard</name>
+          <participationStatusCode>Y</participationStatusCode>
+        </network>
+      </providerNetworks>
+    </location>
+    <location>
+      <locationName>Sbcdoph-San Bernardino Health</locationName>
+      <typeCode>Service</typeCode>
+      <address>
+        <city>Hesperia</city>
+        <county>San Bernardino</county>
+        <id>6061346</id>
+        <line1>11951 Hesperia Road</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92345</code>
+        </zip>
+      </address>
+      <afterHoursPhone>
+        <areacode />
+        <phoneNumber />
+      </afterHoursPhone>
+      <alternatePhone>
+        <areaCode>909</areaCode>
+        <phoneNumber>5801255</phoneNumber>
+      </alternatePhone>
+      <fax>
+        <phoneNumber />
+      </fax>
+      <hours>
+        <openingHour>
+          <day>MONDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>TUESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>WEDNESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>THURSDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>FRIDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+      </hours>
+      <languageCodes />
+      <phone>
+        <areaCode>909</areaCode>
+        <phoneNumber>5801255</phoneNumber>
+      </phone>
+      <providerNetworks>
+        <network>
+          <code>6356</code>
+          <name>Medi-Cal Standard</name>
+          <participationStatusCode>Y</participationStatusCode>
+        </network>
+      </providerNetworks>
+    </location>
+    <location>
+      <locationName>Sbcdoph-San Bernardino Health</locationName>
+      <typeCode>Service</typeCode>
+      <address>
+        <city>San Bernardino</city>
+        <county>San Bernardino</county>
+        <id>6061355</id>
+        <line1>820 East Gilbert Street</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92415</code>
+        </zip>
+      </address>
+      <afterHoursPhone>
+        <areacode />
+        <phoneNumber />
+      </afterHoursPhone>
+      <alternatePhone>
+        <areaCode>909</areaCode>
+        <phoneNumber>5801255</phoneNumber>
+      </alternatePhone>
+      <fax>
+        <phoneNumber />
+      </fax>
+      <hours>
+        <openingHour>
+          <day>MONDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>TUESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>WEDNESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>THURSDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>FRIDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+      </hours>
+      <languageCodes />
+      <phone>
+        <areaCode>909</areaCode>
+        <phoneNumber>5801255</phoneNumber>
+      </phone>
+      <providerNetworks>
+        <network>
+          <code>6356</code>
+          <name>Medi-Cal Standard</name>
+          <participationStatusCode>Y</participationStatusCode>
+        </network>
+      </providerNetworks>
+    </location>
+    <location>
+      <locationName>Sbcdoph-San Bernardino Health</locationName>
+      <typeCode>Service</typeCode>
+      <address>
+        <city>Colton</city>
+        <county>San Bernardino</county>
+        <id>6061353</id>
+        <line1>400 North Pepper Avenue</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92324</code>
+        </zip>
+      </address>
+      <afterHoursPhone>
+        <areacode />
+        <phoneNumber />
+      </afterHoursPhone>
+      <alternatePhone>
+        <areaCode>909</areaCode>
+        <phoneNumber>5801000</phoneNumber>
+      </alternatePhone>
+      <fax>
+        <phoneNumber />
+      </fax>
+      <hours>
+        <openingHour>
+          <day>MONDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>TUESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>WEDNESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>THURSDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>FRIDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+      </hours>
+      <languageCodes />
+      <phone>
+        <areaCode>909</areaCode>
+        <phoneNumber>5801000</phoneNumber>
+      </phone>
+      <providerNetworks>
+        <network>
+          <code>6356</code>
+          <name>Medi-Cal Standard</name>
+          <participationStatusCode>Y</participationStatusCode>
+        </network>
+      </providerNetworks>
+    </location>
+    <location>
+      <locationName>Sbcdoph-San Bernardino Health</locationName>
+      <typeCode>Service</typeCode>
+      <address>
+        <city>Victorville</city>
+        <county>San Bernardino</county>
+        <id>6061347</id>
+        <line1>12625 Hesperia Road</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92395</code>
+        </zip>
+      </address>
+      <afterHoursPhone>
+        <areacode />
+        <phoneNumber />
+      </afterHoursPhone>
+      <alternatePhone>
+        <areaCode>909</areaCode>
+        <phoneNumber>3823080</phoneNumber>
+      </alternatePhone>
+      <fax>
+        <phoneNumber />
+      </fax>
+      <hours>
+        <openingHour>
+          <day>MONDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>TUESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>WEDNESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>THURSDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>FRIDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+      </hours>
+      <languageCodes />
+      <phone>
+        <areaCode>909</areaCode>
+        <phoneNumber>3823080</phoneNumber>
+      </phone>
+      <providerNetworks>
+        <network>
+          <code>6356</code>
+          <name>Medi-Cal Standard</name>
+          <participationStatusCode>Y</participationStatusCode>
+        </network>
+      </providerNetworks>
+    </location>
+    <location>
+      <locationName>Sbcdoph-Ontario Health Center</locationName>
+      <typeCode>Service</typeCode>
+      <address>
+        <city>Ontario</city>
+        <county>San Bernardino</county>
+        <id>5781227</id>
+        <line1>150 East Holt Boulevard</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>91761</code>
+        </zip>
+      </address>
+      <afterHoursPhone>
+        <areacode />
+        <phoneNumber />
+      </afterHoursPhone>
+      <alternatePhone>
+        <areaCode>760</areaCode>
+        <phoneNumber>9564400</phoneNumber>
+      </alternatePhone>
+      <fax>
+        <phoneNumber />
+      </fax>
+      <hours>
+        <openingHour>
+          <day>MONDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>TUESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>WEDNESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>THURSDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>FRIDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+      </hours>
+      <languageCodes />
+      <phone>
+        <areaCode>760</areaCode>
+        <phoneNumber>9564400</phoneNumber>
+      </phone>
+      <providerNetworks>
+        <network>
+          <code>6356</code>
+          <name>Medi-Cal Standard</name>
+          <participationStatusCode>Y</participationStatusCode>
+        </network>
+      </providerNetworks>
+    </location>
+    <location>
+      <locationName>Sbcdoph-San Bernardino Health</locationName>
+      <typeCode>Service</typeCode>
+      <address>
+        <city>San Bernardino</city>
+        <county>San Bernardino</county>
+        <id>6061350</id>
+        <line1>300 South Arrowhead Avenue</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92415</code>
+        </zip>
+      </address>
+      <afterHoursPhone>
+        <areacode />
+        <phoneNumber />
+      </afterHoursPhone>
+      <alternatePhone>
+        <areaCode>909</areaCode>
+        <phoneNumber>5801255</phoneNumber>
+      </alternatePhone>
+      <fax>
+        <phoneNumber />
+      </fax>
+      <hours>
+        <openingHour>
+          <day>MONDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>TUESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>WEDNESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>THURSDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>FRIDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+      </hours>
+      <languageCodes />
+      <phone>
+        <areaCode>909</areaCode>
+        <phoneNumber>5801255</phoneNumber>
+      </phone>
+      <providerNetworks>
+        <network>
+          <code>6356</code>
+          <name>Medi-Cal Standard</name>
+          <participationStatusCode>Y</participationStatusCode>
+        </network>
+      </providerNetworks>
+    </location>
+    <location>
+      <locationName>Sbcdoph-San Bernardino Health</locationName>
+      <typeCode>Service</typeCode>
+      <address>
+        <city>San Bernardino</city>
+        <county>San Bernardino</county>
+        <id>6061349</id>
+        <line1>268 West Hospitality Lane</line1>
+        <line2>Suite 400</line2>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92415</code>
+        </zip>
+      </address>
+      <afterHoursPhone>
+        <areacode />
+        <phoneNumber />
+      </afterHoursPhone>
+      <alternatePhone>
+        <areaCode>909</areaCode>
+        <phoneNumber>3823127</phoneNumber>
+      </alternatePhone>
+      <fax>
+        <phoneNumber />
+      </fax>
+      <hours>
+        <openingHour>
+          <day>MONDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>TUESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>WEDNESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>THURSDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>FRIDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+      </hours>
+      <languageCodes />
+      <phone>
+        <areaCode>909</areaCode>
+        <phoneNumber>3823127</phoneNumber>
+      </phone>
+      <providerNetworks>
+        <network>
+          <code>6356</code>
+          <name>Medi-Cal Standard</name>
+          <participationStatusCode>Y</participationStatusCode>
+        </network>
+      </providerNetworks>
+    </location>
+    <location>
+      <locationName>Sbcdoph-Adelanto Health Center</locationName>
+      <typeCode>Service</typeCode>
+      <address>
+        <city>Adelanto</city>
+        <county>San Bernardino</county>
+        <id>5781226</id>
+        <line1>11336 Bartlett Avenue</line1>
+        <line2>Suite 11</line2>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92301</code>
+        </zip>
+      </address>
+      <afterHoursPhone>
+        <areacode />
+        <phoneNumber />
+      </afterHoursPhone>
+      <alternatePhone>
+        <areaCode>760</areaCode>
+        <phoneNumber>9564400</phoneNumber>
+      </alternatePhone>
+      <fax>
+        <phoneNumber />
+      </fax>
+      <hours>
+        <openingHour>
+          <day>MONDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>TUESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>WEDNESDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>THURSDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+        <openingHour>
+          <day>FRIDAY</day>
+          <endHour />
+          <endMinute />
+          <startHour />
+          <startMinute />
+        </openingHour>
+      </hours>
+      <languageCodes />
+      <phone>
+        <areaCode>760</areaCode>
+        <phoneNumber>9564400</phoneNumber>
+      </phone>
+      <providerNetworks>
+        <network>
+          <code>6356</code>
+          <name>Medi-Cal Standard</name>
+          <participationStatusCode>Y</participationStatusCode>
+        </network>
+      </providerNetworks>
+    </location>
+    <location>
+      <locationName>Sbcdoph-San Bernardino Health</locationName>
+      <typeCode>Service</typeCode>
+      <address>
+        <city>San Bernardino</city>
+        <county>San Bernardino</county>
+        <id>5781228</id>
+        <line1>606 East Mill Street</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92415</code>
+        </zip>
+      </address>
+      <afterHoursPhone>
+        <areacode />
+        <phoneNumber />
+      </afterHoursPhone>
+      <alternatePhone>
+        <areaCode>909</areaCode>
+        <phoneNumber>3833001</phoneNumber>
+      </alternatePhone>
+      <fax>
+        <phoneNumber />
+      </fax>
+      <hours>
+        <openingHour>
+          <day>MONDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>TUESDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>WEDNESDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>THURSDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+        <openingHour>
+          <day>FRIDAY</day>
+          <endHour>17</endHour>
+          <endMinute>30</endMinute>
+          <startHour>08</startHour>
+          <startMinute>00</startMinute>
+        </openingHour>
+      </hours>
+      <languageCodes />
+      <phone>
+        <areaCode>909</areaCode>
+        <phoneNumber>3833001</phoneNumber>
+      </phone>
+      <providerNetworks>
+        <network>
+          <code>6356</code>
+          <name>Medi-Cal Standard</name>
+          <participationStatusCode>Y</participationStatusCode>
+        </network>
+      </providerNetworks>
+    </location>
+    <location>
+      <typeCode>Payment</typeCode>
+      <address>
+        <city>Colton</city>
+        <county>San Bernardino</county>
+        <id>7364647</id>
+        <line1>400 North Pepper Avenue</line1>
+        <statecode>CA</statecode>
+        <zip>
+          <code>92324</code>
+        </zip>
+      </address>
+    </location>
+  </locations>
+  <NPIs>
+    <NPI />
+  </NPIs>
+</business>
