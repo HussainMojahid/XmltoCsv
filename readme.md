@@ -33,4 +33,4 @@
   .\run.bat .\sample.xml
 ```
 
-* After Runnig the above command the output folder will be generated and inside that specific folder multiple folders will be created and each folder will contain one CSV file, folder name and csv file name will be same.
+* After Runnig the above command the ***datasource*** folder will be generated and inside that specific folder multiple folders will be created and each folder will contain one CSV file, folder name and csv file name will be same.

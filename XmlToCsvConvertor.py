@@ -6,7 +6,7 @@ import sys
 
 
 def convert_xml_to_csv(xml_file, xsd_file):
-    output_folder = "output"
+    output_folder = "datasource"
     is_xml_valid = False
     os.makedirs(output_folder, exist_ok=True)
 
