@@ -1,0 +1,1584 @@
+<?xml version="1.0" encoding="utf-8"?><!-- <ns2:pdmData xmlns:ns2="http://asset.availity.com/PDM/provider"> --><ns2 primaryKey="303457" parentId="">
+   <exchangeType primaryKey="324206" parentId="303457">
+      <exchangeType primaryKey="219745" parentId="324206">PDM</exchangeType>
+   </exchangeType>
+   <businesses primaryKey="527615" parentId="303457">
+      <business primaryKey="238462" parentId="527615">
+         <businessId primaryKey="322085" parentId="238462">956002748</businessId>
+         <businessName primaryKey="961048" parentId="238462">COUNTY OF SAN BERNARDINO</businessName>
+         <certifications primaryKey="243394" parentId="238462">
+            <certification primaryKey="115000" parentId="243394"/>
+         </certifications>
+         <EIN primaryKey="274680" parentId="238462">
+            <legalBusinessName primaryKey="104288" parentId="274680">COUNTY OF SAN BERNARDINO</legalBusinessName>
+            <number primaryKey="242613" parentId="274680">956002748</number>
+         </EIN>
+         <employees primaryKey="199941" parentId="238462">
+            <employee primaryKey="249825" parentId="199941"/>
+         </employees>
+         <licenses primaryKey="182386" parentId="238462">
+            <license primaryKey="255789" parentId="182386"/>
+         </licenses>
+         <locations primaryKey="149021" parentId="238462">
+            <location primaryKey="333460" parentId="238462">
+               <locationName primaryKey="323833" parentId="333460">SBCDOPH - Hesperia Health Center
+               </locationName>
+               <typeCode primaryKey="127282" parentId="333460">Service
+               </typeCode>
+               <address primaryKey="208014" parentId="333460">
+                  <city primaryKey="147741" parentId="208014">San Bernardino</city>
+                  <county primaryKey="645245" parentId="208014">San Bernardino</county>
+                  <id primaryKey="229473" parentId="208014">5617138</id>
+                  <line1 primaryKey="127014" parentId="208014">606 East Mill Street</line1>
+                  <stateCode primaryKey="246711" parentId="208014">CA</stateCode>
+                  <zip primaryKey="217652" parentId="208014">
+                     <code primaryKey="185779" parentId="217652">92415</code>
+                  </zip>
+               </address>
+               <hours primaryKey="918064" parentId="333460">
+                  <openingHour primaryKey="228995" parentId="333460">
+                     <day primaryKey="194648" parentId="228995">MONDAY</day>
+                     <endHour primaryKey="134033" parentId="228995"/>
+                     <endMinute primaryKey="849619" parentId="228995"/>
+                     <startHour primaryKey="419519" parentId="228995"/>
+                     <startMinute primaryKey="177734" parentId="228995"/>
+                  </openingHour>
+                  <openingHour primaryKey="108657" parentId="333460">
+                     <day primaryKey="101146" parentId="108657">TUESDAY</day>
+                     <endHour primaryKey="294807" parentId="108657"/>
+                     <endMinute primaryKey="229394" parentId="108657"/>
+                     <startHour primaryKey="245575" parentId="108657"/>
+                     <startMinute primaryKey="622292" parentId="108657"/>
+                  </openingHour>
+                  <openingHour primaryKey="105673" parentId="333460">
+                     <day primaryKey="312146" parentId="105673">WEDNESDAY</day>
+                     <endHour primaryKey="102868" parentId="105673"/>
+                     <endMinute primaryKey="112127" parentId="105673"/>
+                     <startHour primaryKey="262240" parentId="105673"/>
+                     <startMinute primaryKey="760820" parentId="105673"/>
+                  </openingHour>
+                  <openingHour primaryKey="291483" parentId="333460">
+                     <day primaryKey="186240" parentId="291483">THURSDAY</day>
+                     <endHour primaryKey="276102" parentId="291483"/>
+                     <endMinute primaryKey="998221" parentId="291483"/>
+                     <startHour primaryKey="287539" parentId="291483"/>
+                     <startMinute primaryKey="470868" parentId="291483"/>
+                  </openingHour>
+                  <openingHour primaryKey="336741" parentId="333460">
+                     <day primaryKey="241167" parentId="336741">FRIDAY</day>
+                     <endHour primaryKey="277241" parentId="336741"/>
+                     <endMinute primaryKey="333512" parentId="336741"/>
+                     <startHour primaryKey="186011" parentId="336741"/>
+                     <startMinute primaryKey="194072" parentId="336741"/>
+                  </openingHour>
+               </hours>
+               <languageCodes primaryKey="248603" parentId="333460"/>
+               <phone primaryKey="257330" parentId="333460">
+                  <areaCode primaryKey="293752" parentId="257330"/>
+                  <phoneNumber primaryKey="272875" parentId="257330"/>
+               </phone>
+               <providerNetworks primaryKey="951355" parentId="333460">
+                  <network primaryKey="267301" parentId="951355">
+                     <code primaryKey="287846" parentId="267301">6356</code>
+                     <name primaryKey="235644" parentId="267301">Medi-Cal Standard</name>
+                     <participationStatusCode primaryKey="268099" parentId="267301">Y</participationStatusCode>
+                  </network>
+               </providerNetworks>
+            </location>
+            <location primaryKey="326634" parentId="238462">
+               <locationName primaryKey="104250" parentId="326634">SBCDOPH - Hesperia Health Center</locationName>
+               <typeCode primaryKey="194493" parentId="326634">Service</typeCode>
+               <address primaryKey="176086" parentId="326634">
+                  <city primaryKey="176159" parentId="176086">Hesperia</city>
+                  <county primaryKey="206144" parentId="176086">San Bernardino</county>
+                  <id primaryKey="597460" parentId="176086">4721570</id>
+                  <line1 primaryKey="234018" parentId="176086">16453 Bear Valley Road</line1>
+                  <stateCode primaryKey="824885" parentId="176086">CA</stateCode>
+                  <zip primaryKey="142823" parentId="176086">
+                     <code primaryKey="134979" parentId="142823">92345</code>
+                  </zip>
+               </address>
+               <hours primaryKey="176371" parentId="326634">
+                  <openingHour primaryKey="268217" parentId="326634">
+                     <day primaryKey="983256" parentId="268217">MONDAY</day>
+                     <endHour primaryKey="176931" parentId="268217">17</endHour>
+                     <endMinute primaryKey="327811" parentId="268217">30</endMinute>
+                     <startHour primaryKey="283929" parentId="268217">08</startHour>
+                     <startMinute primaryKey="190530" parentId="268217">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="135900" parentId="326634">
+                     <day primaryKey="563371" parentId="135900">TUESDAY</day>
+                     <endHour primaryKey="162447" parentId="135900">17</endHour>
+                     <endMinute primaryKey="501569" parentId="135900">30</endMinute>
+                     <startHour primaryKey="314034" parentId="135900">08</startHour>
+                     <startMinute primaryKey="272480" parentId="135900">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="329806" parentId="326634">
+                     <day primaryKey="214455" parentId="329806">WEDNESDAY</day>
+                     <endHour primaryKey="788920" parentId="329806">17</endHour>
+                     <endMinute primaryKey="462336" parentId="329806">30</endMinute>
+                     <startHour primaryKey="233290" parentId="329806">08</startHour>
+                     <startMinute primaryKey="256020" parentId="329806">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="258201" parentId="326634">
+                     <day primaryKey="950860" parentId="258201">THURSDAY</day>
+                     <endHour primaryKey="291333" parentId="258201">17</endHour>
+                     <endMinute primaryKey="434560" parentId="258201">30</endMinute>
+                     <startHour primaryKey="135631" parentId="258201">08</startHour>
+                     <startMinute primaryKey="307574" parentId="258201">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="245300" parentId="326634">
+                     <day primaryKey="540387" parentId="245300">FRIDAY</day>
+                     <endHour primaryKey="286019" parentId="245300">17</endHour>
+                     <endMinute primaryKey="340466" parentId="245300">30</endMinute>
+                     <startHour primaryKey="169894" parentId="245300">08</startHour>
+                     <startMinute primaryKey="418482" parentId="245300">00</startMinute>
+                  </openingHour>
+               </hours>
+               <languageCodes primaryKey="225761" parentId="326634"/>
+               <phone primaryKey="286126" parentId="326634">
+                  <areaCode primaryKey="743946" parentId="286126">760</areaCode>
+                  <phoneNumber primaryKey="792327" parentId="286126">9564400</phoneNumber>
+               </phone>
+               <providerNetworks primaryKey="225675" parentId="326634">
+                  <network primaryKey="250802" parentId="225675">
+                     <code primaryKey="632603" parentId="250802">6356</code>
+                     <name primaryKey="470610" parentId="250802">Medi-Cal Standard</name>
+                     <participationStatusCode primaryKey="228430" parentId="250802">Y</participationStatusCode>
+                  </network>
+               </providerNetworks>
+            </location>
+            <location primaryKey="440472" parentId="238462">
+               <typeCode primaryKey="239007" parentId="440472">Payment</typeCode>
+               <address primaryKey="143864" parentId="440472">
+                  <city primaryKey="236001" parentId="143864">Colton</city>
+                  <county primaryKey="898861" parentId="143864">San Bernardino</county>
+                  <id primaryKey="247978" parentId="143864">6148067</id>
+                  <line1 primaryKey="251435" parentId="143864">400 North Pepper Avenue</line1>
+                  <stateCode primaryKey="268780" parentId="143864">CA</stateCode>
+                  <zip primaryKey="227053" parentId="143864">
+                     <code primaryKey="558107" parentId="227053">92324</code>
+                  </zip>
+               </address>
+            </location>
+            <location primaryKey="328645" parentId="238462">
+               <locationName primaryKey="129432" parentId="328645">SBCDOPH - San Bernardino Health Center</locationName>
+               <typeCode primaryKey="155296" parentId="328645">Service</typeCode>
+               <address primaryKey="325800" parentId="328645">
+                  <city primaryKey="275864" parentId="325800">San Bernardino</city>
+                  <county primaryKey="302832" parentId="325800">San Bernardino</county>
+                  <id primaryKey="313632" parentId="325800">5617139</id>
+                  <line1 primaryKey="165829" parentId="325800">606 East Mill Street</line1>
+                  <stateCode primaryKey="207125" parentId="325800">CA</stateCode>
+                  <zip primaryKey="266386" parentId="325800">
+                     <code primaryKey="216896" parentId="266386">92415</code>
+                  </zip>
+               </address>
+               <hours primaryKey="254092" parentId="328645">
+                  <openingHour primaryKey="216871" parentId="328645">
+                     <day primaryKey="290334" parentId="216871">MONDAY</day>
+                     <endHour primaryKey="141062" parentId="216871"/>
+                     <endMinute primaryKey="226190" parentId="216871"/>
+                     <startHour primaryKey="144238" parentId="216871"/>
+                     <startMinute primaryKey="150732" parentId="216871"/>
+                  </openingHour>
+                  <openingHour primaryKey="497538" parentId="328645">
+                     <day primaryKey="531060" parentId="497538">TUESDAY</day>
+                     <endHour primaryKey="249850" parentId="497538"/>
+                     <endMinute primaryKey="574250" parentId="497538"/>
+                     <startHour primaryKey="309610" parentId="497538"/>
+                     <startMinute primaryKey="871901" parentId="497538"/>
+                  </openingHour>
+                  <openingHour primaryKey="142016" parentId="328645">
+                     <day primaryKey="651517" parentId="142016">WEDNESDAY</day>
+                     <endHour primaryKey="126464" parentId="142016"/>
+                     <endMinute primaryKey="213821" parentId="142016"/>
+                     <startHour primaryKey="209606" parentId="142016"/>
+                     <startMinute primaryKey="235161" parentId="142016"/>
+                  </openingHour>
+                  <openingHour primaryKey="172604" parentId="328645">
+                     <day primaryKey="606506" parentId="172604">THURSDAY</day>
+                     <endHour primaryKey="335806" parentId="172604"/>
+                     <endMinute primaryKey="207215" parentId="172604"/>
+                     <startHour primaryKey="152400" parentId="172604"/>
+                     <startMinute primaryKey="452393" parentId="172604"/>
+                  </openingHour>
+                  <openingHour primaryKey="339730" parentId="328645">
+                     <day primaryKey="277190" parentId="339730">FRIDAY</day>
+                     <endHour primaryKey="226809" parentId="339730"/>
+                     <endMinute primaryKey="134451" parentId="339730"/>
+                     <startHour primaryKey="232949" parentId="339730"/>
+                     <startMinute primaryKey="170531" parentId="339730"/>
+                  </openingHour>
+               </hours>
+               <languageCodes primaryKey="664136" parentId="328645"/>
+               <phone primaryKey="191729" parentId="328645">
+                  <areaCode primaryKey="197081" parentId="191729">760</areaCode>
+                  <phoneNumber primaryKey="227204" parentId="191729">9564400</phoneNumber>
+               </phone>
+               <providerNetworks primaryKey="191131" parentId="328645">
+                  <network primaryKey="298535" parentId="191131">
+                     <code primaryKey="453978" parentId="298535">6356</code>
+                     <name primaryKey="299498" parentId="298535">Medi-Cal Standard</name>
+                     <participationStatusCode primaryKey="201486" parentId="298535">Y</participationStatusCode>
+                  </network>
+               </providerNetworks>
+            </location>
+            <location primaryKey="274497" parentId="238462">
+               <locationName primaryKey="150592" parentId="274497">SBCDOPH - San Bernardino Health Center</locationName>
+               <typeCode primaryKey="339816" parentId="274497">Service</typeCode>
+               <address primaryKey="320226" parentId="274497">
+                  <city primaryKey="277420" parentId="320226">San Bernardino</city>
+                  <county primaryKey="255892" parentId="320226">San Bernardino</county>
+                  <id primaryKey="203112" parentId="320226">4721571</id>
+                  <line1 primaryKey="333582" parentId="320226">606 East Mill Street</line1>
+                  <stateCode primaryKey="337800" parentId="320226">CA</stateCode>
+                  <zip primaryKey="274453" parentId="320226">
+                     <code primaryKey="183722" parentId="274453">92415</code>
+                  </zip>
+               </address>
+               <hours primaryKey="260956" parentId="274497">
+                  <openingHour primaryKey="156546" parentId="274497">
+                     <day primaryKey="844145" parentId="156546">MONDAY</day>
+                     <endHour primaryKey="884776" parentId="156546">17</endHour>
+                     <endMinute primaryKey="178026" parentId="156546">30</endMinute>
+                     <startHour primaryKey="124511" parentId="156546">08</startHour>
+                     <startMinute primaryKey="503441" parentId="156546">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="470892" parentId="274497">
+                     <day primaryKey="162244" parentId="470892">TUESDAY</day>
+                     <endHour primaryKey="213486" parentId="470892">17</endHour>
+                     <endMinute primaryKey="311217" parentId="470892">30</endMinute>
+                     <startHour primaryKey="268836" parentId="470892">08</startHour>
+                     <startMinute primaryKey="272044" parentId="470892">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="171701" parentId="274497">
+                     <day primaryKey="135741" parentId="171701">WEDNESDAY</day>
+                     <endHour primaryKey="132386" parentId="171701">17</endHour>
+                     <endMinute primaryKey="246554" parentId="171701">30</endMinute>
+                     <startHour primaryKey="162487" parentId="171701">08</startHour>
+                     <startMinute primaryKey="889992" parentId="171701">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="324679" parentId="274497">
+                     <day primaryKey="631779" parentId="324679">THURSDAY</day>
+                     <endHour primaryKey="268723" parentId="324679">17</endHour>
+                     <endMinute primaryKey="236806" parentId="324679">30</endMinute>
+                     <startHour primaryKey="133483" parentId="324679">08</startHour>
+                     <startMinute primaryKey="333818" parentId="324679">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="111038" parentId="274497">
+                     <day primaryKey="106603" parentId="111038">FRIDAY</day>
+                     <endHour primaryKey="277489" parentId="111038">17</endHour>
+                     <endMinute primaryKey="126982" parentId="111038">30</endMinute>
+                     <startHour primaryKey="226857" parentId="111038">08</startHour>
+                     <startMinute primaryKey="340764" parentId="111038">00</startMinute>
+                  </openingHour>
+               </hours>
+               <languageCodes primaryKey="128494" parentId="274497"/>
+               <phone primaryKey="130999" parentId="274497">
+                  <areaCode primaryKey="116548" parentId="130999">760</areaCode>
+                  <phoneNumber primaryKey="133850" parentId="130999">9564400</phoneNumber>
+               </phone>
+               <providerNetworks primaryKey="558671" parentId="274497">
+                  <network primaryKey="685293" parentId="558671">
+                     <code primaryKey="214379" parentId="685293">6356</code>
+                     <name primaryKey="169905" parentId="685293">Medi-Cal Standard</name>
+                     <participationStatusCode primaryKey="226477" parentId="685293">Y</participationStatusCode>
+                  </network>
+               </providerNetworks>
+            </location>
+            <location primaryKey="577299" parentId="238462">
+               <typeCode primaryKey="217706" parentId="577299">Payment</typeCode>
+               <address primaryKey="287362" parentId="577299">
+                  <city primaryKey="335242" parentId="287362">Colton</city>
+                  <county primaryKey="305872" parentId="287362">San Bernardino</county>
+                  <id primaryKey="331945" parentId="287362">6148068</id>
+                  <line1 primaryKey="184284" parentId="287362">400 North Pepper Avenue</line1>
+                  <stateCode primaryKey="137921" parentId="287362">CA</stateCode>
+                  <zip primaryKey="171183" parentId="287362">
+                     <code primaryKey="140280" parentId="171183">92324</code>
+                  </zip>
+               </address>
+            </location>
+            <location primaryKey="490174" parentId="238462">
+               <locationName primaryKey="329458" parentId="490174">SBCDOPH - Ontario Health Center</locationName>
+               <typeCode primaryKey="169614" parentId="490174">Service</typeCode>
+               <address primaryKey="332737" parentId="490174">
+                  <city primaryKey="287124" parentId="332737">San Bernardino</city>
+                  <county primaryKey="159444" parentId="332737">San Bernardino</county>
+                  <id primaryKey="294303" parentId="332737">5617141</id>
+                  <line1 primaryKey="225500" parentId="332737">606 East Mill Street</line1>
+                  <stateCode primaryKey="984464" parentId="332737">CA</stateCode>
+                  <zip primaryKey="329929" parentId="332737">
+                     <code primaryKey="639100" parentId="329929">92415</code>
+                  </zip>
+               </address>
+               <hours primaryKey="228780" parentId="490174">
+                  <openingHour primaryKey="262737" parentId="490174">
+                     <day primaryKey="114971" parentId="262737">MONDAY</day>
+                     <endHour primaryKey="191386" parentId="262737"/>
+                     <endMinute primaryKey="797702" parentId="262737"/>
+                     <startHour primaryKey="405137" parentId="262737"/>
+                     <startMinute primaryKey="148674" parentId="262737"/>
+                  </openingHour>
+                  <openingHour primaryKey="707236" parentId="490174">
+                     <day primaryKey="302806" parentId="707236">TUESDAY</day>
+                     <endHour primaryKey="241626" parentId="707236"/>
+                     <endMinute primaryKey="125161" parentId="707236"/>
+                     <startHour primaryKey="215120" parentId="707236"/>
+                     <startMinute primaryKey="253479" parentId="707236"/>
+                  </openingHour>
+                  <openingHour primaryKey="338678" parentId="490174">
+                     <day primaryKey="253038" parentId="338678">WEDNESDAY</day>
+                     <endHour primaryKey="321911" parentId="338678"/>
+                     <endMinute primaryKey="322588" parentId="338678"/>
+                     <startHour primaryKey="167202" parentId="338678"/>
+                     <startMinute primaryKey="883548" parentId="338678"/>
+                  </openingHour>
+                  <openingHour primaryKey="202265" parentId="490174">
+                     <day primaryKey="282402" parentId="202265">THURSDAY</day>
+                     <endHour primaryKey="280853" parentId="202265"/>
+                     <endMinute primaryKey="721480" parentId="202265"/>
+                     <startHour primaryKey="287877" parentId="202265"/>
+                     <startMinute primaryKey="732210" parentId="202265"/>
+                  </openingHour>
+                  <openingHour primaryKey="128739" parentId="490174">
+                     <day primaryKey="856741" parentId="128739">FRIDAY</day>
+                     <endHour primaryKey="310416" parentId="128739"/>
+                     <endMinute primaryKey="272608" parentId="128739"/>
+                     <startHour primaryKey="277777" parentId="128739"/>
+                     <startMinute primaryKey="639231" parentId="128739"/>
+                  </openingHour>
+               </hours>
+               <languageCodes primaryKey="186091" parentId="490174"/>
+               <phone primaryKey="302875" parentId="490174">
+                  <areaCode primaryKey="285584" parentId="302875"/>
+                  <phoneNumber primaryKey="132191" parentId="302875"/>
+               </phone>
+               <providerNetworks primaryKey="451306" parentId="490174">
+                  <network primaryKey="113172" parentId="451306">
+                     <code primaryKey="112823" parentId="113172">6356</code>
+                     <name primaryKey="144880" parentId="113172">Medi-Cal Standard</name>
+                     <participationStatusCode primaryKey="300612" parentId="113172">Y</participationStatusCode>
+                  </network>
+               </providerNetworks>
+            </location>
+            <location primaryKey="603851" parentId="238462">
+               <locationName primaryKey="939589" parentId="603851">SBCDOPH - Ontario Health Center</locationName>
+               <typeCode primaryKey="221221" parentId="603851">Service</typeCode>
+               <address primaryKey="763442" parentId="603851">
+                  <city primaryKey="266277" parentId="763442">Ontario</city>
+                  <county primaryKey="459084" parentId="763442">San Bernardino</county>
+                  <id primaryKey="281031" parentId="763442">4721573</id>
+                  <line1 primaryKey="457037" parentId="763442">150 East Holt Boulevard</line1>
+                  <stateCode primaryKey="125603" parentId="763442">CA</stateCode>
+                  <zip primaryKey="310362" parentId="763442">
+                     <code primaryKey="181989" parentId="310362">91761</code>
+                  </zip>
+               </address>
+               <hours primaryKey="176410" parentId="603851">
+                  <openingHour primaryKey="273914" parentId="603851">
+                     <day primaryKey="299645" parentId="273914">MONDAY</day>
+                     <endHour primaryKey="256625" parentId="273914">17</endHour>
+                     <endMinute primaryKey="180289" parentId="273914">30</endMinute>
+                     <startHour primaryKey="220880" parentId="273914">08</startHour>
+                     <startMinute primaryKey="705424" parentId="273914">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="297143" parentId="603851">
+                     <day primaryKey="380295" parentId="297143">TUESDAY</day>
+                     <endHour primaryKey="172913" parentId="297143">17</endHour>
+                     <endMinute primaryKey="937967" parentId="297143">30</endMinute>
+                     <startHour primaryKey="256479" parentId="297143">08</startHour>
+                     <startMinute primaryKey="102428" parentId="297143">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="469721" parentId="603851">
+                     <day primaryKey="183083" parentId="469721">WEDNESDAY</day>
+                     <endHour primaryKey="148365" parentId="469721">17</endHour>
+                     <endMinute primaryKey="385593" parentId="469721">30</endMinute>
+                     <startHour primaryKey="238889" parentId="469721">08</startHour>
+                     <startMinute primaryKey="236356" parentId="469721">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="310600" parentId="603851">
+                     <day primaryKey="705265" parentId="310600">THURSDAY</day>
+                     <endHour primaryKey="279558" parentId="310600">17</endHour>
+                     <endMinute primaryKey="732438" parentId="310600">30</endMinute>
+                     <startHour primaryKey="318357" parentId="310600">08</startHour>
+                     <startMinute primaryKey="321184" parentId="310600">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="240586" parentId="603851">
+                     <day primaryKey="904519" parentId="240586">FRIDAY</day>
+                     <endHour primaryKey="161943" parentId="240586">17</endHour>
+                     <endMinute primaryKey="930012" parentId="240586">30</endMinute>
+                     <startHour primaryKey="579161" parentId="240586">08</startHour>
+                     <startMinute primaryKey="406723" parentId="240586">00</startMinute>
+                  </openingHour>
+               </hours>
+               <languageCodes primaryKey="182021" parentId="603851"/>
+               <phone primaryKey="315923" parentId="603851">
+                  <areaCode primaryKey="105260" parentId="315923">760</areaCode>
+                  <phoneNumber primaryKey="169212" parentId="315923">9564400</phoneNumber>
+               </phone>
+               <providerNetworks primaryKey="133512" parentId="603851">
+                  <network primaryKey="435959" parentId="133512">
+                     <code primaryKey="632275" parentId="435959">6356</code>
+                     <name primaryKey="937724" parentId="435959">Medi-Cal Standard</name>
+                     <participationStatusCode primaryKey="455204" parentId="435959">Y</participationStatusCode>
+                  </network>
+               </providerNetworks>
+            </location>
+            <location primaryKey="141552" parentId="238462">
+               <typeCode primaryKey="180789" parentId="141552">Payment</typeCode>
+               <address primaryKey="118872" parentId="141552">
+                  <city primaryKey="246550" parentId="118872">Colton</city>
+                  <county primaryKey="758278" parentId="118872">San Bernardino</county>
+                  <id primaryKey="283314" parentId="118872">6148070</id>
+                  <line1 primaryKey="361419" parentId="118872">400 North Pepper Avenue</line1>
+                  <stateCode primaryKey="971603" parentId="118872">CA</stateCode>
+                  <zip primaryKey="835263" parentId="118872">
+                     <code primaryKey="973584" parentId="835263">92324</code>
+                  </zip>
+               </address>
+            </location>
+            <location primaryKey="137674" parentId="238462">
+               <locationName primaryKey="240468" parentId="137674">SBCDOPH - Adelanto Health Center</locationName>
+               <typeCode primaryKey="277701" parentId="137674">Service</typeCode>
+               <address primaryKey="209612" parentId="137674">
+                  <city primaryKey="130293" parentId="209612">Adelanto</city>
+                  <county primaryKey="124215" parentId="209612">San Bernardino</county>
+                  <id primaryKey="105993" parentId="209612">4721572</id>
+                  <line1 primaryKey="144959" parentId="209612">11336 Bartlett Avenue</line1>
+                  <line2 primaryKey="151810" parentId="209612">Suite 11</line2>
+                  <stateCode primaryKey="100956" parentId="209612">CA</stateCode>
+                  <zip primaryKey="336744" parentId="209612">
+                     <code primaryKey="150836" parentId="336744">92301</code>
+                  </zip>
+               </address>
+               <hours primaryKey="154701" parentId="137674">
+                  <openingHour primaryKey="905146" parentId="137674">
+                     <day primaryKey="198927" parentId="905146">MONDAY</day>
+                     <endHour primaryKey="306870" parentId="905146">17</endHour>
+                     <endMinute primaryKey="206152" parentId="905146">30</endMinute>
+                     <startHour primaryKey="330161" parentId="905146">08</startHour>
+                     <startMinute primaryKey="241108" parentId="905146">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="275469" parentId="137674">
+                     <day primaryKey="112024" parentId="275469">TUESDAY</day>
+                     <endHour primaryKey="153135" parentId="275469">17</endHour>
+                     <endMinute primaryKey="108091" parentId="275469">30</endMinute>
+                     <startHour primaryKey="327513" parentId="275469">08</startHour>
+                     <startMinute primaryKey="124525" parentId="275469">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="166781" parentId="137674">
+                     <day primaryKey="367444" parentId="166781">WEDNESDAY</day>
+                     <endHour primaryKey="145188" parentId="166781">17</endHour>
+                     <endMinute primaryKey="201760" parentId="166781">30</endMinute>
+                     <startHour primaryKey="880577" parentId="166781">08</startHour>
+                     <startMinute primaryKey="110578" parentId="166781">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="196155" parentId="137674">
+                     <day primaryKey="811029" parentId="196155">THURSDAY</day>
+                     <endHour primaryKey="871307" parentId="196155">17</endHour>
+                     <endMinute primaryKey="245873" parentId="196155">30</endMinute>
+                     <startHour primaryKey="302405" parentId="196155">08</startHour>
+                     <startMinute primaryKey="305926" parentId="196155">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="100047" parentId="137674">
+                     <day primaryKey="335305" parentId="100047">FRIDAY</day>
+                     <endHour primaryKey="341906" parentId="100047">17</endHour>
+                     <endMinute primaryKey="706528" parentId="100047">30</endMinute>
+                     <startHour primaryKey="238574" parentId="100047">08</startHour>
+                     <startMinute primaryKey="477701" parentId="100047">00</startMinute>
+                  </openingHour>
+               </hours>
+               <languageCodes primaryKey="327384" parentId="137674"/>
+               <phone primaryKey="413622" parentId="137674">
+                  <areaCode primaryKey="523420" parentId="413622">760</areaCode>
+                  <phoneNumber primaryKey="650032" parentId="413622">9564400</phoneNumber>
+               </phone>
+               <providerNetworks primaryKey="729038" parentId="137674">
+                  <network primaryKey="338707" parentId="729038">
+                     <code primaryKey="106395" parentId="338707">6356</code>
+                     <name primaryKey="114181" parentId="338707">Medi-Cal Standard</name>
+                     <participationStatusCode primaryKey="897156" parentId="338707">Y</participationStatusCode>
+                  </network>
+               </providerNetworks>
+            </location>
+            <location primaryKey="171549" parentId="238462">
+               <locationName primaryKey="446815" parentId="171549">SBCDOPH - Adelanto Health Center</locationName>
+               <typeCode primaryKey="898359" parentId="171549">Service</typeCode>
+               <address primaryKey="268804" parentId="171549">
+                  <city primaryKey="162692" parentId="268804">San Bernardino</city>
+                  <county primaryKey="230376" parentId="268804">San Bernardino</county>
+                  <id primaryKey="123699" parentId="268804">5617140</id>
+                  <line1 primaryKey="265309" parentId="268804">606 East Mill Street</line1>
+                  <stateCode primaryKey="155358" parentId="268804">CA</stateCode>
+                  <zip primaryKey="148661" parentId="268804">
+                     <code primaryKey="328595" parentId="148661">92415</code>
+                  </zip>
+               </address>
+               <hours primaryKey="738310" parentId="171549">
+                  <openingHour primaryKey="224566" parentId="171549">
+                     <day primaryKey="770809" parentId="224566">MONDAY</day>
+                     <endHour primaryKey="298464" parentId="224566">17</endHour>
+                     <endMinute primaryKey="240701" parentId="224566">30</endMinute>
+                     <startHour primaryKey="867100" parentId="224566">08</startHour>
+                     <startMinute primaryKey="212496" parentId="224566">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="220244" parentId="171549">
+                     <day primaryKey="143999" parentId="220244">TUESDAY</day>
+                     <endHour primaryKey="101787" parentId="220244">17</endHour>
+                     <endMinute primaryKey="178719" parentId="220244">30</endMinute>
+                     <startHour primaryKey="189956" parentId="220244">08</startHour>
+                     <startMinute primaryKey="165150" parentId="220244">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="137403" parentId="171549">
+                     <day primaryKey="292230" parentId="137403">WEDNESDAY</day>
+                     <endHour primaryKey="153167" parentId="137403">17</endHour>
+                     <endMinute primaryKey="321867" parentId="137403">30</endMinute>
+                     <startHour primaryKey="261262" parentId="137403">08</startHour>
+                     <startMinute primaryKey="241574" parentId="137403">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="197264" parentId="171549">
+                     <day primaryKey="219758" parentId="197264">THURSDAY</day>
+                     <endHour primaryKey="739909" parentId="197264">17</endHour>
+                     <endMinute primaryKey="277716" parentId="197264">30</endMinute>
+                     <startHour primaryKey="319260" parentId="197264">08</startHour>
+                     <startMinute primaryKey="352798" parentId="197264">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="137348" parentId="171549">
+                     <day primaryKey="201251" parentId="137348">FRIDAY</day>
+                     <endHour primaryKey="295218" parentId="137348">17</endHour>
+                     <endMinute primaryKey="293593" parentId="137348">30</endMinute>
+                     <startHour primaryKey="173409" parentId="137348">08</startHour>
+                     <startMinute primaryKey="302770" parentId="137348">00</startMinute>
+                  </openingHour>
+               </hours>
+               <languageCodes primaryKey="634129" parentId="171549"/>
+               <phone primaryKey="858040" parentId="171549">
+                  <areaCode primaryKey="271974" parentId="858040">760</areaCode>
+                  <phoneNumber primaryKey="276361" parentId="858040">9564400</phoneNumber>
+               </phone>
+               <providerNetworks primaryKey="264368" parentId="171549">
+                  <network primaryKey="175057" parentId="264368">
+                     <code primaryKey="893675" parentId="175057">6356</code>
+                     <name primaryKey="236933" parentId="175057">Medi-Cal Standard</name>
+                     <participationStatusCode primaryKey="152877" parentId="175057">Y</participationStatusCode>
+                  </network>
+               </providerNetworks>
+            </location>
+            <location primaryKey="187032" parentId="238462">
+               <typeCode primaryKey="302357" parentId="187032">Payment</typeCode>
+               <address primaryKey="322535" parentId="187032">
+                  <city primaryKey="289273" parentId="322535">Colton</city>
+                  <county primaryKey="329961" parentId="322535">San Bernardino</county>
+                  <id primaryKey="207877" parentId="322535">6148069</id>
+                  <line1 primaryKey="277381" parentId="322535">400 North Pepper Avenue</line1>
+                  <stateCode primaryKey="290833" parentId="322535">CA</stateCode>
+                  <zip primaryKey="255972" parentId="322535">
+                     <code primaryKey="389364" parentId="255972">92324</code>
+                  </zip>
+               </address>
+            </location>
+            <location primaryKey="192250" parentId="238462">
+               <locationName primaryKey="230611" parentId="192250">County Of San Bernardino</locationName>
+               <typeCode primaryKey="126158" parentId="192250">Service</typeCode>
+               <address primaryKey="115721" parentId="192250">
+                  <city primaryKey="327643" parentId="115721">Ontario</city>
+                  <county primaryKey="126252" parentId="115721">San Bernardino</county>
+                  <id primaryKey="167653" parentId="115721">8260807</id>
+                  <line1 primaryKey="331270" parentId="115721">351 N Mountain View Avenue</line1>
+                  <stateCode primaryKey="151680" parentId="115721">CA</stateCode>
+                  <zip primaryKey="213130" parentId="115721">
+                     <code primaryKey="267291" parentId="213130">91761</code>
+                  </zip>
+               </address>
+               <hours primaryKey="288120" parentId="192250">
+                  <openingHour primaryKey="166469" parentId="192250">
+                     <day primaryKey="207458" parentId="166469">MONDAY</day>
+                     <endHour primaryKey="335647" parentId="166469"/>
+                     <endMinute primaryKey="219967" parentId="166469"/>
+                     <startHour primaryKey="696954" parentId="166469"/>
+                     <startMinute primaryKey="125702" parentId="166469"/>
+                  </openingHour>
+                  <openingHour primaryKey="251970" parentId="192250">
+                     <day primaryKey="179384" parentId="251970">TUESDAY</day>
+                     <endHour primaryKey="213731" parentId="251970"/>
+                     <endMinute primaryKey="291968" parentId="251970"/>
+                     <startHour primaryKey="274671" parentId="251970"/>
+                     <startMinute primaryKey="126040" parentId="251970"/>
+                  </openingHour>
+                  <openingHour primaryKey="975225" parentId="192250">
+                     <day primaryKey="301640" parentId="975225">WEDNESDAY</day>
+                     <endHour primaryKey="503323" parentId="975225"/>
+                     <endMinute primaryKey="336950" parentId="975225"/>
+                     <startHour primaryKey="294389" parentId="975225"/>
+                     <startMinute primaryKey="588491" parentId="975225"/>
+                  </openingHour>
+                  <openingHour primaryKey="254627" parentId="192250">
+                     <day primaryKey="108986" parentId="254627">THURSDAY</day>
+                     <endHour primaryKey="564716" parentId="254627"/>
+                     <endMinute primaryKey="117167" parentId="254627"/>
+                     <startHour primaryKey="321023" parentId="254627"/>
+                     <startMinute primaryKey="277011" parentId="254627"/>
+                  </openingHour>
+                  <openingHour primaryKey="169474" parentId="192250">
+                     <day primaryKey="319626" parentId="169474">FRIDAY</day>
+                     <endHour primaryKey="235071" parentId="169474"/>
+                     <endMinute primaryKey="156401" parentId="169474"/>
+                     <startHour primaryKey="264421" parentId="169474"/>
+                     <startMinute primaryKey="944485" parentId="169474"/>
+                  </openingHour>
+               </hours>
+               <languageCodes primaryKey="129871" parentId="192250"/>
+               <phone primaryKey="133488" parentId="192250">
+                  <areaCode primaryKey="208757" parentId="133488"/>
+                  <phoneNumber primaryKey="265202" parentId="133488"/>
+               </phone>
+               <providerNetworks primaryKey="321561" parentId="192250">
+                  <network primaryKey="118843" parentId="321561">
+                     <code primaryKey="250614" parentId="118843">2646</code>
+                     <name primaryKey="225631" parentId="118843">Medicaid CA</name>
+                     <participationStatusCode primaryKey="246409" parentId="118843">Y</participationStatusCode>
+                  </network>
+               </providerNetworks>
+            </location>
+            <location primaryKey="195189" parentId="238462">
+               <typeCode primaryKey="372438" parentId="195189">Payment</typeCode>
+               <address primaryKey="106266" parentId="195189">
+                  <city primaryKey="266579" parentId="106266">Colton</city>
+                  <county primaryKey="187259" parentId="106266">San Bernardino</county>
+                  <id primaryKey="223827" parentId="106266">7364646</id>
+                  <line1 primaryKey="596303" parentId="106266">400 North Pepper Avenue</line1>
+                  <stateCode primaryKey="237490" parentId="106266">CA</stateCode>
+                  <zip primaryKey="278107" parentId="106266">
+                     <code primaryKey="116889" parentId="278107">92324</code>
+                  </zip>
+               </address>
+            </location>
+            <location primaryKey="643647" parentId="238462">
+               <locationName primaryKey="228354" parentId="643647">Sbcdoph-San Bernardino Health</locationName>
+               <typeCode primaryKey="600584" parentId="643647">Service</typeCode>
+               <address primaryKey="574958" parentId="643647">
+                  <city primaryKey="120054" parentId="574958">San Bernardino</city>
+                  <county primaryKey="190352" parentId="574958">San Bernardino</county>
+                  <id primaryKey="182924" parentId="574958">6061356</id>
+                  <line1 primaryKey="100275" parentId="574958">351 North Mountain View Avenue</line1>
+                  <stateCode primaryKey="107927" parentId="574958">CA</stateCode>
+                  <zip primaryKey="285619" parentId="574958">
+                     <code primaryKey="121314" parentId="285619">92415</code>
+                  </zip>
+               </address>
+               <hours primaryKey="389440" parentId="643647">
+                  <openingHour primaryKey="170744" parentId="643647">
+                     <day primaryKey="299671" parentId="170744">MONDAY</day>
+                     <endHour primaryKey="162743" parentId="170744"/>
+                     <endMinute primaryKey="960990" parentId="170744"/>
+                     <startHour primaryKey="120696" parentId="170744"/>
+                     <startMinute primaryKey="333219" parentId="170744"/>
+                  </openingHour>
+                  <openingHour primaryKey="386310" parentId="643647">
+                     <day primaryKey="194587" parentId="386310">TUESDAY</day>
+                     <endHour primaryKey="301434" parentId="386310"/>
+                     <endMinute primaryKey="126525" parentId="386310"/>
+                     <startHour primaryKey="162275" parentId="386310"/>
+                     <startMinute primaryKey="279986" parentId="386310"/>
+                  </openingHour>
+                  <openingHour primaryKey="826634" parentId="643647">
+                     <day primaryKey="317546" parentId="826634">WEDNESDAY</day>
+                     <endHour primaryKey="122968" parentId="826634"/>
+                     <endMinute primaryKey="192975" parentId="826634"/>
+                     <startHour primaryKey="194339" parentId="826634"/>
+                     <startMinute primaryKey="584283" parentId="826634"/>
+                  </openingHour>
+                  <openingHour primaryKey="430188" parentId="643647">
+                     <day primaryKey="137996" parentId="430188">THURSDAY</day>
+                     <endHour primaryKey="117882" parentId="430188"/>
+                     <endMinute primaryKey="277047" parentId="430188"/>
+                     <startHour primaryKey="327888" parentId="430188"/>
+                     <startMinute primaryKey="293270" parentId="430188"/>
+                  </openingHour>
+                  <openingHour primaryKey="249115" parentId="643647">
+                     <day primaryKey="151580" parentId="249115">FRIDAY</day>
+                     <endHour primaryKey="328677" parentId="249115"/>
+                     <endMinute primaryKey="455740" parentId="249115"/>
+                     <startHour primaryKey="139308" parentId="249115"/>
+                     <startMinute primaryKey="601587" parentId="249115"/>
+                  </openingHour>
+               </hours>
+               <languageCodes primaryKey="145345" parentId="643647"/>
+               <phone primaryKey="897907" parentId="643647">
+                  <areaCode primaryKey="633961" parentId="897907">909</areaCode>
+                  <phoneNumber primaryKey="238138" parentId="897907">5801255</phoneNumber>
+               </phone>
+               <providerNetworks primaryKey="235456" parentId="643647">
+                  <network primaryKey="329538" parentId="235456">
+                     <code primaryKey="378308" parentId="329538">6356</code>
+                     <name primaryKey="307567" parentId="329538">Medi-Cal Standard</name>
+                     <participationStatusCode primaryKey="585555" parentId="329538">Y</participationStatusCode>
+                  </network>
+               </providerNetworks>
+            </location>
+            <location primaryKey="678464" parentId="238462">
+               <locationName primaryKey="142801" parentId="678464">Sbcdoph-San Bernardino Health</locationName>
+               <typeCode primaryKey="263926" parentId="678464">Service</typeCode>
+               <address primaryKey="757376" parentId="678464">
+                  <city primaryKey="193751" parentId="757376">San Bernardino</city>
+                  <county primaryKey="139494" parentId="757376">San Bernardino</county>
+                  <id primaryKey="947580" parentId="757376">6061352</id>
+                  <line1 primaryKey="562439" parentId="757376">303 East Vanderbilt Way</line1>
+                  <stateCode primaryKey="317819" parentId="757376">CA</stateCode>
+                  <zip primaryKey="282499" parentId="757376">
+                     <code primaryKey="339715" parentId="282499">92415</code>
+                  </zip>
+               </address>
+               <hours primaryKey="304378" parentId="678464">
+                  <openingHour primaryKey="233928" parentId="678464">
+                     <day primaryKey="449742" parentId="233928">MONDAY</day>
+                     <endHour primaryKey="253068" parentId="233928"/>
+                     <endMinute primaryKey="180133" parentId="233928"/>
+                     <startHour primaryKey="704516" parentId="233928"/>
+                     <startMinute primaryKey="156470" parentId="233928"/>
+                  </openingHour>
+                  <openingHour primaryKey="289454" parentId="678464">
+                     <day primaryKey="262061" parentId="289454">TUESDAY</day>
+                     <endHour primaryKey="218451" parentId="289454"/>
+                     <endMinute primaryKey="219374" parentId="289454"/>
+                     <startHour primaryKey="135203" parentId="289454"/>
+                     <startMinute primaryKey="143366" parentId="289454"/>
+                  </openingHour>
+                  <openingHour primaryKey="100350" parentId="678464">
+                     <day primaryKey="300856" parentId="100350">WEDNESDAY</day>
+                     <endHour primaryKey="166562" parentId="100350"/>
+                     <endMinute primaryKey="296227" parentId="100350"/>
+                     <startHour primaryKey="558761" parentId="100350"/>
+                     <startMinute primaryKey="146837" parentId="100350"/>
+                  </openingHour>
+                  <openingHour primaryKey="213105" parentId="678464">
+                     <day primaryKey="145745" parentId="213105">THURSDAY</day>
+                     <endHour primaryKey="193950" parentId="213105"/>
+                     <endMinute primaryKey="324465" parentId="213105"/>
+                     <startHour primaryKey="687457" parentId="213105"/>
+                     <startMinute primaryKey="210026" parentId="213105"/>
+                  </openingHour>
+                  <openingHour primaryKey="133744" parentId="678464">
+                     <day primaryKey="270931" parentId="133744">FRIDAY</day>
+                     <endHour primaryKey="290744" parentId="133744"/>
+                     <endMinute primaryKey="275371" parentId="133744"/>
+                     <startHour primaryKey="258127" parentId="133744"/>
+                     <startMinute primaryKey="457739" parentId="133744"/>
+                  </openingHour>
+               </hours>
+               <languageCodes primaryKey="678446" parentId="678464"/>
+               <phone primaryKey="109779" parentId="678464">
+                  <areaCode primaryKey="748744" parentId="109779">909</areaCode>
+                  <phoneNumber primaryKey="182435" parentId="109779">5801255</phoneNumber>
+               </phone>
+               <providerNetworks primaryKey="290815" parentId="678464">
+                  <network primaryKey="207303" parentId="290815">
+                     <code primaryKey="272811" parentId="207303">6356</code>
+                     <name primaryKey="152183" parentId="207303">Medi-Cal Standard</name>
+                     <participationStatusCode primaryKey="307360" parentId="207303">Y</participationStatusCode>
+                  </network>
+               </providerNetworks>
+            </location>
+            <location primaryKey="132164" parentId="238462">
+               <locationName primaryKey="999424" parentId="132164">Sbcdoph - Hesperia Health</locationName>
+               <typeCode primaryKey="358502" parentId="132164">Service</typeCode>
+               <address primaryKey="306813" parentId="132164">
+                  <city primaryKey="321179" parentId="306813">Hesperia</city>
+                  <county primaryKey="698138" parentId="306813">San Bernardino</county>
+                  <id primaryKey="531145" parentId="306813">5781229</id>
+                  <line1 primaryKey="326592" parentId="306813">16453 Bear Valley Road</line1>
+                  <stateCode primaryKey="265816" parentId="306813">CA</stateCode>
+                  <zip primaryKey="357544" parentId="306813">
+                     <code primaryKey="619151" parentId="357544">92345</code>
+                  </zip>
+               </address>
+               <hours primaryKey="414475" parentId="132164">
+                  <openingHour primaryKey="164827" parentId="132164">
+                     <day primaryKey="116529" parentId="164827">MONDAY</day>
+                     <endHour primaryKey="168704" parentId="164827"/>
+                     <endMinute primaryKey="254166" parentId="164827"/>
+                     <startHour primaryKey="794136" parentId="164827"/>
+                     <startMinute primaryKey="184957" parentId="164827"/>
+                  </openingHour>
+                  <openingHour primaryKey="705700" parentId="132164">
+                     <day primaryKey="128220" parentId="705700">TUESDAY</day>
+                     <endHour primaryKey="502536" parentId="705700"/>
+                     <endMinute primaryKey="265990" parentId="705700"/>
+                     <startHour primaryKey="139162" parentId="705700"/>
+                     <startMinute primaryKey="512276" parentId="705700"/>
+                  </openingHour>
+                  <openingHour primaryKey="622749" parentId="132164">
+                     <day primaryKey="431887" parentId="622749">WEDNESDAY</day>
+                     <endHour primaryKey="282980" parentId="622749"/>
+                     <endMinute primaryKey="219611" parentId="622749"/>
+                     <startHour primaryKey="178550" parentId="622749"/>
+                     <startMinute primaryKey="587201" parentId="622749"/>
+                  </openingHour>
+                  <openingHour primaryKey="102288" parentId="132164">
+                     <day primaryKey="213827" parentId="102288">THURSDAY</day>
+                     <endHour primaryKey="451198" parentId="102288"/>
+                     <endMinute primaryKey="135967" parentId="102288"/>
+                     <startHour primaryKey="258516" parentId="102288"/>
+                     <startMinute primaryKey="150477" parentId="102288"/>
+                  </openingHour>
+                  <openingHour primaryKey="707110" parentId="132164">
+                     <day primaryKey="284807" parentId="707110">FRIDAY</day>
+                     <endHour primaryKey="234567" parentId="707110"/>
+                     <endMinute primaryKey="296273" parentId="707110"/>
+                     <startHour primaryKey="270225" parentId="707110"/>
+                     <startMinute primaryKey="227510" parentId="707110"/>
+                  </openingHour>
+               </hours>
+               <languageCodes primaryKey="216504" parentId="132164"/>
+               <phone primaryKey="560198" parentId="132164">
+                  <areaCode primaryKey="112607" parentId="560198">760</areaCode>
+                  <phoneNumber primaryKey="147538" parentId="560198">9564400</phoneNumber>
+               </phone>
+               <providerNetworks primaryKey="117221" parentId="132164">
+                  <network primaryKey="203707" parentId="117221">
+                     <code primaryKey="122915" parentId="203707">6356</code>
+                     <name primaryKey="224438" parentId="203707">Medi-Cal Standard</name>
+                     <participationStatusCode primaryKey="529074" parentId="203707">Y</participationStatusCode>
+                  </network>
+               </providerNetworks>
+            </location>
+            <location primaryKey="220400" parentId="238462">
+               <locationName primaryKey="179311" parentId="220400">Sbcdoph-San Bernardino Health</locationName>
+               <typeCode primaryKey="554257" parentId="220400">Service</typeCode>
+               <address primaryKey="135535" parentId="220400">
+                  <city primaryKey="820646" parentId="135535">Hesperia</city>
+                  <county primaryKey="886754" parentId="135535">San Bernardino</county>
+                  <id primaryKey="345793" parentId="135535">6061346</id>
+                  <line1 primaryKey="269063" parentId="135535">11951 Hesperia Road</line1>
+                  <stateCode primaryKey="431434" parentId="135535">CA</stateCode>
+                  <zip primaryKey="130402" parentId="135535">
+                     <code primaryKey="233826" parentId="130402">92345</code>
+                  </zip>
+               </address>
+               <hours primaryKey="942756" parentId="220400">
+                  <openingHour primaryKey="204956" parentId="220400">
+                     <day primaryKey="146157" parentId="204956">MONDAY</day>
+                     <endHour primaryKey="175103" parentId="204956"/>
+                     <endMinute primaryKey="189237" parentId="204956"/>
+                     <startHour primaryKey="364536" parentId="204956"/>
+                     <startMinute primaryKey="262729" parentId="204956"/>
+                  </openingHour>
+                  <openingHour primaryKey="270873" parentId="220400">
+                     <day primaryKey="253839" parentId="270873">TUESDAY</day>
+                     <endHour primaryKey="179277" parentId="270873"/>
+                     <endMinute primaryKey="650245" parentId="270873"/>
+                     <startHour primaryKey="249880" parentId="270873"/>
+                     <startMinute primaryKey="243422" parentId="270873"/>
+                  </openingHour>
+                  <openingHour primaryKey="258926" parentId="220400">
+                     <day primaryKey="199787" parentId="258926">WEDNESDAY</day>
+                     <endHour primaryKey="463734" parentId="258926"/>
+                     <endMinute primaryKey="317372" parentId="258926"/>
+                     <startHour primaryKey="179579" parentId="258926"/>
+                     <startMinute primaryKey="281532" parentId="258926"/>
+                  </openingHour>
+                  <openingHour primaryKey="293629" parentId="220400">
+                     <day primaryKey="196294" parentId="293629">THURSDAY</day>
+                     <endHour primaryKey="184746" parentId="293629"/>
+                     <endMinute primaryKey="333093" parentId="293629"/>
+                     <startHour primaryKey="255807" parentId="293629"/>
+                     <startMinute primaryKey="278734" parentId="293629"/>
+                  </openingHour>
+                  <openingHour primaryKey="140594" parentId="220400">
+                     <day primaryKey="280730" parentId="140594">FRIDAY</day>
+                     <endHour primaryKey="166587" parentId="140594"/>
+                     <endMinute primaryKey="322771" parentId="140594"/>
+                     <startHour primaryKey="704263" parentId="140594"/>
+                     <startMinute primaryKey="187411" parentId="140594"/>
+                  </openingHour>
+               </hours>
+               <languageCodes primaryKey="212537" parentId="220400"/>
+               <phone primaryKey="220633" parentId="220400">
+                  <areaCode primaryKey="200720" parentId="220633">909</areaCode>
+                  <phoneNumber primaryKey="216484" parentId="220633">5801255</phoneNumber>
+               </phone>
+               <providerNetworks primaryKey="133215" parentId="220400">
+                  <network primaryKey="403795" parentId="133215">
+                     <code primaryKey="280169" parentId="403795">6356</code>
+                     <name primaryKey="295648" parentId="403795">Medi-Cal Standard</name>
+                     <participationStatusCode primaryKey="235309" parentId="403795">Y</participationStatusCode>
+                  </network>
+               </providerNetworks>
+            </location>
+            <location primaryKey="809795" parentId="238462">
+               <locationName primaryKey="109414" parentId="809795">Sbcdoph-San Bernardino Health</locationName>
+               <typeCode primaryKey="251958" parentId="809795">Service</typeCode>
+               <address primaryKey="229095" parentId="809795">
+                  <city primaryKey="308151" parentId="229095">San Bernardino</city>
+                  <county primaryKey="441611" parentId="229095">San Bernardino</county>
+                  <id primaryKey="264386" parentId="229095">6061355</id>
+                  <line1 primaryKey="198576" parentId="229095">820 East Gilbert Street</line1>
+                  <stateCode primaryKey="106532" parentId="229095">CA</stateCode>
+                  <zip primaryKey="131855" parentId="229095">
+                     <code primaryKey="604516" parentId="131855">92415</code>
+                  </zip>
+               </address>
+               <hours primaryKey="202183" parentId="809795">
+                  <openingHour primaryKey="676029" parentId="809795">
+                     <day primaryKey="228686" parentId="676029">MONDAY</day>
+                     <endHour primaryKey="276471" parentId="676029"/>
+                     <endMinute primaryKey="293892" parentId="676029"/>
+                     <startHour primaryKey="123500" parentId="676029"/>
+                     <startMinute primaryKey="330551" parentId="676029"/>
+                  </openingHour>
+                  <openingHour primaryKey="699624" parentId="809795">
+                     <day primaryKey="807509" parentId="699624">TUESDAY</day>
+                     <endHour primaryKey="969776" parentId="699624"/>
+                     <endMinute primaryKey="249707" parentId="699624"/>
+                     <startHour primaryKey="330561" parentId="699624"/>
+                     <startMinute primaryKey="991972" parentId="699624"/>
+                  </openingHour>
+                  <openingHour primaryKey="470359" parentId="809795">
+                     <day primaryKey="192487" parentId="470359">WEDNESDAY</day>
+                     <endHour primaryKey="805791" parentId="470359"/>
+                     <endMinute primaryKey="152527" parentId="470359"/>
+                     <startHour primaryKey="170583" parentId="470359"/>
+                     <startMinute primaryKey="303031" parentId="470359"/>
+                  </openingHour>
+                  <openingHour primaryKey="217579" parentId="809795">
+                     <day primaryKey="161630" parentId="217579">THURSDAY</day>
+                     <endHour primaryKey="808312" parentId="217579"/>
+                     <endMinute primaryKey="454546" parentId="217579"/>
+                     <startHour primaryKey="142376" parentId="217579"/>
+                     <startMinute primaryKey="569614" parentId="217579"/>
+                  </openingHour>
+                  <openingHour primaryKey="101571" parentId="809795">
+                     <day primaryKey="186019" parentId="101571">FRIDAY</day>
+                     <endHour primaryKey="255308" parentId="101571"/>
+                     <endMinute primaryKey="242982" parentId="101571"/>
+                     <startHour primaryKey="158668" parentId="101571"/>
+                     <startMinute primaryKey="138352" parentId="101571"/>
+                  </openingHour>
+               </hours>
+               <languageCodes primaryKey="126175" parentId="809795"/>
+               <phone primaryKey="234595" parentId="809795">
+                  <areaCode primaryKey="278674" parentId="234595">909</areaCode>
+                  <phoneNumber primaryKey="189563" parentId="234595">5801255</phoneNumber>
+               </phone>
+               <providerNetworks primaryKey="168018" parentId="809795">
+                  <network primaryKey="472943" parentId="168018">
+                     <code primaryKey="328797" parentId="472943">6356</code>
+                     <name primaryKey="164112" parentId="472943">Medi-Cal Standard</name>
+                     <participationStatusCode primaryKey="293721" parentId="472943">Y</participationStatusCode>
+                  </network>
+               </providerNetworks>
+            </location>
+            <location primaryKey="122948" parentId="238462">
+               <locationName primaryKey="114607" parentId="122948">Sbcdoph-San Bernardino Health</locationName>
+               <typeCode primaryKey="133214" parentId="122948">Service</typeCode>
+               <address primaryKey="214230" parentId="122948">
+                  <city primaryKey="943208" parentId="214230">Colton</city>
+                  <county primaryKey="286651" parentId="214230">San Bernardino</county>
+                  <id primaryKey="645664" parentId="214230">6061353</id>
+                  <line1 primaryKey="186234" parentId="214230">400 North Pepper Avenue</line1>
+                  <stateCode primaryKey="847414" parentId="214230">CA</stateCode>
+                  <zip primaryKey="280992" parentId="214230">
+                     <code primaryKey="240978" parentId="280992">92324</code>
+                  </zip>
+               </address>
+               <hours primaryKey="336818" parentId="122948">
+                  <openingHour primaryKey="227527" parentId="122948">
+                     <day primaryKey="198119" parentId="227527">MONDAY</day>
+                     <endHour primaryKey="436287" parentId="227527"/>
+                     <endMinute primaryKey="149594" parentId="227527"/>
+                     <startHour primaryKey="325975" parentId="227527"/>
+                     <startMinute primaryKey="118516" parentId="227527"/>
+                  </openingHour>
+                  <openingHour primaryKey="264244" parentId="122948">
+                     <day primaryKey="287950" parentId="264244">TUESDAY</day>
+                     <endHour primaryKey="225279" parentId="264244"/>
+                     <endMinute primaryKey="146217" parentId="264244"/>
+                     <startHour primaryKey="211667" parentId="264244"/>
+                     <startMinute primaryKey="122570" parentId="264244"/>
+                  </openingHour>
+                  <openingHour primaryKey="239149" parentId="122948">
+                     <day primaryKey="267427" parentId="239149">WEDNESDAY</day>
+                     <endHour primaryKey="320054" parentId="239149"/>
+                     <endMinute primaryKey="135082" parentId="239149"/>
+                     <startHour primaryKey="886497" parentId="239149"/>
+                     <startMinute primaryKey="339262" parentId="239149"/>
+                  </openingHour>
+                  <openingHour primaryKey="324050" parentId="122948">
+                     <day primaryKey="863931" parentId="324050">THURSDAY</day>
+                     <endHour primaryKey="711121" parentId="324050"/>
+                     <endMinute primaryKey="887449" parentId="324050"/>
+                     <startHour primaryKey="188698" parentId="324050"/>
+                     <startMinute primaryKey="314212" parentId="324050"/>
+                  </openingHour>
+                  <openingHour primaryKey="133265" parentId="122948">
+                     <day primaryKey="227349" parentId="133265">FRIDAY</day>
+                     <endHour primaryKey="321519" parentId="133265"/>
+                     <endMinute primaryKey="192405" parentId="133265"/>
+                     <startHour primaryKey="107773" parentId="133265"/>
+                     <startMinute primaryKey="202055" parentId="133265"/>
+                  </openingHour>
+               </hours>
+               <languageCodes primaryKey="923851" parentId="122948"/>
+               <phone primaryKey="324967" parentId="122948">
+                  <areaCode primaryKey="291118" parentId="324967">909</areaCode>
+                  <phoneNumber primaryKey="791693" parentId="324967">5801000</phoneNumber>
+               </phone>
+               <providerNetworks primaryKey="787611" parentId="122948">
+                  <network primaryKey="714945" parentId="787611">
+                     <code primaryKey="583904" parentId="714945">6356</code>
+                     <name primaryKey="134424" parentId="714945">Medi-Cal Standard</name>
+                     <participationStatusCode primaryKey="138156" parentId="714945">Y</participationStatusCode>
+                  </network>
+               </providerNetworks>
+            </location>
+            <location primaryKey="183306" parentId="238462">
+               <locationName primaryKey="671770" parentId="183306">Sbcdoph-San Bernardino Health</locationName>
+               <typeCode primaryKey="790727" parentId="183306">Service</typeCode>
+               <address primaryKey="149410" parentId="183306">
+                  <city primaryKey="319807" parentId="149410">Victorville</city>
+                  <county primaryKey="849944" parentId="149410">San Bernardino</county>
+                  <id primaryKey="892559" parentId="149410">6061347</id>
+                  <line1 primaryKey="163668" parentId="149410">12625 Hesperia Road</line1>
+                  <stateCode primaryKey="288380" parentId="149410">CA</stateCode>
+                  <zip primaryKey="259246" parentId="149410">
+                     <code primaryKey="339915" parentId="259246">92395</code>
+                  </zip>
+               </address>
+               <hours primaryKey="984376" parentId="183306">
+                  <openingHour primaryKey="233611" parentId="183306">
+                     <day primaryKey="798677" parentId="233611">MONDAY</day>
+                     <endHour primaryKey="290983" parentId="233611"/>
+                     <endMinute primaryKey="233958" parentId="233611"/>
+                     <startHour primaryKey="328792" parentId="233611"/>
+                     <startMinute primaryKey="243110" parentId="233611"/>
+                  </openingHour>
+                  <openingHour primaryKey="306358" parentId="183306">
+                     <day primaryKey="181231" parentId="306358">TUESDAY</day>
+                     <endHour primaryKey="217995" parentId="306358"/>
+                     <endMinute primaryKey="163698" parentId="306358"/>
+                     <startHour primaryKey="979087" parentId="306358"/>
+                     <startMinute primaryKey="977999" parentId="306358"/>
+                  </openingHour>
+                  <openingHour primaryKey="350625" parentId="183306">
+                     <day primaryKey="134995" parentId="350625">WEDNESDAY</day>
+                     <endHour primaryKey="232209" parentId="350625"/>
+                     <endMinute primaryKey="836596" parentId="350625"/>
+                     <startHour primaryKey="292395" parentId="350625"/>
+                     <startMinute primaryKey="309497" parentId="350625"/>
+                  </openingHour>
+                  <openingHour primaryKey="114155" parentId="183306">
+                     <day primaryKey="179559" parentId="114155">THURSDAY</day>
+                     <endHour primaryKey="300823" parentId="114155"/>
+                     <endMinute primaryKey="324902" parentId="114155"/>
+                     <startHour primaryKey="128040" parentId="114155"/>
+                     <startMinute primaryKey="317814" parentId="114155"/>
+                  </openingHour>
+                  <openingHour primaryKey="944279" parentId="183306">
+                     <day primaryKey="259866" parentId="944279">FRIDAY</day>
+                     <endHour primaryKey="226218" parentId="944279"/>
+                     <endMinute primaryKey="739765" parentId="944279"/>
+                     <startHour primaryKey="165802" parentId="944279"/>
+                     <startMinute primaryKey="229435" parentId="944279"/>
+                  </openingHour>
+               </hours>
+               <languageCodes primaryKey="116458" parentId="183306"/>
+               <phone primaryKey="201226" parentId="183306">
+                  <areaCode primaryKey="708036" parentId="201226">909</areaCode>
+                  <phoneNumber primaryKey="223125" parentId="201226">3823080</phoneNumber>
+               </phone>
+               <providerNetworks primaryKey="122720" parentId="183306">
+                  <network primaryKey="242404" parentId="122720">
+                     <code primaryKey="198222" parentId="242404">6356</code>
+                     <name primaryKey="201418" parentId="242404">Medi-Cal Standard</name>
+                     <participationStatusCode primaryKey="168170" parentId="242404">Y</participationStatusCode>
+                  </network>
+               </providerNetworks>
+            </location>
+            <location primaryKey="248093" parentId="238462">
+               <locationName primaryKey="675956" parentId="248093">Sbcdoph-Ontario Health Center</locationName>
+               <typeCode primaryKey="942025" parentId="248093">Service</typeCode>
+               <address primaryKey="269898" parentId="248093">
+                  <city primaryKey="251031" parentId="269898">Ontario</city>
+                  <county primaryKey="338305" parentId="269898">San Bernardino</county>
+                  <id primaryKey="304915" parentId="269898">5781227</id>
+                  <line1 primaryKey="829900" parentId="269898">150 East Holt Boulevard</line1>
+                  <stateCode primaryKey="182964" parentId="269898">CA</stateCode>
+                  <zip primaryKey="200829" parentId="269898">
+                     <code primaryKey="311436" parentId="200829">91761</code>
+                  </zip>
+               </address>
+               <hours primaryKey="642288" parentId="248093">
+                  <openingHour primaryKey="334569" parentId="248093">
+                     <day primaryKey="194768" parentId="334569">MONDAY</day>
+                     <endHour primaryKey="122082" parentId="334569"/>
+                     <endMinute primaryKey="590043" parentId="334569"/>
+                     <startHour primaryKey="267913" parentId="334569"/>
+                     <startMinute primaryKey="103425" parentId="334569"/>
+                  </openingHour>
+                  <openingHour primaryKey="667130" parentId="248093">
+                     <day primaryKey="104276" parentId="667130">TUESDAY</day>
+                     <endHour primaryKey="159632" parentId="667130"/>
+                     <endMinute primaryKey="847421" parentId="667130"/>
+                     <startHour primaryKey="325309" parentId="667130"/>
+                     <startMinute primaryKey="139161" parentId="667130"/>
+                  </openingHour>
+                  <openingHour primaryKey="115268" parentId="248093">
+                     <day primaryKey="291596" parentId="115268">WEDNESDAY</day>
+                     <endHour primaryKey="714021" parentId="115268"/>
+                     <endMinute primaryKey="154946" parentId="115268"/>
+                     <startHour primaryKey="121613" parentId="115268"/>
+                     <startMinute primaryKey="303978" parentId="115268"/>
+                  </openingHour>
+                  <openingHour primaryKey="468608" parentId="248093">
+                     <day primaryKey="335447" parentId="468608">THURSDAY</day>
+                     <endHour primaryKey="157410" parentId="468608"/>
+                     <endMinute primaryKey="851568" parentId="468608"/>
+                     <startHour primaryKey="244792" parentId="468608"/>
+                     <startMinute primaryKey="292660" parentId="468608"/>
+                  </openingHour>
+                  <openingHour primaryKey="216564" parentId="248093">
+                     <day primaryKey="302355" parentId="216564">FRIDAY</day>
+                     <endHour primaryKey="535760" parentId="216564"/>
+                     <endMinute primaryKey="173482" parentId="216564"/>
+                     <startHour primaryKey="157060" parentId="216564"/>
+                     <startMinute primaryKey="249645" parentId="216564"/>
+                  </openingHour>
+               </hours>
+               <languageCodes primaryKey="326559" parentId="248093"/>
+               <phone primaryKey="988781" parentId="248093">
+                  <areaCode primaryKey="579773" parentId="988781">760</areaCode>
+                  <phoneNumber primaryKey="202401" parentId="988781">9564400</phoneNumber>
+               </phone>
+               <providerNetworks primaryKey="180294" parentId="248093">
+                  <network primaryKey="315921" parentId="180294">
+                     <code primaryKey="166752" parentId="315921">6356</code>
+                     <name primaryKey="187196" parentId="315921">Medi-Cal Standard</name>
+                     <participationStatusCode primaryKey="218961" parentId="315921">Y</participationStatusCode>
+                  </network>
+               </providerNetworks>
+            </location>
+            <location primaryKey="393713" parentId="238462">
+               <locationName primaryKey="850264" parentId="393713">Sbcdoph-San Bernardino Health</locationName>
+               <typeCode primaryKey="214974" parentId="393713">Service</typeCode>
+               <address primaryKey="210826" parentId="393713">
+                  <city primaryKey="120045" parentId="210826">San Bernardino</city>
+                  <county primaryKey="736385" parentId="210826">San Bernardino</county>
+                  <id primaryKey="146396" parentId="210826">6061350</id>
+                  <line1 primaryKey="244841" parentId="210826">300 South Arrowhead Avenue</line1>
+                  <stateCode primaryKey="166526" parentId="210826">CA</stateCode>
+                  <zip primaryKey="152270" parentId="210826">
+                     <code primaryKey="154340" parentId="152270">92415</code>
+                  </zip>
+               </address>
+               <hours primaryKey="721258" parentId="393713">
+                  <openingHour primaryKey="159618" parentId="393713">
+                     <day primaryKey="217366" parentId="159618">MONDAY</day>
+                     <endHour primaryKey="329982" parentId="159618"/>
+                     <endMinute primaryKey="332577" parentId="159618"/>
+                     <startHour primaryKey="232356" parentId="159618"/>
+                     <startMinute primaryKey="201646" parentId="159618"/>
+                  </openingHour>
+                  <openingHour primaryKey="266105" parentId="393713">
+                     <day primaryKey="703903" parentId="266105">TUESDAY</day>
+                     <endHour primaryKey="307197" parentId="266105"/>
+                     <endMinute primaryKey="109641" parentId="266105"/>
+                     <startHour primaryKey="268189" parentId="266105"/>
+                     <startMinute primaryKey="269757" parentId="266105"/>
+                  </openingHour>
+                  <openingHour primaryKey="713879" parentId="393713">
+                     <day primaryKey="260469" parentId="713879">WEDNESDAY</day>
+                     <endHour primaryKey="236191" parentId="713879"/>
+                     <endMinute primaryKey="259325" parentId="713879"/>
+                     <startHour primaryKey="275729" parentId="713879"/>
+                     <startMinute primaryKey="335839" parentId="713879"/>
+                  </openingHour>
+                  <openingHour primaryKey="100116" parentId="393713">
+                     <day primaryKey="331882" parentId="100116">THURSDAY</day>
+                     <endHour primaryKey="130340" parentId="100116"/>
+                     <endMinute primaryKey="335236" parentId="100116"/>
+                     <startHour primaryKey="113380" parentId="100116"/>
+                     <startMinute primaryKey="107345" parentId="100116"/>
+                  </openingHour>
+                  <openingHour primaryKey="376525" parentId="393713">
+                     <day primaryKey="980153" parentId="376525">FRIDAY</day>
+                     <endHour primaryKey="219329" parentId="376525"/>
+                     <endMinute primaryKey="165582" parentId="376525"/>
+                     <startHour primaryKey="147483" parentId="376525"/>
+                     <startMinute primaryKey="130148" parentId="376525"/>
+                  </openingHour>
+               </hours>
+               <languageCodes primaryKey="233643" parentId="393713"/>
+               <phone primaryKey="621118" parentId="393713">
+                  <areaCode primaryKey="286169" parentId="621118">909</areaCode>
+                  <phoneNumber primaryKey="681353" parentId="621118">5801255</phoneNumber>
+               </phone>
+               <providerNetworks primaryKey="220889" parentId="393713">
+                  <network primaryKey="219539" parentId="220889">
+                     <code primaryKey="399024" parentId="219539">6356</code>
+                     <name primaryKey="995844" parentId="219539">Medi-Cal Standard</name>
+                     <participationStatusCode primaryKey="959751" parentId="219539">Y</participationStatusCode>
+                  </network>
+               </providerNetworks>
+            </location>
+            <location primaryKey="332145" parentId="238462">
+               <locationName primaryKey="265053" parentId="332145">Sbcdoph-San Bernardino Health</locationName>
+               <typeCode primaryKey="190570" parentId="332145">Service</typeCode>
+               <address primaryKey="974425" parentId="332145">
+                  <city primaryKey="263655" parentId="974425">San Bernardino</city>
+                  <county primaryKey="155011" parentId="974425">San Bernardino</county>
+                  <id primaryKey="929761" parentId="974425">6061349</id>
+                  <line1 primaryKey="209560" parentId="974425">268 West Hospitality Lane</line1>
+                  <line2 primaryKey="867774" parentId="974425">Suite 400</line2>
+                  <stateCode primaryKey="169299" parentId="974425">CA</stateCode>
+                  <zip primaryKey="112959" parentId="974425">
+                     <code primaryKey="205221" parentId="112959">92415</code>
+                  </zip>
+               </address>
+               <hours primaryKey="328023" parentId="332145">
+                  <openingHour primaryKey="170307" parentId="332145">
+                     <day primaryKey="460160" parentId="170307">MONDAY</day>
+                     <endHour primaryKey="338927" parentId="170307"/>
+                     <endMinute primaryKey="287597" parentId="170307"/>
+                     <startHour primaryKey="287526" parentId="170307"/>
+                     <startMinute primaryKey="294458" parentId="170307"/>
+                  </openingHour>
+                  <openingHour primaryKey="317264" parentId="332145">
+                     <day primaryKey="171499" parentId="317264">TUESDAY</day>
+                     <endHour primaryKey="174799" parentId="317264"/>
+                     <endMinute primaryKey="136587" parentId="317264"/>
+                     <startHour primaryKey="168468" parentId="317264"/>
+                     <startMinute primaryKey="245810" parentId="317264"/>
+                  </openingHour>
+                  <openingHour primaryKey="146651" parentId="332145">
+                     <day primaryKey="134822" parentId="146651">WEDNESDAY</day>
+                     <endHour primaryKey="166848" parentId="146651"/>
+                     <endMinute primaryKey="190284" parentId="146651"/>
+                     <startHour primaryKey="248526" parentId="146651"/>
+                     <startMinute primaryKey="458265" parentId="146651"/>
+                  </openingHour>
+                  <openingHour primaryKey="218497" parentId="332145">
+                     <day primaryKey="400906" parentId="218497">THURSDAY</day>
+                     <endHour primaryKey="620589" parentId="218497"/>
+                     <endMinute primaryKey="296663" parentId="218497"/>
+                     <startHour primaryKey="272993" parentId="218497"/>
+                     <startMinute primaryKey="292597" parentId="218497"/>
+                  </openingHour>
+                  <openingHour primaryKey="221938" parentId="332145">
+                     <day primaryKey="155469" parentId="221938">FRIDAY</day>
+                     <endHour primaryKey="278083" parentId="221938"/>
+                     <endMinute primaryKey="258259" parentId="221938"/>
+                     <startHour primaryKey="210407" parentId="221938"/>
+                     <startMinute primaryKey="116948" parentId="221938"/>
+                  </openingHour>
+               </hours>
+               <languageCodes primaryKey="193772" parentId="332145"/>
+               <phone primaryKey="182252" parentId="332145">
+                  <areaCode primaryKey="543575" parentId="182252">909</areaCode>
+                  <phoneNumber primaryKey="298147" parentId="182252">3823127</phoneNumber>
+               </phone>
+               <providerNetworks primaryKey="251002" parentId="332145">
+                  <network primaryKey="188331" parentId="251002">
+                     <code primaryKey="671040" parentId="188331">6356</code>
+                     <name primaryKey="250242" parentId="188331">Medi-Cal Standard</name>
+                     <participationStatusCode primaryKey="271491" parentId="188331">Y</participationStatusCode>
+                  </network>
+               </providerNetworks>
+            </location>
+            <location primaryKey="425516" parentId="238462">
+               <locationName primaryKey="600374" parentId="425516">Sbcdoph-Adelanto Health Center</locationName>
+               <typeCode primaryKey="149885" parentId="425516">Service</typeCode>
+               <address primaryKey="110605" parentId="425516">
+                  <city primaryKey="103791" parentId="110605">Adelanto</city>
+                  <county primaryKey="179808" parentId="110605">San Bernardino</county>
+                  <id primaryKey="192596" parentId="110605">5781226</id>
+                  <line1 primaryKey="249346" parentId="110605">11336 Bartlett Avenue</line1>
+                  <line2 primaryKey="268580" parentId="110605">Suite 11</line2>
+                  <stateCode primaryKey="226915" parentId="110605">CA</stateCode>
+                  <zip primaryKey="127209" parentId="110605">
+                     <code primaryKey="167052" parentId="127209">92301</code>
+                  </zip>
+               </address>
+               <hours primaryKey="117438" parentId="425516">
+                  <openingHour primaryKey="291669" parentId="425516">
+                     <day primaryKey="294830" parentId="291669">MONDAY</day>
+                     <endHour primaryKey="194173" parentId="291669"/>
+                     <endMinute primaryKey="314680" parentId="291669"/>
+                     <startHour primaryKey="150390" parentId="291669"/>
+                     <startMinute primaryKey="225636" parentId="291669"/>
+                  </openingHour>
+                  <openingHour primaryKey="116283" parentId="425516">
+                     <day primaryKey="338328" parentId="116283">TUESDAY</day>
+                     <endHour primaryKey="139392" parentId="116283"/>
+                     <endMinute primaryKey="960364" parentId="116283"/>
+                     <startHour primaryKey="129046" parentId="116283"/>
+                     <startMinute primaryKey="328369" parentId="116283"/>
+                  </openingHour>
+                  <openingHour primaryKey="313874" parentId="425516">
+                     <day primaryKey="162836" parentId="313874">WEDNESDAY</day>
+                     <endHour primaryKey="149912" parentId="313874"/>
+                     <endMinute primaryKey="164211" parentId="313874"/>
+                     <startHour primaryKey="110365" parentId="313874"/>
+                     <startMinute primaryKey="254421" parentId="313874"/>
+                  </openingHour>
+                  <openingHour primaryKey="219708" parentId="425516">
+                     <day primaryKey="165928" parentId="219708">THURSDAY</day>
+                     <endHour primaryKey="243059" parentId="219708"/>
+                     <endMinute primaryKey="214136" parentId="219708"/>
+                     <startHour primaryKey="356164" parentId="219708"/>
+                     <startMinute primaryKey="207990" parentId="219708"/>
+                  </openingHour>
+                  <openingHour primaryKey="431041" parentId="425516">
+                     <day primaryKey="182383" parentId="431041">FRIDAY</day>
+                     <endHour primaryKey="319046" parentId="431041"/>
+                     <endMinute primaryKey="157365" parentId="431041"/>
+                     <startHour primaryKey="318861" parentId="431041"/>
+                     <startMinute primaryKey="302675" parentId="431041"/>
+                  </openingHour>
+               </hours>
+               <languageCodes primaryKey="199828" parentId="425516"/>
+               <phone primaryKey="173106" parentId="425516">
+                  <areaCode primaryKey="136478" parentId="173106">760</areaCode>
+                  <phoneNumber primaryKey="263779" parentId="173106">9564400</phoneNumber>
+               </phone>
+               <providerNetworks primaryKey="214863" parentId="425516">
+                  <network primaryKey="214483" parentId="214863">
+                     <code primaryKey="534153" parentId="214483">6356</code>
+                     <name primaryKey="270638" parentId="214483">Medi-Cal Standard</name>
+                     <participationStatusCode primaryKey="120239" parentId="214483">Y</participationStatusCode>
+                  </network>
+               </providerNetworks>
+            </location>
+            <location primaryKey="246995" parentId="238462">
+               <locationName primaryKey="176019" parentId="246995">Sbcdoph-San Bernardino Health</locationName>
+               <typeCode primaryKey="125937" parentId="246995">Service</typeCode>
+               <address primaryKey="277075" parentId="246995">
+                  <city primaryKey="974147" parentId="277075">San Bernardino</city>
+                  <county primaryKey="175937" parentId="277075">San Bernardino</county>
+                  <id primaryKey="278805" parentId="277075">5781228</id>
+                  <line1 primaryKey="277602" parentId="277075">606 East Mill Street</line1>
+                  <stateCode primaryKey="178219" parentId="277075">CA</stateCode>
+                  <zip primaryKey="287771" parentId="277075">
+                     <code primaryKey="258563" parentId="287771">92415</code>
+                  </zip>
+               </address>
+               <hours primaryKey="124480" parentId="246995">
+                  <openingHour primaryKey="304037" parentId="246995">
+                     <day primaryKey="136083" parentId="304037">MONDAY</day>
+                     <endHour primaryKey="732747" parentId="304037">17</endHour>
+                     <endMinute primaryKey="224358" parentId="304037">30</endMinute>
+                     <startHour primaryKey="823063" parentId="304037">08</startHour>
+                     <startMinute primaryKey="141021" parentId="304037">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="327608" parentId="246995">
+                     <day primaryKey="144480" parentId="327608">TUESDAY</day>
+                     <endHour primaryKey="118047" parentId="327608">17</endHour>
+                     <endMinute primaryKey="530117" parentId="327608">30</endMinute>
+                     <startHour primaryKey="309502" parentId="327608">08</startHour>
+                     <startMinute primaryKey="307254" parentId="327608">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="120674" parentId="246995">
+                     <day primaryKey="188246" parentId="120674">WEDNESDAY</day>
+                     <endHour primaryKey="276896" parentId="120674">17</endHour>
+                     <endMinute primaryKey="266997" parentId="120674">30</endMinute>
+                     <startHour primaryKey="194513" parentId="120674">08</startHour>
+                     <startMinute primaryKey="290315" parentId="120674">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="184960" parentId="246995">
+                     <day primaryKey="239503" parentId="184960">THURSDAY</day>
+                     <endHour primaryKey="134212" parentId="184960">17</endHour>
+                     <endMinute primaryKey="569511" parentId="184960">30</endMinute>
+                     <startHour primaryKey="118483" parentId="184960">08</startHour>
+                     <startMinute primaryKey="177040" parentId="184960">00</startMinute>
+                  </openingHour>
+                  <openingHour primaryKey="169471" parentId="246995">
+                     <day primaryKey="185245" parentId="169471">FRIDAY</day>
+                     <endHour primaryKey="263875" parentId="169471">17</endHour>
+                     <endMinute primaryKey="330366" parentId="169471">30</endMinute>
+                     <startHour primaryKey="290679" parentId="169471">08</startHour>
+                     <startMinute primaryKey="114990" parentId="169471">00</startMinute>
+                  </openingHour>
+               </hours>
+               <languageCodes primaryKey="576098" parentId="246995"/>
+               <phone primaryKey="260874" parentId="246995">
+                  <areaCode primaryKey="140512" parentId="260874">909</areaCode>
+                  <phoneNumber primaryKey="216200" parentId="260874">3833001</phoneNumber>
+               </phone>
+               <providerNetworks primaryKey="825649" parentId="246995">
+                  <network primaryKey="268176" parentId="825649">
+                     <code primaryKey="606806" parentId="268176">6356</code>
+                     <name primaryKey="247188" parentId="268176">Medi-Cal Standard</name>
+                     <participationStatusCode primaryKey="328661" parentId="268176">Y</participationStatusCode>
+                  </network>
+               </providerNetworks>
+            </location>
+            <location primaryKey="248596" parentId="238462">
+               <typeCode primaryKey="844283" parentId="248596">Payment</typeCode>
+               <address primaryKey="175974" parentId="248596">
+                  <city primaryKey="236083" parentId="175974">Colton</city>
+                  <county primaryKey="471916" parentId="175974">San Bernardino</county>
+                  <id primaryKey="842927" parentId="175974">7364647</id>
+                  <line1 primaryKey="156408" parentId="175974">400 North Pepper Avenue</line1>
+                  <stateCode primaryKey="333561" parentId="175974">CA</stateCode>
+                  <zip primaryKey="323771" parentId="175974">
+                     <code primaryKey="488680" parentId="323771">92324</code>
+                  </zip>
+               </address>
+            </location>
+         </locations>
+         <NPIs primaryKey="112657" parentId="238462">
+            <NPI primaryKey="595620" parentId="112657"/>
+         </NPIs>
+      </business>
+   </businesses>
+   <providers primaryKey="246841" parentId="303457">
+      <provider primaryKey="150248" parentId="246841">
+      <dateOfBirth primaryKey="277264" parentId="150248">1981-02-27</dateOfBirth>
+      <genderCode primaryKey="337499" parentId="150248">M</genderCode>
+      <providerId primaryKey="247324" parentId="150248">2732691</providerId>
+      <DEAs primaryKey="269533" parentId="150248">
+        <uniqueIdentifiers primaryKey="720253" parentId="269533">
+          <uniqueIdentifier primaryKey="107976" parentId="720253">
+            <expiredDate primaryKey="315179" parentId="107976">2018-09-30</expiredDate>
+            <number primaryKey="256755" parentId="107976">FG5812309</number>
+          </uniqueIdentifier>
+        </uniqueIdentifiers>
+      </DEAs>
+      <hospitalPrivileges primaryKey="431741" parentId="150248">
+        <hospitalCode primaryKey="324396" parentId="431741"/>
+        <hospitalName primaryKey="281360" parentId="431741">Not Applicable</hospitalName>
+        <startDate primaryKey="239500" parentId="431741">2021-08-01</startDate>
+        <status primaryKey="188803" parentId="431741">ACTV</status>
+      </hospitalPrivileges>
+      <languageCodes primaryKey="231373" parentId="150248"/>
+      <licenses primaryKey="291351" parentId="150248">
+        <license primaryKey="276011" parentId="291351">
+          <expiredDate primaryKey="289332" parentId="276011">2017-02-27</expiredDate>
+          <issuingStateCode primaryKey="334626" parentId="276011">Washington</issuingStateCode>
+          <number primaryKey="285992" parentId="276011">MD60628815</number>
+        </license>
+      </licenses>
+      <locations primaryKey="289038" parentId="150248">
+        <location primaryKey="324958" parentId="289038">
+          <locationName primaryKey="320561" parentId="324958">Quincy Valley Medical Center</locationName>
+          <primary primaryKey="852059" parentId="324958">Y</primary>
+          <typeCode primaryKey="328841" parentId="324958">Service</typeCode>
+          <address primaryKey="170263" parentId="324958">
+            <city primaryKey="199659" parentId="170263">Quincy</city>
+            <county primaryKey="151752" parentId="170263">Grant</county>
+            <id primaryKey="187666" parentId="170263">512249</id>
+            <line1 primaryKey="326705" parentId="170263">908 10th Avenue Southwest</line1>
+            <stateCode primaryKey="257338" parentId="170263">WA</stateCode>
+            <zip primaryKey="264130" parentId="170263">
+              <code primaryKey="253578" parentId="264130">98848</code>
+            </zip>
+          </address>
+          <hours primaryKey="322337" parentId="324958">
+            <openingHour primaryKey="251983" parentId="322337">
+              <days primaryKey="132274" parentId="322337">
+                <day primaryKey="169077" parentId="132274">SUNDAY</day>
+                <endHour primaryKey="181479" parentId="132274"/>
+                <endMinute primaryKey="898839" parentId="132274"/>
+                <startHour primaryKey="223812" parentId="132274"/>
+                <startMinute primaryKey="213760" parentId="132274"/>
+              </days>
+              <days primaryKey="202503" parentId="322337">
+                <day primaryKey="163091" parentId="202503">MONDAY</day>
+                <endHour primaryKey="177874" parentId="202503">17</endHour>
+                <endMinute primaryKey="142116" parentId="202503">30</endMinute>
+                <startHour primaryKey="303063" parentId="202503">08</startHour>
+                <startMinute primaryKey="142391" parentId="202503">30</startMinute>
+              </days>
+              <days primaryKey="124641" parentId="322337">
+                <day primaryKey="220767" parentId="124641">TUESDAY</day>
+                <endHour primaryKey="192840" parentId="124641">17</endHour>
+                <endMinute primaryKey="143209" parentId="124641">00</endMinute>
+                <startHour primaryKey="221114" parentId="124641">08</startHour>
+                <startMinute primaryKey="279695" parentId="124641">30</startMinute>
+              </days>
+              <days primaryKey="395125" parentId="322337">
+                <day primaryKey="233060" parentId="395125">WEDNESDAY</day>
+                <endHour primaryKey="214810" parentId="395125">17</endHour>
+                <endMinute primaryKey="285485" parentId="395125">30</endMinute>
+                <startHour primaryKey="194882" parentId="395125">08</startHour>
+                <startMinute primaryKey="163792" parentId="395125">00</startMinute>
+              </days>
+              <days primaryKey="303905" parentId="322337">
+                <day primaryKey="247543" parentId="303905">THURSDAY</day>
+                <endHour primaryKey="156754" parentId="303905">17</endHour>
+                <endMinute primaryKey="957029" parentId="303905">30</endMinute>
+                <startHour primaryKey="315901" parentId="303905">08</startHour>
+                <startMinute primaryKey="177460" parentId="303905">00</startMinute>
+              </days>
+              <days primaryKey="221901" parentId="322337">
+                <day primaryKey="132356" parentId="221901">FRIDAY</day>
+                <endHour primaryKey="158381" parentId="221901">17</endHour>
+                <endMinute primaryKey="101834" parentId="221901">30</endMinute>
+                <startHour primaryKey="109130" parentId="221901">08</startHour>
+                <startMinute primaryKey="332352" parentId="221901">00</startMinute>
+              </days>
+              <days primaryKey="181864" parentId="322337">
+                <day primaryKey="142912" parentId="181864">SATURDAY</day>
+                <endHour primaryKey="220025" parentId="181864"/>
+                <endMinute primaryKey="147884" parentId="181864"/>
+                <startHour primaryKey="225305" parentId="181864"/>
+                <startMinute primaryKey="861144" parentId="181864"/>
+              </days>
+            </openingHour>
+          </hours>
+          <phone primaryKey="182799" parentId="324958">
+            <areaCode primaryKey="316184" parentId="182799">509</areaCode>
+            <phoneNumber primaryKey="723106" parentId="182799">7875368</phoneNumber>
+          </phone>
+          <providerNetworks primaryKey="414689" parentId="324958">
+            <network primaryKey="285910" parentId="414689">
+              <code primaryKey="183668" parentId="285910">2646</code>
+              <name primaryKey="216248" parentId="285910">	</name>
+              <participationStatusCode primaryKey="692123" parentId="285910">Y</participationStatusCode>
+            </network>
+          </providerNetworks>
+          <specialties primaryKey="324818" parentId="324958">
+            <taxonomy primaryKey="390525" parentId="324818">
+              <boardCertified primaryKey="210434" parentId="390525">False</boardCertified>
+              <primary primaryKey="288345" parentId="390525">True</primary>
+            </taxonomy>
+          </specialties>
+        </location>
+      </locations>
+      <NPIs primaryKey="115630" parentId="150248">
+        <NPI primaryKey="176592" parentId="115630">
+          <number primaryKey="168404" parentId="176592">1972823573</number>
+          <type primaryKey="308664" parentId="176592"/>
+        </NPI>
+      </NPIs>
+      <providerName primaryKey="270565" parentId="150248">
+        <firstName primaryKey="909941" parentId="270565">Ryan</firstName>
+        <lastName primaryKey="180614" parentId="270565">Goff</lastName>
+        <middlename primaryKey="351269" parentId="270565">David</middlename>
+      </providerName>
+      <orgProviderLinks primaryKey="133257" parentId="150248">
+        <orgProviderLink primaryKey="108018" parentId="133257">
+          <orgProviderId primaryKey="261998" parentId="108018">433168</orgProviderId>
+          <orgproviderName primaryKey="180935" parentId="108018">
+            <lastName primaryKey="308256" parentId="180935">QUINCY VALLEY MEDICAL CENTER WA</lastName>
+          </orgproviderName>
+          <taxId primaryKey="112787" parentId="108018">
+            <legalBusinessName primaryKey="259252" parentId="112787">QUINCY VALLEY MEDICAL CENTER WA</legalBusinessName>
+            <number primaryKey="990027" parentId="112787">91-6016045</number>
+          </taxId>
+          <npi primaryKey="116866" parentId="108018">
+            <number primaryKey="911474" parentId="116866">1659445468</number>
+          </npi>
+        </orgProviderLink>
+      </orgProviderLinks>
+    </provider>
+   </providers>
+   <rosters primaryKey="284993" parentId="303457">
+      <roster primaryKey="422944" parentId="284993">
+         <businessId primaryKey="119573" parentId="422944">956002748</businessId>
+         <providerId primaryKey="240980" parentId="422944">2732691</providerId>
+         <createDate primaryKey="827652" parentId="422944">2018-02-15</createDate>
+      </roster>
+   </rosters>
+</ns2><!-- </ns2:pdmData> -->
