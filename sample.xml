@@ -32,7 +32,7 @@
                   <county>San Bernardino</county>
                   <id>5617138</id>
                   <line1>606 East Mill Street</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92415</code>
                   </zip>
@@ -95,7 +95,7 @@
                   <county>San Bernardino</county>
                   <id>4721570</id>
                   <line1>16453 Bear Valley Road</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92345</code>
                   </zip>
@@ -157,7 +157,7 @@
                   <county>San Bernardino</county>
                   <id>6148067</id>
                   <line1>400 North Pepper Avenue</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92324</code>
                   </zip>
@@ -171,7 +171,7 @@
                   <county>San Bernardino</county>
                   <id>5617139</id>
                   <line1>606 East Mill Street</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92415</code>
                   </zip>
@@ -234,7 +234,7 @@
                   <county>San Bernardino</county>
                   <id>4721571</id>
                   <line1>606 East Mill Street</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92415</code>
                   </zip>
@@ -296,7 +296,7 @@
                   <county>San Bernardino</county>
                   <id>6148068</id>
                   <line1>400 North Pepper Avenue</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92324</code>
                   </zip>
@@ -310,7 +310,7 @@
                   <county>San Bernardino</county>
                   <id>5617141</id>
                   <line1>606 East Mill Street</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92415</code>
                   </zip>
@@ -373,7 +373,7 @@
                   <county>San Bernardino</county>
                   <id>4721573</id>
                   <line1>150 East Holt Boulevard</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>91761</code>
                   </zip>
@@ -435,7 +435,7 @@
                   <county>San Bernardino</county>
                   <id>6148070</id>
                   <line1>400 North Pepper Avenue</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92324</code>
                   </zip>
@@ -450,7 +450,7 @@
                   <id>4721572</id>
                   <line1>11336 Bartlett Avenue</line1>
                   <line2>Suite 11</line2>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92301</code>
                   </zip>
@@ -513,7 +513,7 @@
                   <county>San Bernardino</county>
                   <id>5617140</id>
                   <line1>606 East Mill Street</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92415</code>
                   </zip>
@@ -575,7 +575,7 @@
                   <county>San Bernardino</county>
                   <id>6148069</id>
                   <line1>400 North Pepper Avenue</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92324</code>
                   </zip>
@@ -589,7 +589,7 @@
                   <county>San Bernardino</county>
                   <id>8260807</id>
                   <line1>351 N Mountain View Avenue</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>91761</code>
                   </zip>
@@ -651,7 +651,7 @@
                   <county>San Bernardino</county>
                   <id>7364646</id>
                   <line1>400 North Pepper Avenue</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92324</code>
                   </zip>
@@ -665,7 +665,7 @@
                   <county>San Bernardino</county>
                   <id>6061356</id>
                   <line1>351 North Mountain View Avenue</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92415</code>
                   </zip>
@@ -728,7 +728,7 @@
                   <county>San Bernardino</county>
                   <id>6061352</id>
                   <line1>303 East Vanderbilt Way</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92415</code>
                   </zip>
@@ -791,7 +791,7 @@
                   <county>San Bernardino</county>
                   <id>5781229</id>
                   <line1>16453 Bear Valley Road</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92345</code>
                   </zip>
@@ -854,7 +854,7 @@
                   <county>San Bernardino</county>
                   <id>6061346</id>
                   <line1>11951 Hesperia Road</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92345</code>
                   </zip>
@@ -917,7 +917,7 @@
                   <county>San Bernardino</county>
                   <id>6061355</id>
                   <line1>820 East Gilbert Street</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92415</code>
                   </zip>
@@ -980,7 +980,7 @@
                   <county>San Bernardino</county>
                   <id>6061353</id>
                   <line1>400 North Pepper Avenue</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92324</code>
                   </zip>
@@ -1043,7 +1043,7 @@
                   <county>San Bernardino</county>
                   <id>6061347</id>
                   <line1>12625 Hesperia Road</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92395</code>
                   </zip>
@@ -1106,7 +1106,7 @@
                   <county>San Bernardino</county>
                   <id>5781227</id>
                   <line1>150 East Holt Boulevard</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>91761</code>
                   </zip>
@@ -1169,7 +1169,7 @@
                   <county>San Bernardino</county>
                   <id>6061350</id>
                   <line1>300 South Arrowhead Avenue</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92415</code>
                   </zip>
@@ -1233,7 +1233,7 @@
                   <id>6061349</id>
                   <line1>268 West Hospitality Lane</line1>
                   <line2>Suite 400</line2>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92415</code>
                   </zip>
@@ -1297,7 +1297,7 @@
                   <id>5781226</id>
                   <line1>11336 Bartlett Avenue</line1>
                   <line2>Suite 11</line2>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92301</code>
                   </zip>
@@ -1360,7 +1360,7 @@
                   <county>San Bernardino</county>
                   <id>5781228</id>
                   <line1>606 East Mill Street</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92415</code>
                   </zip>
@@ -1422,7 +1422,7 @@
                   <county>San Bernardino</county>
                   <id>7364647</id>
                   <line1>400 North Pepper Avenue</line1>
-                  <statecode>CA</statecode>
+                  <stateCode>CA</stateCode>
                   <zip>
                      <code>92324</code>
                   </zip>
