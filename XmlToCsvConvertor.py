@@ -70,8 +70,9 @@ def convert_xml_to_csv(xml_file, xsd_file):
                 [row[column_names.index(column)] for column in non_blank_columns] for row in data]
 
             if filtered_data:  # Check if filtered data has any rows
+                os.makedirs(output_folder+"/"+parent_tag, exist_ok=True)
                 csv_file_name = os.path.join(
-                    output_folder, parent_tag + ".csv")
+                    (output_folder+"/"+parent_tag), parent_tag + ".csv")
                 with open(csv_file_name, 'w', newline='') as file:
                     writer = csv.writer(file)
                     writer.writerow(non_blank_columns)
@@ -82,7 +83,7 @@ def convert_xml_to_csv(xml_file, xsd_file):
 
         for parent_tag in parent_tags:
             process_parent_tag(parent_tag)
-        os.remove(temp_file)
+        # os.remove(temp_file)
     else:
         print("Invalid XML")
 
