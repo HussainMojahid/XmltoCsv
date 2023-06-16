@@ -17,40 +17,27 @@ class XMLKeyAdder:
             # Create a minidom object to parse the XML file
             doc = minidom.parse(file_path)
 
-            # Check if a <businessId> tag is present
-            business_id = XMLKeyAdder.get_business_id(doc)
-            if business_id:
-                # Call the methods to add primary and foreign keys
-                XMLKeyAdder.add_primary_and_foreign_keys(
-                    doc.documentElement, business_id, None, None)
+            # Call the methods to add primary and foreign keys
+            XMLKeyAdder.add_primary_and_foreign_keys(
+                doc.documentElement, None, None)
 
-                # Create the output directory if it doesn't exist
-                output_dir = os.path.join(os.getcwd(), ".temp")
-                os.makedirs(output_dir, exist_ok=True)
+            # Create the output directory if it doesn't exist
+            output_dir = os.path.join(os.getcwd(), ".temp")
+            os.makedirs(output_dir, exist_ok=True)
 
-                # Generate the output file path
-                output_file_path = os.path.join(output_dir, os.path.basename(
-                    file_path).replace(".xml", "_output.xml"))
+            # Generate the output file path
+            output_file_path = os.path.join(output_dir, os.path.basename(
+                file_path).replace(".xml", "_output.xml"))
 
-                # Write the modified document to the output file
-                with open(output_file_path, "w") as output_file:
-                    doc.writexml(output_file, encoding="utf-8")
-                return output_file_path
+            # Write the modified document to the output file
+            with open(output_file_path, "w") as output_file:
+                doc.writexml(output_file, encoding="utf-8")
+            return output_file_path
         except Exception as e:
             print("Error:", e)
 
     @staticmethod
-    def get_business_id(doc):
-        # Check if a <businessId> tag is present
-        business_id_elements = doc.getElementsByTagName("businessId")
-        if business_id_elements:
-            business_id_element = business_id_elements[0]
-            return business_id_element.firstChild.nodeValue
-
-        return None
-
-    @staticmethod
-    def add_primary_and_foreign_keys(element, business_id, parent_key, grandparent_key):
+    def add_primary_and_foreign_keys(element, parent_key, grandparent_key):
         # Generate the primary key as current date and time along with a random integer between 10 and 100
         now = datetime.now().strftime("%Y%m%d%H%M%S")
         random_key = str(random.randint(10, 100))
@@ -58,11 +45,6 @@ class XMLKeyAdder:
 
         # Set the 'primaryKey' attribute of the current element
         element.setAttribute("primaryKey", primaryKey)
-
-        # If a businessId is present, set the 'businessId' attribute of the current element
-        if business_id:
-            if element.tagName != 'business':
-                element.setAttribute("businessId", business_id)
 
         # If the child tag occurs more than once, set the foreign key of the child tag to point to the great-grandparent
         if XMLKeyAdder.has_multiple_occurrences(element):
@@ -77,7 +59,7 @@ class XMLKeyAdder:
             if child.nodeType == child.ELEMENT_NODE:
                 # Recursively call add_primary_and_foreign_keys for each child element
                 XMLKeyAdder.add_primary_and_foreign_keys(
-                    child, business_id, element.getAttribute("primaryKey"), parent_key)
+                    child, element.getAttribute("primaryKey"), parent_key)
 
     @staticmethod
     def has_multiple_occurrences(element):
