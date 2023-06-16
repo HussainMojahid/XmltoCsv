@@ -1,8 +1,7 @@
 from xml.dom import minidom
-from datetime import datetime
-import random
 import sys
 import os
+import uuid
 
 
 class XMLKeyAdder:
@@ -38,10 +37,9 @@ class XMLKeyAdder:
 
     @staticmethod
     def add_primary_and_foreign_keys(element, parent_key, grandparent_key):
-        # Generate the primary key as current date and time along with a random integer between 10 and 100
-        now = datetime.now().strftime("%Y%m%d%H%M%S")
-        random_key = str(random.randint(10, 100))
-        primaryKey = now + random_key
+        # Generate the primary key as uuid 6 digit string
+        primaryKey = str(uuid.uuid4().int)[0:6]
+        print(primaryKey)
 
         # Set the 'primaryKey' attribute of the current element
         element.setAttribute("primaryKey", primaryKey)
