@@ -39,7 +39,6 @@ class XMLKeyAdder:
     def add_primary_and_foreign_keys(element, parent_key, grandparent_key):
         # Generate the primary key as uuid 6 digit string
         primaryKey = str(uuid.uuid4().int)[0:6]
-        print(primaryKey)
 
         # Set the 'primaryKey' attribute of the current element
         element.setAttribute("primaryKey", primaryKey)
