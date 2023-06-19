@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- <ns2:pdmData xmlns:ns2="http://asset.availity.com/PDM/provider"> -->
-<ns2>
+<ns2:pdmData xmlns:ns2="http://asset.availity.com/PDM/provider">
    <exchangeType>
       <exchangeType>PDM</exchangeType>
    </exchangeType>
@@ -1583,5 +1582,4 @@
          <createDate>2018-02-15</createDate>
       </roster>
    </rosters>
-</ns2>
-<!-- </ns2:pdmData> -->
+</ns2:pdmData>

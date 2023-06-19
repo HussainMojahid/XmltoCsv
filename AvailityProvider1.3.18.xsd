@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- edited with XMLSpy v2012 rel. 2 (http://www.altova.com) by Infrastructure (Availity, LLC) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://asset.availity.com/PDM/provider" targetNamespace="http://asset.availity.com/PDM/provider" version="1.0">
+	<xs:element name="pdmData" type="tns:pdmData">
+		<xs:annotation>
+			<xs:documentation>Top level element for PDM data structure.
+					</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="pdmData">
+		<xs:sequence>
+			<xs:element name="exchangeType" type="tns:exchangeType" minOccurs="0"/>
+			<xs:element name="businesses" type="tns:businesses" minOccurs="0"/>
+			<xs:element name="providers" type="tns:providers" minOccurs="0"/>
+			<xs:element name="rosters" type="tns:rosters" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="exchangeType">
+		<xs:sequence>
+			<xs:annotation>
+				<xs:documentation>.
+					</xs:documentation>
+			</xs:annotation>
+			<xs:element name="exchangeType" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="businesses">
+		<xs:sequence>
+			<xs:annotation>
+				<xs:documentation>A list of businesses for PDM.
+					</xs:documentation>
+			</xs:annotation>
+			<xs:element name="business" type="tns:businessInfo" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="providers">
+		<xs:sequence>
+			<xs:annotation>
+				<xs:documentation>A list of providers for a PDM business.
+					</xs:documentation>
+			</xs:annotation>
+			<xs:element name="provider" type="tns:providerInfo" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="rosters">
+		<xs:sequence>
+			<xs:annotation>
+				<xs:documentation>A list of associations between a provider and its business. 
+					</xs:documentation>
+			</xs:annotation>
+			<xs:element name="roster" type="tns:rostersInfo" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="businessInfo">
+		<xs:sequence>
+			<xs:element name="businessId" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>A unique id of the business from the source.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="businessName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The name of an organizational provider.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="businessNameModifiedDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The last modified date of the business name.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="webAddress" type="xs:string" minOccurs="0"/>
+			<xs:element name="providerOwnedBusiness" type="xs:boolean" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Indicates whether the provider owns the business.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="noMedicalDirectorReason" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Reason why there is no medical director for this business.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="employees" type="tns:employees" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The staff working for this business.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DBAName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Provider DBA Name.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EIN" type="tns:SSAIdentifier" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>The employer identification number of a provider, also knows as federal tax identification number.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="NPIs" type="tns:NPIs" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The employer identification number of a provider, also knows as federal tax identification number.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="otherIdentifiers" type="tns:uniqueIdentifiers" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>List of miscellaneous unique identifiers for the business.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="businessType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>A code indicating businessType.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="licenses" type="tns:licenses" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The licenses obtained by this business.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="certifications" type="tns:certifications" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The certifications obtained by this business.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="hospitalAffiliations" type="tns:hospitalAffiliations" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The details of  hospitals affiliated with the provider.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="serviceLocations" type="tns:serviceLocations" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The locations where this provider renders services.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="businessLocations" type="tns:businessLocations" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The locations of businesses related to this business (i.e. mailing address).
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="paymentAddresses" type="tns:paymentAddresses" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The list of payment addreses.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="locations" type="tns:locations" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The list of locations by type
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="specialties" type="tns:taxonomies" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation> The specialties of a provider i.e. Allergy.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="effectiveDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="expiredDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="localIdentifiers" type="tns:uniqueIdentifiers" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>List of miscellaneous unique internal identifiers for the business.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="updateInfo" type="tns:updateRecordInfo" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Who updated the record - user, current Update timestamp, last updated timestamp.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="providerInfo">
+		<xs:sequence>
+			<xs:element name="providerId" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>A unique id of the provider from the source.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="providerName" type="tns:name" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The name of a provider.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="atypical" type="xs:boolean" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Indicates whether a provider is atypical (does not require an NPI) or not.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="NPIs" type="tns:NPIs" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The NPIs of a provider.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="caqh" type="tns:uniqueIdentifier" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>The CAQH of a provider.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EINs" type="tns:EINs" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The employer identification number of a provider, also knows as federal tax identification number.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SSN" type="tns:SSAIdentifier" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>The social security number of a provider.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DEAs" type="tns:uniqueIdentifiers" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation> A DEA number is a number assigned to a health care provider (such as a medical practitioner, dentist, or veterinarian) by the U.S. Drug Enforcement Administration allowing them to write prescriptions for controlled substances.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="specialties" type="tns:taxonomies" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation> The specialties of a provider i.e. Allergy.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="source" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation> The source record of this provider.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="degreeCodes" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation> The provider's degree credentials i.e. MD.
+							</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="degreeCode" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element name="action" type="xs:string" minOccurs="0"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="genderCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Gender of the provider i.e. M/F/U.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="genderModifiedDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Date the gender code was modified
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ethnicityCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Code for Ethnicity i.e. "A" for Asian.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="dateOfBirth" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Date of birth of the provider.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="dateOfBirthModifiedDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Date the provider's DOB was modified.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="effectiveDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Effective date of the provider.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="terminationDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Termination date of the provider.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="languageCodes" type="tns:languageCodes" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The language codes for languages spoken at this provider's i.e. "ENG".
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="licenses" type="tns:licenses" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The licenses obtained by this provider i.e. Department of Childrean and Family Services.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="certifications" type="tns:certifications" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The certifications obtained by this provider.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="serviceLocations" type="tns:serviceLocations" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The locations where this provider renders services.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="businessLocations" type="tns:businessLocations" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The locations of businesses related to this business (i.e. mailing address).
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="paymentAddresses" type="tns:paymentAddresses" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The list of payment addreses.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="locations" type="tns:locations" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The list of locations by type
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="medicaidIds" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>An identifier assigned by Medicaid per state.
+							</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="medicaidId" type="tns:medicaid" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="medicareIds">
+				<xs:annotation>
+					<xs:documentation>An identifier assigned by Medicare.
+							</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="medicareId" type="tns:medicare" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element name="modifiedDate" type="xs:date" minOccurs="0"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="hospitalPrivileges" type="tns:hospitalPrivileges" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The details of what hospitals for which the provider has privileges.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="providerProducts" type="tns:providerProducts" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The details of providers participating in specific networks
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="otherIdentifiers" type="tns:uniqueIdentifiers" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>List of miscellaneous unique identifiers for the provider.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="localIdentifiers" type="tns:uniqueIdentifiers" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>List of miscellaneous unique internal identifiers for the provider.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="attachments" type="tns:attachments" nillable="true" minOccurs="0"/>
+			<xs:element name="questions" type="tns:questions" nillable="true" minOccurs="0"/>
+			<xs:element name="orgProviderLinks" type="tns:orgProviderLinks" nillable="true" minOccurs="0"/>
+			<xs:element name="updateInfo" type="tns:updateRecordInfo" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Who updated the record - user, current Update timestamp, last updated timestamp.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="rostersInfo">
+		<xs:sequence>
+			<xs:element name="businessId" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The unique payer identifier for a business.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="providerId" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The unique payer identifier for a provider.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="createDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Create date of the provider roster.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="deleteDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Delete date of the provider roster.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="deleteReasonCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Delete Reason Code of the provider roster.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="uniqueIdentifiers">
+		<xs:sequence>
+			<xs:element name="uniqueIdentifier" type="tns:uniqueIdentifier" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="uniqueIdentifier">
+		<xs:sequence>
+			<xs:element name="issuer" type="xs:string" minOccurs="0"/>
+			<xs:element name="number" type="xs:string" minOccurs="0"/>
+			<xs:element name="typeCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="stateCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="statusCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="attachments" type="tns:attachments" nillable="true" minOccurs="0"/>
+			<xs:element name="issuedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="expiredDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="medicare">
+		<xs:sequence>
+			<xs:element name="issuer" type="xs:string" minOccurs="0"/>
+			<xs:element name="number" type="xs:string" minOccurs="0"/>
+			<xs:element name="hasOptedOutMedicare" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="hasDebarredMedicare" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="optedOutDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="issuedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="expiredDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="localIdentifiers" type="tns:uniqueIdentifiers" minOccurs="0"/>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="medicaid">
+		<xs:sequence>
+			<xs:element name="issuer" type="xs:string" minOccurs="0"/>
+			<xs:element name="number" type="xs:string" minOccurs="0"/>
+			<xs:element name="issuedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="expiredDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="stateCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="localIdentifiers" type="tns:uniqueIdentifiers" minOccurs="0"/>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="NPIs">
+		<xs:sequence>
+			<xs:element name="NPI" type="tns:NPIIdentifier" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="modifiedDate" type="xs:date" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="NPIIdentifier">
+		<xs:sequence>
+			<xs:element name="primary" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="number" type="xs:string" minOccurs="0"/>
+			<xs:element name="typeCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="issuedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="expireDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="expireReasonCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="EINs">
+		<xs:sequence>
+			<xs:element name="EIN" type="tns:SSAIdentifier" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="SSAIdentifier">
+		<xs:sequence>
+			<xs:element name="primary" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="number" type="xs:string" minOccurs="0"/>
+			<xs:element name="legalBusinessName" type="xs:string" minOccurs="0"/>
+			<xs:element name="issuedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="expireDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="expireReasonCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="attachments" type="tns:attachments" nillable="true" minOccurs="0"/>
+			<xs:element name="modifiedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+			<xs:element name="tinType" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="attachments">
+		<xs:sequence>
+			<xs:annotation>
+				<xs:documentation>The attachments uploaded by provider. i.e. W9.
+							</xs:documentation>
+			</xs:annotation>
+			<xs:element name="attachment" type="tns:attachment" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="attachment">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string" minOccurs="0"/>
+			<xs:element name="logicalName" type="xs:string" minOccurs="0"/>
+			<xs:element name="fileType" type="xs:string" minOccurs="0"/>
+			<xs:element name="size" type="xs:string" minOccurs="0"/>
+			<xs:element name="id" type="xs:string" minOccurs="0"/>
+			<xs:element name="filedata" type="xs:base64Binary" minOccurs="0"/>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="taxonomies">
+		<xs:sequence>
+			<xs:element name="taxonomy" type="tns:taxonomy" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="modifiedDate" type="xs:date" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="taxonomy">
+		<xs:sequence>
+			<xs:element name="primary" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="code" type="xs:string" minOccurs="0"/>
+			<xs:element name="type" type="xs:string" minOccurs="0"/>
+			<xs:element name="classification" type="xs:string" minOccurs="0"/>
+			<xs:element name="specialization" type="xs:string" minOccurs="0"/>
+			<xs:element name="boardCertified" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="pcpPanel" type="tns:pcpPanel" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>PCP Panel roster.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="address">
+		<xs:sequence>
+			<xs:element name="id" type="xs:string" minOccurs="0"/>
+			<xs:element name="line1" type="xs:string" minOccurs="0"/>
+			<xs:element name="line2" type="xs:string" minOccurs="0"/>
+			<xs:element name="city" type="xs:string" minOccurs="0"/>
+			<xs:element name="stateCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="zip" type="tns:zipCode" minOccurs="0"/>
+			<xs:element name="county" type="xs:string" minOccurs="0"/>
+			<xs:element name="country" type="xs:string" minOccurs="0"/>
+			<xs:element name="modifiedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+			<xs:element name="longitude" type="xs:string" minOccurs="0"/>
+			<xs:element name="latitude" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="zipCode">
+		<xs:sequence>
+			<xs:element name="code" type="xs:string" minOccurs="0"/>
+			<xs:element name="addon" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="licenses">
+		<xs:sequence>
+			<xs:element name="license" type="tns:license" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="license">
+		<xs:sequence>
+			<xs:element name="typeCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="type" type="xs:string" minOccurs="0"/>
+			<xs:element name="number" type="xs:string" minOccurs="0"/>
+			<xs:element name="originalIssueDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="statusCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="issuingBodyCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="issuingBody" type="xs:string" minOccurs="0"/>
+			<xs:element name="issuingStateCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="expiredDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="effectiveDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="attachments" type="tns:attachments" nillable="true" minOccurs="0"/>
+			<xs:element name="localIdentifiers" type="tns:uniqueIdentifiers" minOccurs="0"/>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="certifications">
+		<xs:sequence>
+			<xs:element name="certification" type="tns:certification" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="certification">
+		<xs:sequence>
+			<xs:element name="typeCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="type" type="xs:string" minOccurs="0"/>
+			<xs:element name="number" type="xs:string" minOccurs="0"/>
+			<xs:element name="originalIssueDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="statusCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="issuingBodyCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="issuingBody" type="xs:string" minOccurs="0"/>
+			<xs:element name="issuingStateCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="effectiveDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="expiredDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="attachments" type="tns:attachments" nillable="true" minOccurs="0"/>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="businessLocations">
+		<xs:sequence>
+			<xs:element name="businessLocation" type="tns:businessLocation" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="businessLocation">
+		<xs:sequence>
+			<xs:element name="primary" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="administrator" type="tns:name" minOccurs="0"/>
+			<xs:element name="languageCodes" type="tns:languageCodes" nillable="true" minOccurs="0"/>
+			<xs:element name="hours" type="tns:hours" nillable="true" minOccurs="0"/>
+			<xs:element name="address" type="tns:address" minOccurs="0"/>
+			<xs:element name="webAddress" type="xs:string" minOccurs="0"/>
+			<xs:element name="phone" type="tns:phone" minOccurs="0"/>
+			<xs:element name="alternatePhone" type="tns:phone" minOccurs="0"/>
+			<xs:element name="fax" type="tns:phone" minOccurs="0"/>
+			<xs:element name="email" type="xs:string" minOccurs="0"/>
+			<xs:element name="startDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="endDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="endReasonCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="localIdentifiers" type="tns:uniqueIdentifiers" minOccurs="0"/>
+			<xs:element name="updateInfo" type="tns:updateRecordInfo" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Who updated the record - user, current Update timestamp, last updated timestamp.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="paymentAddresses">
+		<xs:sequence>
+			<xs:element name="paymentAddress" type="tns:paymentAddress" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="paymentAddress">
+		<xs:sequence>
+			<xs:element name="primary" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="administrator" type="tns:name" minOccurs="0"/>
+			<xs:element name="address" type="tns:address" minOccurs="0"/>
+			<xs:element name="phone" type="tns:phone" minOccurs="0"/>
+			<xs:element name="alternatePhone" type="tns:phone" minOccurs="0"/>
+			<xs:element name="fax" type="tns:phone" minOccurs="0"/>
+			<xs:element name="email" type="xs:string" minOccurs="0"/>
+			<xs:element name="startDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="endDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="endReasonCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="localIdentifiers" type="tns:uniqueIdentifiers" minOccurs="0"/>
+			<xs:element name="updateInfo" type="tns:updateRecordInfo" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Who updated the record - user, current Update timestamp, last updated timestamp.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="serviceLocations">
+		<xs:sequence>
+			<xs:element name="serviceLocation" type="tns:serviceLocation" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="serviceLocation">
+		<xs:sequence>
+			<xs:element name="primary" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="primaryModifiedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="locationName" type="xs:string" minOccurs="0"/>
+			<xs:element name="locationNameModifiedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="essentialCommunityProviders" type="tns:essentialCommunityProviders" nillable="true" minOccurs="0"/>
+			<xs:element name="isMobile" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="isMobileModifiedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="isHandicapAccessible" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="isHandicapAccessibleModifiedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="acceptingNewPatients" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="acceptingNewPatientsModifiedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="accreditation" type="xs:string" minOccurs="0"/>
+			<xs:element name="administrator" type="tns:name" minOccurs="0"/>
+			<xs:element name="languageCodes" type="tns:languageCodes" nillable="true" minOccurs="0"/>
+			<xs:element name="hours" type="tns:hours" nillable="true" minOccurs="0"/>
+			<xs:element name="medicalServices" type="tns:medicalServices" nillable="true" minOccurs="0"/>
+			<xs:element name="bedDetails" type="tns:locationBedDetails" nillable="true" minOccurs="0"/>
+			<xs:element name="address" type="tns:address" minOccurs="0"/>
+			<xs:element name="providerNetworks" type="tns:networks" nillable="true" minOccurs="0"/>
+			<xs:element name="webAddress" type="xs:string" minOccurs="0"/>
+			<xs:element name="phone" type="tns:phone" minOccurs="0"/>
+			<xs:element name="phoneModifiedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="alternatePhone" type="tns:phone" minOccurs="0"/>
+			<xs:element name="fax" type="tns:phone" minOccurs="0"/>
+			<xs:element name="afterHoursPhone" type="tns:phone" minOccurs="0"/>
+			<xs:element name="email" type="xs:string" minOccurs="0"/>
+			<xs:element name="startDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="startDateModifiedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="endDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="endDateModifiedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="endReasonCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="roomRate" type="xs:string" minOccurs="0"/>
+			<xs:element name="roomRateFacilityType" type="xs:string" minOccurs="0"/>
+			<xs:element name="roomRateEffectiveDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="semiPrivateRoomRate" type="xs:string" minOccurs="0"/>
+			<xs:element name="hasPrivateRoom" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="localIdentifiers" type="tns:uniqueIdentifiers" minOccurs="0"/>
+			<xs:element name="paymentId" type="xs:string" minOccurs="0"/>
+			<xs:element name="questions" type="tns:questions" nillable="true" minOccurs="0"/>
+			<xs:element name="updateInfo" type="tns:updateRecordInfo" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Who updated the record - user, current Update timestamp, last updated timestamp.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="locations">
+		<xs:sequence>
+			<xs:element name="location" type="tns:locationInfo" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="locationInfo">
+		<xs:sequence>
+			<xs:element name="typeCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="primary" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="primaryModifiedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="locationName" type="xs:string" minOccurs="0"/>
+			<xs:element name="locationNameModifiedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="essentialCommunityProviders" type="tns:essentialCommunityProviders" nillable="true" minOccurs="0"/>
+			<xs:element name="isMobile" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="isMobileModifiedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="isHandicapAccessible" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="isHandicapAccessibleModifiedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="acceptingNewPatients" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="acceptingNewPatientsModifiedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="accreditation" type="xs:string" minOccurs="0"/>
+			<xs:element name="administrator" type="tns:name" minOccurs="0"/>
+			<xs:element name="languageCodes" type="tns:languageCodes" nillable="true" minOccurs="0"/>
+			<xs:element name="hours" type="tns:hours" nillable="true" minOccurs="0"/>
+			<xs:element name="medicalServices" type="tns:medicalServices" nillable="true" minOccurs="0"/>
+			<xs:element name="bedDetails" type="tns:locationBedDetails" nillable="true" minOccurs="0"/>
+			<xs:element name="address" type="tns:address" minOccurs="0"/>
+			<xs:element name="providerNetworks" type="tns:networks" nillable="true" minOccurs="0"/>
+			<xs:element name="webAddress" type="xs:string" minOccurs="0"/>
+			<xs:element name="specialties" type="tns:taxonomies" minOccurs="0"/>
+			<xs:element name="phone" type="tns:phone" minOccurs="0"/>
+			<xs:element name="phoneModifiedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="alternatePhone" type="tns:phone" minOccurs="0"/>
+			<xs:element name="fax" type="tns:phone" minOccurs="0"/>
+			<xs:element name="afterHoursPhone" type="tns:phone" minOccurs="0"/>
+			<xs:element name="email" type="xs:string" minOccurs="0"/>
+			<xs:element name="startDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="startDateModifiedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="endDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="endDateModifiedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="endReasonCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="roomRate" type="xs:string" minOccurs="0"/>
+			<xs:element name="roomRateFacilityType" type="xs:string" minOccurs="0"/>
+			<xs:element name="roomRateEffectiveDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="semiPrivateRoomRate" type="xs:string" minOccurs="0"/>
+			<xs:element name="hasPrivateRoom" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="localIdentifiers" type="tns:uniqueIdentifiers" minOccurs="0"/>
+			<xs:element name="paymentId" type="xs:string" minOccurs="0"/>
+			<xs:element name="questions" type="tns:questions" nillable="true" minOccurs="0"/>
+			<xs:element name="updateInfo" type="tns:updateRecordInfo" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Who updated the record - user, current Update timestamp, last updated timestamp.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="name">
+		<xs:sequence>
+			<xs:element name="lastName" type="xs:string" minOccurs="0"/>
+			<xs:element name="firstName" type="xs:string" minOccurs="0"/>
+			<xs:element name="middleName" type="xs:string" minOccurs="0"/>
+			<xs:element name="prefix" type="xs:string" minOccurs="0"/>
+			<xs:element name="suffix" type="xs:string" minOccurs="0"/>
+			<xs:element name="title" type="xs:string" minOccurs="0"/>
+			<xs:element name="modifiedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="hours">
+		<xs:sequence>
+			<xs:element name="openingHour" type="tns:openingHour" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="modifiedDate" type="xs:date" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="openingHour">
+		<xs:sequence>
+			<xs:element name="day" type="tns:dayOfWeek" minOccurs="0"/>
+			<xs:element name="startHour" type="xs:int" minOccurs="0"/>
+			<xs:element name="startMinute" type="xs:int" minOccurs="0"/>
+			<xs:element name="endHour" type="xs:int" minOccurs="0"/>
+			<xs:element name="endMinute" type="xs:int" minOccurs="0"/>
+			<xs:element name="appointmentOnly" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="effectiveDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="sequence" type="xs:int" minOccurs="0"/>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="pcpPanel">
+		<xs:sequence>
+			<xs:element name="panelSize" type="xs:int" minOccurs="0"/>
+			<xs:element name="patientMinAge" type="xs:string" minOccurs="0"/>
+			<xs:element name="patientMaxAge" type="xs:string" minOccurs="0"/>
+			<xs:element name="pcpStatus" type="xs:string" minOccurs="0"/>
+			<xs:element name="patientAgeEffectiveDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="expirationDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="acceptedGenderCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Gender of the provider i.e. M/F/U.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="phone">
+		<xs:sequence>
+			<xs:element name="ICC" type="xs:string" minOccurs="0"/>
+			<xs:element name="areaCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="phoneNumber" type="xs:string" minOccurs="0"/>
+			<xs:element name="extension" type="xs:string" minOccurs="0"/>
+			<xs:element name="comment" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="medicalServices">
+		<xs:sequence>
+			<xs:element name="medicalService" type="tns:medicalService" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="medicalService">
+		<xs:sequence>
+			<xs:element name="code" type="xs:string" minOccurs="0"/>
+			<xs:element name="startDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="employees">
+		<xs:sequence>
+			<xs:element name="employee" type="tns:employee" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="employee">
+		<xs:sequence>
+			<xs:element name="providerStaffId" type="xs:string" minOccurs="0"/>
+			<xs:element name="name" type="tns:name" minOccurs="0"/>
+			<xs:element name="licenseId" type="xs:string" minOccurs="0"/>
+			<xs:element name="licenseState" type="xs:string" minOccurs="0"/>
+			<xs:element name="SSN" type="tns:SSAIdentifier" minOccurs="0"/>
+			<xs:element name="NPI" type="tns:NPIIdentifier" minOccurs="0"/>
+			<xs:element name="positionCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="attachments" type="tns:attachments" nillable="true" minOccurs="0"/>
+			<xs:element name="effectiveDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="isPreferredContact" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="preferredCommunicationPreferenceCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="isCriticalContact" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="criticalCommunicationPreferenceCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="phone" type="tns:phone" minOccurs="0"/>
+			<xs:element name="email" type="xs:string" minOccurs="0"/>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="networks">
+		<xs:sequence>
+			<xs:element name="network" type="tns:network" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="modifiedDate" type="xs:date" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="network">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string" minOccurs="0"/>
+			<xs:element name="code" type="xs:string" minOccurs="0"/>
+			<xs:element name="participationStatusCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="startDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="endDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="otherIds" nillable="true" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="otherId" type="tns:otherId" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="otherId">
+		<xs:sequence>
+			<xs:element name="code" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="attestator">
+		<xs:sequence>
+			<xs:element name="akaName" type="xs:string" minOccurs="0"/>
+			<xs:element name="lastName" type="xs:string" minOccurs="0"/>
+			<xs:element name="firstName" type="xs:string" minOccurs="0"/>
+			<xs:element name="middleName" type="xs:string" minOccurs="0"/>
+			<xs:element name="suffix" type="xs:string" minOccurs="0"/>
+			<xs:element name="ssn" type="xs:string" minOccurs="0"/>
+			<xs:element name="licenseState" type="xs:string" minOccurs="0"/>
+			<xs:element name="licenseId" type="xs:string" minOccurs="0"/>
+			<xs:element name="signedSourceCode" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="hospitalPrivileges">
+		<xs:sequence>
+			<xs:element name="hospitalPrivilege" type="tns:hospitalPrivilege" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="modifiedDate" type="xs:date" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="hospitalPrivilege">
+		<xs:sequence>
+			<xs:element name="id" type="xs:string" minOccurs="0"/>
+			<xs:element name="hospitalName" type="xs:string" minOccurs="0"/>
+			<xs:element name="hospitalCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="status" type="xs:string" minOccurs="0"/>
+			<xs:element name="statusComment" type="xs:string" minOccurs="0"/>
+			<xs:element name="startDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="endDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="localIdentifiers" type="tns:uniqueIdentifiers" minOccurs="0"/>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="providerProducts">
+		<xs:sequence>
+			<xs:element name="providerProduct" type="tns:providerProduct" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="providerProduct">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string" minOccurs="0"/>
+			<xs:element name="code" type="xs:string" minOccurs="0"/>
+			<xs:element name="productParStatusCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="hospitalAffiliations">
+		<xs:sequence>
+			<xs:element name="hospitalAffiliation" type="tns:hospitalAffiliation" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="modifiedDate" type="xs:date" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="hospitalAffiliation">
+		<xs:sequence>
+			<xs:element name="id" type="xs:string" minOccurs="0"/>
+			<xs:element name="hospitalName" type="xs:string" minOccurs="0"/>
+			<xs:element name="hospitalCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="startDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="endDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="localIdentifiers" type="tns:uniqueIdentifiers" minOccurs="0"/>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="locationBedDetails">
+		<xs:sequence>
+			<xs:element name="locationBedDetail" type="tns:locationBedDetail" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="locationBedDetail">
+		<xs:sequence>
+			<xs:element name="bedTypeCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="bedCount" type="xs:int" minOccurs="0"/>
+			<xs:element name="bedCountStartDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="bedCountEndDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="essentialCommunityProviderInfo">
+		<xs:sequence>
+			<xs:element name="typeCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="effectiveDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="terminationDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="localIdentifiers" type="tns:uniqueIdentifiers" minOccurs="0"/>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="essentialCommunityProviders">
+		<xs:sequence>
+			<xs:element name="essentialCommunityProvider" type="tns:essentialCommunityProviderInfo" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="languageCodes">
+		<xs:sequence>
+			<xs:element name="languageCode" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="modifiedDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="updateRecordInfo">
+		<xs:sequence>
+			<xs:element name="lastUpdateDate" type="xs:dateTime" minOccurs="0"/>
+			<xs:element name="updatedBy" type="xs:string" minOccurs="0"/>
+			<xs:element name="attestationDate" type="xs:dateTime" minOccurs="0"/>
+			<xs:element name="attestator" type="tns:attestator" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Who is the attestator.
+							</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="dayOfWeek">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="MONDAY"/>
+			<xs:enumeration value="TUESDAY"/>
+			<xs:enumeration value="WEDNESDAY"/>
+			<xs:enumeration value="THURSDAY"/>
+			<xs:enumeration value="FRIDAY"/>
+			<xs:enumeration value="SATURDAY"/>
+			<xs:enumeration value="SUNDAY"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="questions">
+		<xs:sequence>
+			<xs:element name="question" type="tns:question" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="question">
+		<xs:sequence>
+			<xs:element name="questionSection" type="xs:string" minOccurs="0"/>
+			<xs:element name="questionId" type="xs:string" minOccurs="0"/>
+			<xs:element name="questionDesc" type="xs:string" minOccurs="0"/>
+			<xs:element name="answer" type="xs:string" minOccurs="0"/>
+			<xs:element name="answer2" type="xs:string" minOccurs="0"/>
+			<xs:element name="answer3" type="xs:string" minOccurs="0"/>
+			<xs:element name="effectiveDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="expirationDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="attachments" type="tns:attachments" nillable="true" minOccurs="0"/>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="orgProviderLinks">
+		<xs:sequence>
+			<xs:element name="orgProviderLink" type="tns:orgProviderLink" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="orgProviderLink">
+		<xs:sequence>
+			<xs:element name="orgProviderId" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="orgProviderName" type="tns:name" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="taxId" type="tns:SSAIdentifier" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="npi" type="tns:NPIIdentifier" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="action" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
