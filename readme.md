@@ -20,17 +20,25 @@
 
 ## How to run 
 
-* `First change  <ns2:pdmData xmlns:ns2="http://asset.availity.com/PDM/provider"> to <ns2> amd </ns2:pdmData> to </ns2>`
-
 
 > Linux
 ```bash
   ./run.sh sample.xml
+  #./run.sh <path_to_xml_file>
+
+  ./run.sh sample.xml schema.xsd # validate using xsd
+  #./run.sh <path_to_xml_file> <path_to_xsd_file>
+
 ```
 
 > Windows
-```batch
+```bat
   .\run.bat .\sample.xml
+  Rem .\run.bat <path_to_xml_file>
+
+  .\run.bat .\sample.xml .\schema.xsd  
+  Rem validate using xsd
+  Rem .\run.bat <path_to_xml_file> <path_to_xsd_file>
 ```
 
 * After Runnig the above command the ***datasource*** folder will be generated and inside that specific folder multiple folders will be created and each folder will contain one CSV file, folder name and csv file name will be same.
